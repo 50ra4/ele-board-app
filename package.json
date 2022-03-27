@@ -1,0 +1,27 @@
+{
+  "name": "ele-board-app",
+  "version": "1.0.0",
+  "description": "ele-whiteboard",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/50ra4/ele-board-app.git"
+  },
+  "author": "50ra4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/50ra4/ele-board-app/issues"
+  },
+  "homepage": "https://github.com/50ra4/ele-board-app#readme",
+  "dependencies": {
+    "next": "12.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
