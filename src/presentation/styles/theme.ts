@@ -13,7 +13,13 @@ const color = {
     font: '#fafafa',
     background: '#2e7c31',
   },
+  disabled: {
+    // FIXME:
+    font: '#fafafa',
+    background: '#62727b',
+  },
 } as const;
+export type ColorPalette = keyof Omit<typeof color, 'disabled'>;
 
 const FONT_FAMILIES = [
   'Hiragino Kaku Gothic ProN',
