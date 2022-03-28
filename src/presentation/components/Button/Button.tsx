@@ -6,7 +6,7 @@ export type ButtonStyleProps = {
 };
 
 export type ButtonProps = ButtonStyleProps &
-  Omit<React.ComponentPropsWithoutRef<'button'>, keyof ButtonStyleProps>;
+  Omit<React.ComponentProps<'button'>, keyof ButtonStyleProps>;
 
 export const Button = styled.button<ButtonStyleProps>`
   display: inline-block;
