@@ -15,4 +15,7 @@ module.exports = {
     ];
     return baseConfig;
   },
+  typescript: {
+    reactDocgen: 'none',
+  },
 };
