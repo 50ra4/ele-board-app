@@ -1,5 +1,12 @@
+import { Button } from 'src/presentation/components/Button/Button';
+
 function HomePage() {
-  return <div>Welcome to Next.js!</div>;
+  return (
+    <div>
+      <p>Welcome to Next.js!</p>
+      <Button color="primary">Button</Button>
+    </div>
+  );
 }
 
 export default HomePage;
