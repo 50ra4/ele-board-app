@@ -12,6 +12,7 @@ export type ButtonProps = ButtonStyleProps &
   Omit<React.ComponentProps<'button'>, keyof ButtonStyleProps>;
 
 export const Button = styled.button<ButtonStyleProps>`
+  height: 48px;
   display: inline-block;
   font-size: 14px;
   ${({ theme, color, variant = 'contained' }) =>
