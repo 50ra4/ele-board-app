@@ -1,4 +1,4 @@
-import { createStoryDocs, createStoryMeta } from 'src/presentation/utils/storybookUtils';
+import { createStoryDocs, createStoryMeta } from 'src/utils/storybookUtils';
 import { Button } from './Button';
 
 export default createStoryMeta(Button, {
