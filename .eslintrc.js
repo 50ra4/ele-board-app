@@ -1,22 +1,23 @@
 module.exports = {
-  root: true, // プロジェクトのルートに配置していると教えている
+  root: true,
   env: {
     es2020: true,
     node: true,
   },
-  parser: '@typescript-eslint/parser', // ESLintにTypeScriptを適応
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     sourceType: 'module',
     tsconfigRootDir: __dirname,
     project: ['./tsconfig.json'],
   },
-  plugins: ['@typescript-eslint'], // TypeScriptプラグインのルールを適用
+  plugins: ['@typescript-eslint'],
   extends: [
     'plugin:react/recommended',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'prettier/@typescript-eslint',
+    'plugin:storybook/recommended',
   ],
   rules: {
     'prettier/prettier': 'error',
