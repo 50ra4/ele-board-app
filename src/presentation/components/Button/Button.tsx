@@ -11,8 +11,8 @@ export type ButtonProps = ButtonStyleProps &
 export const Button = styled.button<ButtonStyleProps>`
   display: inline-block;
   font-size: 14px;
-  color: #ffffff;
-  background-color: #000000;
+  color: ${({ theme }) => theme.color.primary.font};
+  background-color: ${({ theme }) => theme.color.primary.background};
   padding: 5px 16px;
   border-radius: 6px;
   ${({ fullWidth }) =>
