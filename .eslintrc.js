@@ -16,10 +16,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'prettier/@typescript-eslint',
     'plugin:storybook/recommended',
+    'plugin:@next/next/recommended',
   ],
   rules: {
-    'prettier/prettier': 'error',
+    'react/react-in-jsx-scope': 'off',
   },
 };
