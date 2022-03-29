@@ -12,14 +12,11 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   extends: [
-    'plugin:react/recommended',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
     'plugin:storybook/recommended',
     'plugin:@next/next/recommended',
   ],
-  rules: {
-    'react/react-in-jsx-scope': 'off',
-  },
+  rules: {},
 };
