@@ -5,7 +5,9 @@ const createJestConfig = nextJest({
 });
 
 const customJestConfig = {
-  moduleNameMapper: {},
+  moduleNameMapper: {
+    '^@/components/(.*)$': '<rootDir>/presentation/components/$1',
+  },
   testEnvironment: 'jest-environment-jsdom',
 };
 
