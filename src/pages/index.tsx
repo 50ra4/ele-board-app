@@ -1,4 +1,4 @@
-import { Button } from 'src/presentation/components/Button/Button';
+import { Button } from '@/components/Button/Button';
 
 function HomePage() {
   return (

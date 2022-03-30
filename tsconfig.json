@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["src/presentation/components/*"]
+    },
     "noImplicitAny": true,
     "module": "esnext",
     "target": "es6",

@@ -13,6 +13,10 @@ module.exports = {
       ...(baseConfig.resolve.modules || []),
       path.resolve(__dirname, '../'),
     ];
+    baseConfig.resolve.alias = {
+      ...baseConfig.resolve.alias,
+      '@/components': path.resolve(__dirname, '../src/presentation/components'),
+    };
     return baseConfig;
   },
   typescript: {
