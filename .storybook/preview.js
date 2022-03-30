@@ -1,7 +1,5 @@
-import { ThemeProvider } from 'styled-components';
 import { addDecorator } from '@storybook/react';
-import { StyledTheme } from '../src/presentation/styles/theme';
-import { GlobalStyle } from '../src/presentation/styles/global';
+import { AppThemeProvider } from '../src/presentation/styles/AppThemeProvider';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -15,10 +13,9 @@ export const parameters = {
 
 const withThemeProvider = (Story, context) => {
   return (
-    <ThemeProvider theme={StyledTheme}>
-      <GlobalStyle theme={StyledTheme} />
+    <AppThemeProvider>
       <Story {...context} />
-    </ThemeProvider>
+    </AppThemeProvider>
   );
 };
 

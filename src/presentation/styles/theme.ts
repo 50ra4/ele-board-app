@@ -102,7 +102,7 @@ const insetSafeArea: Record<'top' | 'bottom' | 'topBottom', InsetSafeArea> = {
   `,
 };
 
-export const StyledTheme = {
+export const STYLE_THEME = {
   color,
   font: {
     family: fontFamilies,
@@ -117,4 +117,4 @@ export const StyledTheme = {
   safeArea: insetSafeArea,
 } as const;
 
-export type StyledComponentsTheme = typeof StyledTheme;
+export type StyledComponentsTheme = typeof STYLE_THEME;
