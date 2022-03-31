@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import { ColorPalette } from 'src/presentation/styles/theme';
 
-export type ButtonStyleProps = {
+type ButtonStyleProps = {
   fullWidth?: boolean;
   variant?: 'outlined' | 'contained';
   color: ColorPalette;
@@ -11,7 +11,18 @@ export type ButtonStyleProps = {
 export type ButtonProps = ButtonStyleProps &
   Omit<React.ComponentProps<'button'>, keyof ButtonStyleProps>;
 
-export const Button = styled.button<ButtonStyleProps>`
+const UnstyledButton = React.forwardRef<HTMLButtonElement, ButtonProps>(function Button(
+  { children, ...props },
+  ref,
+) {
+  return (
+    <button ref={ref} type="button" {...props}>
+      {children}
+    </button>
+  );
+});
+
+export const Button = styled(UnstyledButton)`
   height: 48px;
   display: inline-block;
   font-size: 14px;
