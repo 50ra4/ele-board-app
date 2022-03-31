@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Disabled 1`] = `
+<button
+  className="sc-bczRLJ ezIvBU"
+  color="primary"
+  disabled={true}
+  type="button"
+>
+  Disabled
+</button>
+`;
+
+exports[`Storyshots Button Docs 1`] = `
+<button
+  className="sc-bczRLJ pEKWW"
+  color="primary"
+  fullWidth={false}
+  onClick={[Function]}
+  type="button"
+  variant="contained"
+>
+  Docs
+</button>
+`;
+
+exports[`Storyshots Button Full Width 1`] = `
+<button
+  className="sc-bczRLJ ovjnp"
+  color="primary"
+  fullWidth={true}
+  type="button"
+>
+  FullWidth
+</button>
+`;
+
+exports[`Storyshots Button Outlined 1`] = `
+<button
+  className="sc-bczRLJ gcMdhw"
+  color="primary"
+  type="button"
+  variant="outlined"
+>
+  Outlined
+</button>
+`;
+
+exports[`Storyshots Button Primary 1`] = `
+<button
+  className="sc-bczRLJ pEKWW"
+  color="primary"
+  type="button"
+>
+  Primary
+</button>
+`;
+
+exports[`Storyshots Button Secondary 1`] = `
+<button
+  className="sc-bczRLJ eqltnE"
+  color="secondary"
+  type="button"
+>
+  Secondary
+</button>
+`;

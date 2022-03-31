@@ -10,7 +10,7 @@
   },
   // default formatter setting is prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "cSpell.words": [],
+  "cSpell.words": ["Unstyled"],
   "path-autocomplete.pathMappings": {
     "@/Components": "${folder}/src/presentation/components"
   }
