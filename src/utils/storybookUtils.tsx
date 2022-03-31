@@ -10,8 +10,11 @@ export const createStoryMeta = <T extends React.FC<any>>(
   ...params,
 });
 
-export const createStoryDocs = <T extends React.FC<any>>(
-  _: T,
-  props: ComponentProps<T>,
-  obj: Omit<ComponentStoryObj<T>, 'args'> = {},
+export const createStoryDocs = <
+  Component extends React.FC<any>,
+  Props extends Record<string, unknown> = ComponentProps<Component>,
+>(
+  _: Component,
+  props: Props,
+  obj: Omit<ComponentStoryObj<Component>, 'args'> = {},
 ) => ({ ...obj, args: props });
