@@ -9,8 +9,10 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "rm -rf docs/storybook && cp tools/gh-pages/manager-head.html .storybook && build-storybook -s public -o docs/storybook && rm -rf .storybook/manager-head.html",
+    "touch-nojeykll": "touch docs/.nojekyll",
+    "build-docs": "npm run build-storybook && npm run touch-nojeykll && cp tools/gh-pages/index.html docs",
     "check-type": "tsc --noEmit"
   },
   "repository": {

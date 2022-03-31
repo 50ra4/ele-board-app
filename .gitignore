@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Document directory to deploy to Github Pages
+docs/
+
+# mac
+.DS_Store
