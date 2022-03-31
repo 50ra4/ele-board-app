@@ -9,8 +9,11 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "rm -rf docs/storybook && cp tools/gh-pages/manager-head.html .storybook && build-storybook -s public -o docs/storybook && rm -rf .storybook/manager-head.html",
+    "build-typedoc": "rm -rf docs/typedoc && typedoc --options ./typedoc.js",
+    "touch-nojeykll": "touch docs/.nojekyll",
+    "build-docs": "npm run build-storybook && npm run build-typedoc && npm run touch-nojeykll && cp tools/gh-pages/index.html docs",
     "check-type": "tsc --noEmit"
   },
   "repository": {
@@ -56,6 +59,7 @@
     "jest": "27.5.1",
     "modern-css-reset": "1.4.0",
     "prettier": "2.6.1",
+    "typedoc": "0.22.13",
     "typescript": "4.6.3"
   }
 }
