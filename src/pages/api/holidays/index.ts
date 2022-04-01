@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-type HolidayLookups = Record<string, { jp: string; en: string }>;
+export type HolidayLookups = Record<string, { jp: string; en: string }>;
 
 type Response = {
   data: HolidayLookups;
