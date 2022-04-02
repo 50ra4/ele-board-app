@@ -1,13 +1,12 @@
 import { useState } from 'react';
-import { Backdrop } from './Backdrop';
-import { LoadingSpinner } from '../LoadingSpinner/LoadingSpinner';
 import { createStoryMeta } from 'src/utils/storybookUtils';
+import { LoadingGuard } from './LoadingGuard';
 
-export default createStoryMeta(Backdrop, {
-  title: 'Backdrop',
+export default createStoryMeta(LoadingGuard, {
+  title: 'LoadingGuard',
 });
 
-export const WithLoading = () => {
+export const Loading = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -20,13 +19,11 @@ export const WithLoading = () => {
         Open
       </button>
       {open && (
-        <Backdrop
+        <LoadingGuard
           onClick={() => {
             setOpen(false);
           }}
-        >
-          <LoadingSpinner size="extraLarge" />
-        </Backdrop>
+        />
       )}
     </>
   );

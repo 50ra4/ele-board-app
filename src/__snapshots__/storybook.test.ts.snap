@@ -1,12 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Backdrop Docs 1`] = `
-<div
-  className="sc-bczRLJ bOJKTw"
-  onClick={[Function]}
-/>
-`;
-
 exports[`Storyshots Backdrop With Loading 1`] = `
 <button
   onClick={[Function]}
@@ -78,6 +71,14 @@ exports[`Storyshots Button Secondary 1`] = `
   type="button"
 >
   Secondary
+</button>
+`;
+
+exports[`Storyshots LoadingGuard Loading 1`] = `
+<button
+  onClick={[Function]}
+>
+  Open
 </button>
 `;
 
