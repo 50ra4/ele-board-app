@@ -100,3 +100,16 @@ exports[`Storyshots LoadingSpinner Docs 1`] = `
   />
 </svg>
 `;
+
+exports[`Storyshots TextButton Docs 1`] = `
+<button
+  className="sc-hKMtZM cppIvo sc-eCYdqJ"
+  color="primary"
+  fullWidth={false}
+  onClick={[Function]}
+  type="button"
+  variant="contained"
+>
+  TextButton
+</button>
+`;
