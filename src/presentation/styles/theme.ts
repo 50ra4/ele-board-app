@@ -102,6 +102,19 @@ const insetSafeArea: Record<'top' | 'bottom' | 'topBottom', InsetSafeArea> = {
   `,
 };
 
+/**
+ * @see https://material-ui.com/customization/z-index/
+ */
+const zIndex = {
+  mobileStepper: 1000,
+  speedDial: 1050,
+  appBar: 1100,
+  drawer: 1200,
+  modal: 1300,
+  snackbar: 1400,
+  tooltip: 1500,
+} as const;
+
 export const STYLE_THEME = {
   color,
   font: {
@@ -115,6 +128,7 @@ export const STYLE_THEME = {
     fadeOut,
   },
   safeArea: insetSafeArea,
+  zIndex,
 } as const;
 
 export type StyledComponentsTheme = typeof STYLE_THEME;
