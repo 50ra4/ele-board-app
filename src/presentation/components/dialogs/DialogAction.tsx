@@ -31,10 +31,7 @@ export type DialogActionProps = {
   className?: string;
 } & DialogActions;
 
-export const DialogAction = React.memo(function DialogActions({
-  className,
-  ...props
-}: DialogActionProps) {
+export function DialogAction({ className, ...props }: DialogActionProps) {
   switch (props.type) {
     case 'alert':
       return (
@@ -63,7 +60,7 @@ export const DialogAction = React.memo(function DialogActions({
     default:
       return null;
   }
-});
+}
 
 const ButtonWrap = styled.div`
   display: flex;

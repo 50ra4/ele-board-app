@@ -140,8 +140,9 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-alert-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup sc-kDDrLX Jfrnm gCoQRe"
+  className="sc-ftvSup sc-kDDrLX dmLUkD gCoQRe"
   id="alert-dialog"
+  onClick={[Function]}
   role="dialog"
 >
   <button
@@ -199,8 +200,9 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-confirm-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup sc-iqcoie Jfrnm lgjTLb"
+  className="sc-ftvSup sc-iqcoie dmLUkD lgjTLb"
   id="confirm-dialog"
+  onClick={[Function]}
   role="dialog"
 >
   <button
@@ -267,8 +269,9 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
   aria-describedby="dialog-custom-dialog__described"
   aria-labelledby="dialog-custom-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup Jfrnm"
+  className="sc-ftvSup dmLUkD"
   id="custom-dialog"
+  onClick={[Function]}
   role="dialog"
 >
   <button
@@ -311,8 +314,9 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-popup-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup Jfrnm"
+  className="sc-ftvSup dmLUkD"
   id="popup-dialog"
+  onClick={[Function]}
   role="dialog"
 >
   <button
@@ -358,8 +362,9 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-select-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup sc-crXcEl Jfrnm hGBKpc"
+  className="sc-ftvSup sc-crXcEl dmLUkD hGBKpc"
   id="select-dialog"
+  onClick={[Function]}
   role="dialog"
 >
   <button

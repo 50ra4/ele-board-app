@@ -26,13 +26,11 @@ function UnstyledCustomDialog({ className, id, title, onClose, children }: Custo
       aria-labelledby={dialogLabelId}
       aria-describedby={dialogDescribedId}
       aria-modal="true"
+      onClick={(e) => {
+        e.stopPropagation();
+      }}
     >
-      <IconButton
-        onClick={(e) => {
-          e.stopPropagation();
-          onClose();
-        }}
-      >
+      <IconButton onClick={onClose}>
         <CloseIcon color="primary" size="large" titleAccess="ダイアログを閉じる" />
       </IconButton>
       {title && <DialogTitle id={dialogLabelId}>{title}</DialogTitle>}
@@ -58,7 +56,7 @@ export const DialogContent = styled.div`
 `;
 
 export const CustomDialog = styled(UnstyledCustomDialog)`
-  width: 640px;
+  width: 340px;
   max-width: 90%;
   min-height: 300px;
 
