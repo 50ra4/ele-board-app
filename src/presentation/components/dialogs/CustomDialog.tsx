@@ -2,11 +2,14 @@ import styled from 'styled-components';
 import { IconButton } from '../IconButton/IconButton';
 import { CloseIcon } from '../icons/CloseIcon';
 
-export type CustomDialogProps = {
+export type DialogProps = {
   className?: string;
   id: string;
   title?: string;
   onClose: () => void;
+};
+
+export type CustomDialogProps = DialogProps & {
   children: React.ReactNode;
 };
 
@@ -47,15 +50,17 @@ const DialogTitle = styled.h2`
   height: 38px;
   padding: 0 8px;
 `;
-const DialogContent = styled.div`
-  min-width: 100%;
+
+export const DialogContent = styled.div`
+  flex: 1 1 auto;
   padding: 8px;
+  background-color: ${({ theme }) => theme.color.primary.font};
 `;
 
 export const CustomDialog = styled(UnstyledCustomDialog)`
   width: 640px;
   max-width: 90%;
-  min-height: 320px;
+  min-height: 300px;
 
   display: flex;
   flex-direction: column;
@@ -73,4 +78,9 @@ export const CustomDialog = styled(UnstyledCustomDialog)`
     height: 36px;
     width: 36px;
   }
+`;
+
+export const DialogMessage = styled.div`
+  flex: 1 1 auto;
+  min-height: 200px;
 `;
