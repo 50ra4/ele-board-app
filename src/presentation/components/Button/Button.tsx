@@ -9,7 +9,7 @@ type ButtonStyleProps = {
 };
 
 export type ButtonProps = ButtonStyleProps &
-  Omit<React.ComponentProps<'button'>, keyof ButtonStyleProps>;
+  Omit<React.ComponentPropsWithoutRef<'button'>, keyof ButtonStyleProps>;
 
 const UnstyledButton = React.forwardRef<HTMLButtonElement, ButtonProps>(function Button(
   { children, ...props },
