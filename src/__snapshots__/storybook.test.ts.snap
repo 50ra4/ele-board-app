@@ -1,8 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Backdrop With Loading 1`] = `
+<button
+  onClick={[Function]}
+>
+  Open
+</button>
+`;
+
 exports[`Storyshots Button Disabled 1`] = `
 <button
-  className="sc-bczRLJ ezIvBU"
+  className="sc-hKMtZM jEvHuy"
   color="primary"
   disabled={true}
   type="button"
@@ -13,7 +21,7 @@ exports[`Storyshots Button Disabled 1`] = `
 
 exports[`Storyshots Button Docs 1`] = `
 <button
-  className="sc-bczRLJ pEKWW"
+  className="sc-hKMtZM cppIvo"
   color="primary"
   fullWidth={false}
   onClick={[Function]}
@@ -26,7 +34,7 @@ exports[`Storyshots Button Docs 1`] = `
 
 exports[`Storyshots Button Full Width 1`] = `
 <button
-  className="sc-bczRLJ ovjnp"
+  className="sc-hKMtZM kkkGcz"
   color="primary"
   fullWidth={true}
   type="button"
@@ -37,7 +45,7 @@ exports[`Storyshots Button Full Width 1`] = `
 
 exports[`Storyshots Button Outlined 1`] = `
 <button
-  className="sc-bczRLJ gcMdhw"
+  className="sc-hKMtZM hLIKxe"
   color="primary"
   type="button"
   variant="outlined"
@@ -48,7 +56,7 @@ exports[`Storyshots Button Outlined 1`] = `
 
 exports[`Storyshots Button Primary 1`] = `
 <button
-  className="sc-bczRLJ pEKWW"
+  className="sc-hKMtZM cppIvo"
   color="primary"
   type="button"
 >
@@ -58,10 +66,370 @@ exports[`Storyshots Button Primary 1`] = `
 
 exports[`Storyshots Button Secondary 1`] = `
 <button
-  className="sc-bczRLJ eqltnE"
+  className="sc-hKMtZM xntle"
   color="secondary"
   type="button"
 >
   Secondary
 </button>
+`;
+
+exports[`Storyshots IconButton Docs 1`] = `
+<button
+  className="sc-eCYdqJ hwAVEt"
+  onClick={[Function]}
+  type="button"
+>
+  <svg
+    aria-label="削除"
+    className="sc-gsnTZi fHfrxz"
+    role="img"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 0h24v24H0V0z"
+      fill="none"
+    />
+    <path
+      d="M16 9v10H8V9h8m-1.5-6h-5l-1 1H5v2h14V4h-3.5l-1-1zM18 7H6v12c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7z"
+    />
+  </svg>
+</button>
+`;
+
+exports[`Storyshots LoadingGuard Loading 1`] = `
+<button
+  onClick={[Function]}
+>
+  Open
+</button>
+`;
+
+exports[`Storyshots LoadingSpinner Docs 1`] = `
+<svg
+  aria-hidden={true}
+  className="sc-gsnTZi fHfrxz sc-dkzDqf bNsdqf"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M0 0h24v24H0z"
+    fill="none"
+  />
+  <path
+    d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"
+  />
+</svg>
+`;
+
+exports[`Storyshots TextButton Docs 1`] = `
+<button
+  className="sc-hKMtZM cppIvo sc-jSMfEi"
+  color="primary"
+  fullWidth={false}
+  onClick={[Function]}
+  type="button"
+  variant="contained"
+>
+  TextButton
+</button>
+`;
+
+exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
+<div
+  aria-labelledby="dialog-alert-dialog__label"
+  aria-modal="true"
+  className="sc-ftvSup sc-kDDrLX dmLUkD gCoQRe"
+  id="alert-dialog"
+  onClick={[Function]}
+  role="dialog"
+>
+  <button
+    className="sc-eCYdqJ hwAVEt"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="ダイアログを閉じる"
+      className="sc-gsnTZi fHfrxz"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+  <h2
+    className="sc-gKXOVf ewjuBb"
+    id="dialog-alert-dialog__label"
+  >
+    AlertDialog sample
+  </h2>
+  <div
+    className="sc-iBkjds llsHDZ"
+  >
+    <div
+      className="sc-papXJ bCqXJS"
+    >
+      AlertDialog contents
+    </div>
+    <div
+      className="sc-jqUVSM eGgnwO"
+    >
+      <button
+        className="sc-hKMtZM xntle sc-jSMfEi"
+        color="secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
+<div
+  aria-labelledby="dialog-confirm-dialog__label"
+  aria-modal="true"
+  className="sc-ftvSup sc-iqcoie dmLUkD lgjTLb"
+  id="confirm-dialog"
+  onClick={[Function]}
+  role="dialog"
+>
+  <button
+    className="sc-eCYdqJ hwAVEt"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="ダイアログを閉じる"
+      className="sc-gsnTZi fHfrxz"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+  <h2
+    className="sc-gKXOVf ewjuBb"
+    id="dialog-confirm-dialog__label"
+  >
+    ConfirmDialog sample
+  </h2>
+  <div
+    className="sc-iBkjds llsHDZ"
+  >
+    <div
+      className="sc-papXJ bCqXJS"
+    >
+      ConfirmDialog contents
+    </div>
+    <div
+      className="sc-jqUVSM eGgnwO"
+    >
+      <button
+        className="sc-hKMtZM kOmgAf sc-jSMfEi"
+        color="default"
+        onClick={[Function]}
+        type="button"
+      >
+        キャンセル
+      </button>
+      <button
+        className="sc-hKMtZM xntle sc-jSMfEi"
+        color="secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
+<div
+  aria-describedby="dialog-custom-dialog__described"
+  aria-labelledby="dialog-custom-dialog__label"
+  aria-modal="true"
+  className="sc-ftvSup dmLUkD"
+  id="custom-dialog"
+  onClick={[Function]}
+  role="dialog"
+>
+  <button
+    className="sc-eCYdqJ hwAVEt"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="ダイアログを閉じる"
+      className="sc-gsnTZi fHfrxz"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+  <h2
+    className="sc-gKXOVf ewjuBb"
+    id="dialog-custom-dialog__label"
+  >
+    Custom dialog sample
+  </h2>
+  <div
+    className="sc-iBkjds llsHDZ"
+    id="dialog-custom-dialog__described"
+  >
+    Custom dialog contents
+  </div>
+</div>
+`;
+
+exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
+<div
+  aria-labelledby="dialog-popup-dialog__label"
+  aria-modal="true"
+  className="sc-ftvSup dmLUkD"
+  id="popup-dialog"
+  onClick={[Function]}
+  role="dialog"
+>
+  <button
+    className="sc-eCYdqJ hwAVEt"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="ダイアログを閉じる"
+      className="sc-gsnTZi fHfrxz"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+  <h2
+    className="sc-gKXOVf ewjuBb"
+    id="dialog-popup-dialog__label"
+  >
+    PopupDialog sample
+  </h2>
+  <div
+    className="sc-iBkjds llsHDZ"
+  >
+    <div
+      className="sc-papXJ bCqXJS"
+    >
+      PopupDialog contents
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
+<div
+  aria-labelledby="dialog-select-dialog__label"
+  aria-modal="true"
+  className="sc-ftvSup sc-crXcEl dmLUkD hGBKpc"
+  id="select-dialog"
+  onClick={[Function]}
+  role="dialog"
+>
+  <button
+    className="sc-eCYdqJ hwAVEt"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="ダイアログを閉じる"
+      className="sc-gsnTZi fHfrxz"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+  </button>
+  <h2
+    className="sc-gKXOVf ewjuBb"
+    id="dialog-select-dialog__label"
+  >
+    SelectDialog sample
+  </h2>
+  <div
+    className="sc-iBkjds llsHDZ"
+  >
+    <div
+      className="sc-papXJ bCqXJS"
+    >
+      SelectDialog contents
+    </div>
+    <div
+      className="sc-jqUVSM eGgnwO"
+    >
+      <button
+        className="sc-hKMtZM kOmgAf sc-jSMfEi"
+        color="default"
+        onClick={[Function]}
+        type="button"
+      >
+        キャンセル
+      </button>
+      <button
+        className="sc-hKMtZM cppIvo sc-jSMfEi"
+        color="primary"
+        onClick={[Function]}
+        type="button"
+      >
+        いいえ
+      </button>
+      <button
+        className="sc-hKMtZM xntle sc-jSMfEi"
+        color="secondary"
+        onClick={[Function]}
+        type="button"
+      >
+        はい
+      </button>
+    </div>
+  </div>
+</div>
 `;
