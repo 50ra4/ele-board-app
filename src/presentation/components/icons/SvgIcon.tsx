@@ -24,8 +24,30 @@ export type SvgIconProps = IconProps & {
   children: React.ReactNode;
 };
 
-type StyledProps = Pick<SvgIconProps, 'color' | 'size'>;
-const StyledSvg = styled.svg<StyledProps>`
+/**
+ * @see https://github.com/mui-org/material-ui/blob/next/packages/material-ui/src/SvgIcon/SvgIcon.js
+ */
+function UnstyledSvgIcon({
+  className,
+  titleAccess,
+  viewBox = '0 0 24 24',
+  children = null,
+}: SvgIconProps) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden={titleAccess ? undefined : true}
+      aria-label={titleAccess || undefined}
+      role={titleAccess ? 'img' : undefined}
+      viewBox={viewBox}
+    >
+      {children}
+    </svg>
+  );
+}
+
+export const SvgIcon = styled(UnstyledSvgIcon)`
   fill: ${({ color = 'default', theme }) => theme.color[color].background};
   ${({ size }) =>
     size &&
@@ -34,30 +56,3 @@ const StyledSvg = styled.svg<StyledProps>`
       height: ${ICON_SIZE[size]}px;
     `}
 `;
-
-/**
- * @see https://github.com/mui-org/material-ui/blob/next/packages/material-ui/src/SvgIcon/SvgIcon.js
- */
-export function SvgIcon({
-  className,
-  titleAccess,
-  viewBox = '0 0 24 24',
-  color,
-  size,
-  children = null,
-}: SvgIconProps) {
-  return (
-    <StyledSvg
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-      color={color}
-      size={size}
-      aria-hidden={titleAccess ? undefined : true}
-      aria-label={titleAccess || undefined}
-      role={titleAccess ? 'img' : undefined}
-      viewBox={viewBox}
-    >
-      {children}
-    </StyledSvg>
-  );
-}
