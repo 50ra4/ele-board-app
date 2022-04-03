@@ -176,16 +176,17 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       AlertDialog contents
     </div>
     <div
-      className="sc-jqUVSM eGgnwO"
+      className="sc-jqUVSM fhOpDW"
     >
       <button
-        className="sc-hKMtZM xntle sc-jSMfEi"
+        className="sc-hKMtZM caRXkR sc-jSMfEi"
         color="secondary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
@@ -236,28 +237,30 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       ConfirmDialog contents
     </div>
     <div
-      className="sc-jqUVSM eGgnwO"
+      className="sc-jqUVSM fhOpDW"
     >
       <button
-        className="sc-hKMtZM kOmgAf sc-jSMfEi"
-        color="default"
-        onClick={[Function]}
-        type="button"
-      >
-        キャンセル
-      </button>
-      <button
-        className="sc-hKMtZM xntle sc-jSMfEi"
+        className="sc-hKMtZM caRXkR sc-jSMfEi"
         color="secondary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
         OK
+      </button>
+      <button
+        className="sc-hKMtZM gksPBs sc-jSMfEi"
+        color="default"
+        fullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        キャンセル
       </button>
     </div>
   </div>
@@ -350,7 +353,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       PopupDialog contents
     </div>
@@ -398,36 +401,39 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       SelectDialog contents
     </div>
     <div
-      className="sc-jqUVSM eGgnwO"
+      className="sc-jqUVSM fhOpDW"
     >
       <button
-        className="sc-hKMtZM kOmgAf sc-jSMfEi"
-        color="default"
+        className="sc-hKMtZM caRXkR sc-jSMfEi"
+        color="secondary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
-        キャンセル
+        はい
       </button>
       <button
-        className="sc-hKMtZM cppIvo sc-jSMfEi"
+        className="sc-hKMtZM kkkGcz sc-jSMfEi"
         color="primary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
         いいえ
       </button>
       <button
-        className="sc-hKMtZM xntle sc-jSMfEi"
-        color="secondary"
+        className="sc-hKMtZM gksPBs sc-jSMfEi"
+        color="default"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
-        はい
+        キャンセル
       </button>
     </div>
   </div>

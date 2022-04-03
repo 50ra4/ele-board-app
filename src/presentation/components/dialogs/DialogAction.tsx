@@ -36,24 +36,34 @@ export function DialogAction({ className, ...props }: DialogActionProps) {
     case 'alert':
       return (
         <ButtonWrap className={className}>
-          <TextButton color="secondary" text="OK" onClick={props.onClickOK} />
+          <TextButton color="secondary" text="OK" onClick={props.onClickOK} fullWidth={true} />
         </ButtonWrap>
       );
     case 'confirm':
       return (
         <ButtonWrap className={className}>
-          <TextButton color="default" text="キャンセル" onClick={props.onClickCancel} />
-          <TextButton color="secondary" text="OK" onClick={props.onClickOK} />
+          <TextButton color="secondary" text="OK" onClick={props.onClickOK} fullWidth={true} />
+          <TextButton
+            color="default"
+            text="キャンセル"
+            onClick={props.onClickCancel}
+            fullWidth={true}
+          />
         </ButtonWrap>
       );
     case 'select':
       return (
         <ButtonWrap className={className}>
+          <TextButton color="secondary" text="はい" onClick={props.onClickYes} fullWidth={true} />
+          <TextButton color="primary" text="いいえ" onClick={props.onClickNo} fullWidth={true} />
           {props.onClickCancel && (
-            <TextButton color="default" text="キャンセル" onClick={props.onClickCancel} />
+            <TextButton
+              color="default"
+              text="キャンセル"
+              onClick={props.onClickCancel}
+              fullWidth={true}
+            />
           )}
-          <TextButton color="primary" text="いいえ" onClick={props.onClickNo} />
-          <TextButton color="secondary" text="はい" onClick={props.onClickYes} />
         </ButtonWrap>
       );
 
@@ -63,9 +73,7 @@ export function DialogAction({ className, ...props }: DialogActionProps) {
 }
 
 const ButtonWrap = styled.div`
-  display: flex;
-  justify-content: space-between;
   & > ${TextButton} {
-    min-width: 100px;
+    margin-top: 8px;
   }
 `;
