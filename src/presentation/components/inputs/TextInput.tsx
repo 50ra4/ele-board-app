@@ -8,7 +8,7 @@ type OwnProps = {
   onClear: () => void;
 };
 
-type TextInputProps = OwnProps & Omit<InputBaseProps, keyof OwnProps>;
+export type TextInputProps = OwnProps & Omit<InputBaseProps, keyof OwnProps>;
 
 function UnstyledTextInput({
   className,

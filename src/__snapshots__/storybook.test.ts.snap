@@ -440,9 +440,61 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 </div>
 `;
 
+exports[`Storyshots forms/TextForm Docs 1`] = `
+<div
+  className="sc-idiyUo hBvVxy"
+>
+  <label
+    className="sc-hAZoDl hySozf"
+    htmlFor="text-form"
+    inline={false}
+    required={true}
+  >
+    TextForm
+  </label>
+  <div
+    className="sc-ksZaOG bxyLCq"
+  >
+    <input
+      className="sc-breuTD ksnpM"
+      hasError={false}
+      id="text-form"
+      name="text-form-docs"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="input sample"
+      readOnly={false}
+      type="text"
+      value="TextForm sample"
+    />
+    <button
+      className="sc-eCYdqJ hwAVEt sc-evZas"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        aria-label="text-form-docsの入力を削除する"
+        className="sc-gsnTZi iXghoM"
+        role="img"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-evZas iqbUDf"
+  className="sc-breuTD ksnpM"
   hasError={false}
   id="input-base"
   name="input-base-docs"
@@ -453,10 +505,10 @@ exports[`Storyshots inputs/InputBase Docs 1`] = `
 
 exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 <div
-  className="sc-ksZaOG iNVvWa"
+  className="sc-hHLeRK ehZcGh"
 >
   <input
-    className="sc-evZas iqbUDf"
+    className="sc-breuTD ksnpM"
     hasError={false}
     id="password-input"
     name="password-input-docs"
@@ -464,7 +516,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
     value="password input sample"
   />
   <button
-    className="sc-eCYdqJ hwAVEt sc-breuTD"
+    className="sc-eCYdqJ hwAVEt sc-dIouRR"
     onClick={[Function]}
     type="button"
   >
@@ -489,7 +541,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-hAZoDl fAnvmo"
+  className="sc-dmRaPn kHZRhI"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -499,10 +551,10 @@ exports[`Storyshots inputs/TextArea Docs 1`] = `
 
 exports[`Storyshots inputs/TextInput Docs 1`] = `
 <div
-  className="sc-fEOsli fhWdAQ"
+  className="sc-ksZaOG bxyLCq"
 >
   <input
-    className="sc-evZas iqbUDf"
+    className="sc-breuTD ksnpM"
     hasError={false}
     id="text-input"
     name="text-input-docs"
@@ -510,7 +562,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     value="text input sample"
   />
   <button
-    className="sc-eCYdqJ hwAVEt sc-fnykZs"
+    className="sc-eCYdqJ hwAVEt sc-evZas"
     onClick={[Function]}
     type="button"
   >
