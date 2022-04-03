@@ -7,7 +7,6 @@ type InputBaseOwnProps = {
   name: string;
   value: string | undefined;
   hasError?: boolean;
-  paddingSpace?: 'left' | 'right' | 'both';
 };
 
 export type InputBaseProps = InputBaseOwnProps &
@@ -27,10 +26,7 @@ export const InputBase = styled(UnstyledInputBase)`
   ${({ theme }) => theme.ellipsis(1)};
   background-color: ${({ theme }) => theme.input.color.default.background};
   caret-color: ${({ theme }) => theme.input.color.caret};
-  padding: ${({ paddingSpace }) =>
-    `0 ${paddingSpace === 'right' || paddingSpace === 'both' ? '38px' : '8px'} 0 ${
-      paddingSpace === 'left' || paddingSpace === 'both' ? '38px' : '8px'
-    }`};
+  padding: 0 8px 0 8px;
   &:focus {
     background-color: ${({ theme }) => theme.input.color.focused.background};
     outline: 3px solid ${({ theme }) => theme.input.color.focused.outline};

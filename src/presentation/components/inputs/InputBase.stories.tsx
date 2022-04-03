@@ -11,5 +11,4 @@ export const Docs = createStoryDocs(InputBase, {
   name: 'input-base-docs',
   value: 'input base sample',
   hasError: false,
-  paddingSpace: 'right',
 });
