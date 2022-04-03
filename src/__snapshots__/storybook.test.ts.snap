@@ -176,16 +176,17 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       AlertDialog contents
     </div>
     <div
-      className="sc-jqUVSM eGgnwO"
+      className="sc-jqUVSM fhOpDW"
     >
       <button
-        className="sc-hKMtZM xntle sc-jSMfEi"
+        className="sc-hKMtZM caRXkR sc-jSMfEi"
         color="secondary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
@@ -236,28 +237,30 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       ConfirmDialog contents
     </div>
     <div
-      className="sc-jqUVSM eGgnwO"
+      className="sc-jqUVSM fhOpDW"
     >
       <button
-        className="sc-hKMtZM kOmgAf sc-jSMfEi"
-        color="default"
-        onClick={[Function]}
-        type="button"
-      >
-        キャンセル
-      </button>
-      <button
-        className="sc-hKMtZM xntle sc-jSMfEi"
+        className="sc-hKMtZM caRXkR sc-jSMfEi"
         color="secondary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
         OK
+      </button>
+      <button
+        className="sc-hKMtZM gksPBs sc-jSMfEi"
+        color="default"
+        fullWidth={true}
+        onClick={[Function]}
+        type="button"
+      >
+        キャンセル
       </button>
     </div>
   </div>
@@ -350,7 +353,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       PopupDialog contents
     </div>
@@ -398,38 +401,134 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
     className="sc-iBkjds llsHDZ"
   >
     <div
-      className="sc-papXJ bCqXJS"
+      className="sc-papXJ eltvPp"
     >
       SelectDialog contents
     </div>
     <div
-      className="sc-jqUVSM eGgnwO"
+      className="sc-jqUVSM fhOpDW"
     >
       <button
-        className="sc-hKMtZM kOmgAf sc-jSMfEi"
-        color="default"
+        className="sc-hKMtZM caRXkR sc-jSMfEi"
+        color="secondary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
-        キャンセル
+        はい
       </button>
       <button
-        className="sc-hKMtZM cppIvo sc-jSMfEi"
+        className="sc-hKMtZM kkkGcz sc-jSMfEi"
         color="primary"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
         いいえ
       </button>
       <button
-        className="sc-hKMtZM xntle sc-jSMfEi"
-        color="secondary"
+        className="sc-hKMtZM gksPBs sc-jSMfEi"
+        color="default"
+        fullWidth={true}
         onClick={[Function]}
         type="button"
       >
-        はい
+        キャンセル
       </button>
     </div>
   </div>
+</div>
+`;
+
+exports[`Storyshots inputs/InputBase Docs 1`] = `
+<input
+  className="sc-evZas iqbUDf"
+  hasError={false}
+  id="input-base"
+  name="input-base-docs"
+  type="text"
+  value="input base sample"
+/>
+`;
+
+exports[`Storyshots inputs/PasswordInput Docs 1`] = `
+<div
+  className="sc-ksZaOG iNVvWa"
+>
+  <input
+    className="sc-evZas iqbUDf"
+    hasError={false}
+    id="password-input"
+    name="password-input-docs"
+    type="password"
+    value="password input sample"
+  />
+  <button
+    className="sc-eCYdqJ hwAVEt sc-breuTD"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="パスワードを表示する"
+      className="sc-gsnTZi iXghoM"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M12 6c3.79 0 7.17 2.13 8.82 5.5-.59 1.22-1.42 2.27-2.41 3.12l1.41 1.41c1.39-1.23 2.49-2.77 3.18-4.53C21.27 7.11 17 4 12 4c-1.27 0-2.49.2-3.64.57l1.65 1.65C10.66 6.09 11.32 6 12 6zm-1.07 1.14L13 9.21c.57.25 1.03.71 1.28 1.28l2.07 2.07c.08-.34.14-.7.14-1.07C16.5 9.01 14.48 7 12 7c-.37 0-.72.05-1.07.14zM2.01 3.87l2.68 2.68C3.06 7.83 1.77 9.53 1 11.5 2.73 15.89 7 19 12 19c1.52 0 2.98-.29 4.32-.82l3.42 3.42 1.41-1.41L3.42 2.45 2.01 3.87zm7.5 7.5l2.61 2.61c-.04.01-.08.02-.12.02-1.38 0-2.5-1.12-2.5-2.5 0-.05.01-.08.01-.13zm-3.4-3.4l1.75 1.75c-.23.55-.36 1.15-.36 1.78 0 2.48 2.02 4.5 4.5 4.5.63 0 1.23-.13 1.77-.36l.98.98c-.88.24-1.8.38-2.75.38-3.79 0-7.17-2.13-8.82-5.5.7-1.43 1.72-2.61 2.93-3.53z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Storyshots inputs/TextArea Docs 1`] = `
+<textarea
+  className="sc-hAZoDl fAnvmo"
+  hasError={false}
+  id="TextArea"
+  name="text-area-docs"
+  value="TextArea sample"
+/>
+`;
+
+exports[`Storyshots inputs/TextInput Docs 1`] = `
+<div
+  className="sc-fEOsli fhWdAQ"
+>
+  <input
+    className="sc-evZas iqbUDf"
+    hasError={false}
+    id="text-input"
+    name="text-input-docs"
+    type="text"
+    value="text input sample"
+  />
+  <button
+    className="sc-eCYdqJ hwAVEt sc-fnykZs"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      aria-label="text-input-docsの入力を削除する"
+      className="sc-gsnTZi iXghoM"
+      role="img"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+      />
+    </svg>
+  </button>
 </div>
 `;

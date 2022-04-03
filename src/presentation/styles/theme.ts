@@ -1,5 +1,20 @@
 import { css, DefaultTheme, keyframes, ThemedCssFunction } from 'styled-components';
 
+const inputColor = {
+  default: {
+    background: '#ffffff',
+  },
+  focused: {
+    outline: '#c6a700',
+    background: '#ffffff',
+  },
+  error: {
+    outline: '#c62828',
+    background: '#ffeeff',
+  },
+  caret: '',
+} as const;
+
 const color = {
   default: {
     font: '#212121',
@@ -120,6 +135,9 @@ export const STYLE_THEME = {
   font: {
     family: fontFamilies,
     weight: fontWeight,
+  },
+  input: {
+    color: inputColor,
   },
   ellipsis,
   keyframe: {

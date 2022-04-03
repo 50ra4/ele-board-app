@@ -40,7 +40,7 @@ export const VisibilityIcon = React.memo(function VisibilityIcon({
   visible,
   ...props
 }: IconProps & {
-  visible: 'on' | 'off';
+  visible?: boolean;
 }) {
-  return visible === 'on' ? <VisibilityOnIcon {...props} /> : <VisibilityOffIcon {...props} />;
+  return !!visible ? <VisibilityOnIcon {...props} /> : <VisibilityOffIcon {...props} />;
 });

@@ -80,5 +80,5 @@ export const CustomDialog = styled(UnstyledCustomDialog)`
 
 export const DialogMessage = styled.div`
   flex: 1 1 auto;
-  min-height: 200px;
+  min-height: 180px;
 `;
