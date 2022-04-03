@@ -76,7 +76,7 @@ exports[`Storyshots Button Secondary 1`] = `
 
 exports[`Storyshots IconButton Docs 1`] = `
 <button
-  className="sc-eCYdqJ hwAVEt"
+  className="sc-eCYdqJ heXNof"
   onClick={[Function]}
   type="button"
 >
@@ -146,7 +146,7 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ hwAVEt"
+    className="sc-eCYdqJ heXNof"
     onClick={[Function]}
     type="button"
   >
@@ -207,7 +207,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ hwAVEt"
+    className="sc-eCYdqJ heXNof"
     onClick={[Function]}
     type="button"
   >
@@ -278,7 +278,7 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ hwAVEt"
+    className="sc-eCYdqJ heXNof"
     onClick={[Function]}
     type="button"
   >
@@ -323,7 +323,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ hwAVEt"
+    className="sc-eCYdqJ heXNof"
     onClick={[Function]}
     type="button"
   >
@@ -371,7 +371,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ hwAVEt"
+    className="sc-eCYdqJ heXNof"
     onClick={[Function]}
     type="button"
   >
@@ -468,7 +468,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
       value="PasswordForm sample"
     />
     <button
-      className="sc-eCYdqJ hwAVEt sc-breuTD"
+      className="sc-eCYdqJ heXNof sc-breuTD"
       onClick={[Function]}
       type="button"
     >
@@ -520,7 +520,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
       value="TextForm sample"
     />
     <button
-      className="sc-eCYdqJ hwAVEt sc-dIouRR"
+      className="sc-eCYdqJ heXNof sc-dIouRR"
       onClick={[Function]}
       type="button"
     >
@@ -568,7 +568,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
     value="password input sample"
   />
   <button
-    className="sc-eCYdqJ hwAVEt sc-breuTD"
+    className="sc-eCYdqJ heXNof sc-breuTD"
     onClick={[Function]}
     type="button"
   >
@@ -614,7 +614,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     value="text input sample"
   />
   <button
-    className="sc-eCYdqJ hwAVEt sc-dIouRR"
+    className="sc-eCYdqJ heXNof sc-dIouRR"
     onClick={[Function]}
     type="button"
   >
