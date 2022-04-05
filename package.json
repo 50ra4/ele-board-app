@@ -13,7 +13,7 @@
     "build-storybook": "rm -rf docs/storybook && cp tools/gh-pages/manager-head.html .storybook && build-storybook -s public -o docs/storybook && rm -rf .storybook/manager-head.html",
     "build-typedoc": "rm -rf docs/typedoc && typedoc --options ./typedoc.js",
     "touch-nojeykll": "touch docs/.nojekyll",
-    "build-docs": "npm run build-storybook && npm run build-typedoc && npm run touch-nojeykll && cp tools/gh-pages/index.html docs",
+    "build-docs": "npm run build-storybook && npm run build-typedoc && npm run touch-nojeykll && cp tools/gh-pages/index.html docs && cp vercel-ignore-build-step.sh docs",
     "check-type": "tsc --noEmit"
   },
   "repository": {
