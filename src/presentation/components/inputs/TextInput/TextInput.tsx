@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { InputClearButton } from './InputClearButton';
-import { InputBase, InputBaseProps } from './InputBase';
+import { InputBaseProps, InputBase } from '../InputBase/InputBase';
+import { InputClearButton } from '../InputClearButton';
 
 type OwnProps = {
   type?: 'email' | 'tel' | 'text' | 'url';

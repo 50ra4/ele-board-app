@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useToggle } from 'src/hooks/useToggle';
-import { InputBase, InputBaseProps } from './InputBase';
+import { InputBaseProps, InputBase } from '../InputBase/InputBase';
 import { VisibilityButton } from './VisibilityButton';
 
 type PasswordInputProps = Omit<InputBaseProps, 'type'>;

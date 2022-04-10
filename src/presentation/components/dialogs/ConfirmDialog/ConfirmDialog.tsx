@@ -1,7 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { CustomDialog, DialogProps, DialogContent, DialogMessage } from './CustomDialog';
-import { ConfirmDialogAction, DialogAction } from './DialogAction';
+import {
+  DialogProps,
+  DialogMessage,
+  CustomDialog,
+  DialogContent,
+} from '../CustomDialog/CustomDialog';
+import { ConfirmDialogAction, DialogAction } from '../DialogAction';
 
 export type ConfirmDialogProps = DialogProps &
   Omit<ConfirmDialogAction, 'type'> & {

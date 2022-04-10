@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { IconButton } from '../IconButton/IconButton';
-import { VisibilityIcon } from '../icons/VisibilityIcon';
+import { IconButton } from '@/components/IconButton/IconButton';
+import { VisibilityIcon } from '@/components/icons/VisibilityIcon';
 
 type VisibilityButtonProps = {
   className?: string;
