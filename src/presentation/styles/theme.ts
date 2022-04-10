@@ -52,7 +52,7 @@ const fontWeight = {
   normal: 400,
 } as const;
 
-const ellipsis = (row: number = 1) =>
+const ellipsis = (row = 1) =>
   row === 1
     ? css`
         overflow: hidden;
