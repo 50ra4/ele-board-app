@@ -1,6 +1,6 @@
 import useSWR from 'swr';
 import { useEffect, useMemo } from 'react';
-import type { HolidayLookups } from '../api/holidays';
+import type { HolidayLookups } from 'src/pages/api/holidays';
 import { fetcher } from 'src/utils/fetcher';
 
 function HolidayPage() {
