@@ -1,16 +1,8 @@
 import axios from 'axios';
-import type { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiHandler } from 'next/types';
+import { apiHandler } from 'src/utils/server/apiHandler';
 
 export type HolidayLookups = Record<string, { jp: string; en: string }>;
-
-type Response = {
-  data: HolidayLookups;
-};
-
-type ErrorResponse = {
-  code?: string;
-  message: string;
-};
 
 const fetchJapaneseHoliday = () =>
   axios({
@@ -18,11 +10,7 @@ const fetchJapaneseHoliday = () =>
     method: 'GET',
   }).then((res) => res.data as HolidayLookups);
 
-const handler = async (req: NextApiRequest, res: NextApiResponse<Response | ErrorResponse>) => {
-  if (req.method !== 'GET') {
-    res.status(405).json({ message: 'Method Not Allowed' });
-    return;
-  }
+const getHandler: NextApiHandler = async (_, res) => {
   try {
     const holidays = await fetchJapaneseHoliday();
     res.status(200).json({ data: holidays });
@@ -30,5 +18,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Response | Erro
     res.status(400).json({ message: 'error' });
   }
 };
+
+const handler = apiHandler({
+  GET: getHandler,
+});
 
 export default handler;
