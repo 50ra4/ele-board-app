@@ -8,6 +8,7 @@ import React, {
   useState,
 } from 'react';
 import styled, { css, keyframes } from 'styled-components';
+import { nanoid } from 'nanoid';
 import { Snackbar, SnackbarSeverity } from './Snackbar';
 
 const SNACKBAR_STATUS = {
@@ -75,7 +76,7 @@ export function SnackbarProvider({ children = null }: { children: React.ReactNod
       dispatch({
         type: 'enqueue',
         payload: {
-          id: `${new Date().toISOString()}`,
+          id: nanoid(),
           content,
           severity: options?.severity ?? 'info',
           duration: options?.duration ?? 3000,
@@ -103,7 +104,7 @@ export function SnackbarProvider({ children = null }: { children: React.ReactNod
 
 export function useSnackBar() {
   const { enqueue } = useContext(SnackbarContext);
-  return { showSnackbar: enqueue } as const;
+  return { enqueue } as const;
 }
 
 type SnackbarAnimationProps = {
@@ -210,9 +211,7 @@ const SnackbarContainer = React.memo(function SnackbarContainer({
 
   const onAnimationEnd = React.useCallback(() => {
     if (status !== SNACKBAR_STATUS.fadeOut) return;
-    if (onFadeOut) {
-      onFadeOut(id);
-    }
+    onFadeOut(id);
     dequeue(id);
   }, [id, status, dequeue, onFadeOut]);
 
