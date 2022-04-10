@@ -108,3 +108,5 @@ docs/
 
 # mac
 .DS_Store
+
+.env.local
