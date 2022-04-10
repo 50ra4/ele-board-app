@@ -12,10 +12,12 @@ const hasMessage = (x: unknown): x is { message: string } => {
   return true;
 };
 
+export type ErrorHandler = (error: unknown, res: NextApiResponse) => void;
+
 /**
  * @see https://zenn.dev/nalo/articles/next-api-routes-error-handling
  */
-export const errorHandler = (error: unknown, res: NextApiResponse) => {
+export const errorHandler: ErrorHandler = (error, res) => {
   // API Routes内でthrowされるエラークラスを決めておいて、ここで判別してハンドリングする
   // TODO:
 
