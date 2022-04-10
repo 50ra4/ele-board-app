@@ -3,14 +3,6 @@ import styled from 'styled-components';
 import { InfoIcon } from '../icons/InfoIcon';
 import { WarningIcon } from '../icons/WarningIcon';
 
-const SNACKBAR_STATUS = {
-  initial: 'initial',
-  fadeIn: 'fadeIn',
-  remaining: 'remaining',
-  fadeOut: 'fadeOut',
-} as const;
-export type SnackbarStatus = keyof typeof SNACKBAR_STATUS;
-
 const SNACKBAR_SEVERITY = {
   success: {
     font: '#fafafa',
@@ -95,10 +87,3 @@ export const SnackbarIcon = styled(UnstyledSnackbarIcon)`
   width: 12px;
   height: 12px;
 `;
-
-// export type SnackbarWithAnimationProps = SnackbarProps & {
-//   open?: boolean;
-//   status?: SnackbarStatus;
-//   duration?: number;
-//   onFadeOut?: () => void;
-// };
