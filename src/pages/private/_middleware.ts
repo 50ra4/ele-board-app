@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+/**
+ * @see https://github.com/vercel/examples/blob/main/edge-functions/basic-auth-password/pages/_middleware.ts
+ */
 export function middleware(req: NextRequest) {
   const basicAuth = req.headers.get('authorization');
 
@@ -7,7 +10,7 @@ export function middleware(req: NextRequest) {
     const auth = basicAuth.split(' ')[1];
     const [user, password] = Buffer.from(auth, 'base64').toString().split(':');
 
-    if (user === '4dmin' && password === 'testpwd123') {
+    if (user === process.env.BASIC_AUTH_USER && password === process.env.BASIC_AUTH_PASSWORD) {
       return NextResponse.next();
     }
   }
