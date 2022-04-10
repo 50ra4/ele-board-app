@@ -10,7 +10,7 @@ exports[`Storyshots Backdrop With Loading 1`] = `
 
 exports[`Storyshots Button Disabled 1`] = `
 <button
-  className="sc-hKMtZM jEvHuy"
+  className="sc-bczRLJ ezIvBU"
   color="primary"
   disabled={true}
   type="button"
@@ -21,7 +21,7 @@ exports[`Storyshots Button Disabled 1`] = `
 
 exports[`Storyshots Button Docs 1`] = `
 <button
-  className="sc-hKMtZM cppIvo"
+  className="sc-bczRLJ pEKWW"
   color="primary"
   fullWidth={false}
   onClick={[Function]}
@@ -34,7 +34,7 @@ exports[`Storyshots Button Docs 1`] = `
 
 exports[`Storyshots Button Full Width 1`] = `
 <button
-  className="sc-hKMtZM kkkGcz"
+  className="sc-bczRLJ ovjnp"
   color="primary"
   fullWidth={true}
   type="button"
@@ -45,7 +45,7 @@ exports[`Storyshots Button Full Width 1`] = `
 
 exports[`Storyshots Button Outlined 1`] = `
 <button
-  className="sc-hKMtZM hLIKxe"
+  className="sc-bczRLJ gcMdhw"
   color="primary"
   type="button"
   variant="outlined"
@@ -56,7 +56,7 @@ exports[`Storyshots Button Outlined 1`] = `
 
 exports[`Storyshots Button Primary 1`] = `
 <button
-  className="sc-hKMtZM cppIvo"
+  className="sc-bczRLJ pEKWW"
   color="primary"
   type="button"
 >
@@ -66,7 +66,7 @@ exports[`Storyshots Button Primary 1`] = `
 
 exports[`Storyshots Button Secondary 1`] = `
 <button
-  className="sc-hKMtZM xntle"
+  className="sc-bczRLJ eqltnE"
   color="secondary"
   type="button"
 >
@@ -76,7 +76,7 @@ exports[`Storyshots Button Secondary 1`] = `
 
 exports[`Storyshots IconButton Docs 1`] = `
 <button
-  className="sc-eCYdqJ heXNof"
+  className="sc-dkzDqf jSsIkJ"
   onClick={[Function]}
   type="button"
 >
@@ -109,7 +109,7 @@ exports[`Storyshots LoadingGuard Loading 1`] = `
 exports[`Storyshots LoadingSpinner Docs 1`] = `
 <svg
   aria-hidden={true}
-  className="sc-gsnTZi fHfrxz sc-dkzDqf bNsdqf"
+  className="sc-gsnTZi fHfrxz sc-kgflAQ ljAloD"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
 >
@@ -125,7 +125,7 @@ exports[`Storyshots LoadingSpinner Docs 1`] = `
 
 exports[`Storyshots TextButton Docs 1`] = `
 <button
-  className="sc-hKMtZM cppIvo sc-jSMfEi"
+  className="sc-bczRLJ pEKWW sc-hKMtZM"
   color="primary"
   fullWidth={false}
   onClick={[Function]}
@@ -140,13 +140,13 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-alert-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup sc-kDDrLX dmLUkD gCoQRe"
+  className="sc-gKXOVf sc-papXJ bRrwpo bJoUmn"
   id="alert-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ heXNof"
+    className="sc-dkzDqf jSsIkJ"
     onClick={[Function]}
     type="button"
   >
@@ -167,24 +167,24 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-gKXOVf ewjuBb"
+    className="sc-eCYdqJ eYRrSw"
     id="dialog-alert-dialog__label"
   >
     AlertDialog sample
   </h2>
   <div
-    className="sc-iBkjds llsHDZ"
+    className="sc-jSMfEi feMvHa"
   >
     <div
-      className="sc-papXJ eltvPp"
+      className="sc-iBkjds ixfXJr"
     >
       AlertDialog contents
     </div>
     <div
-      className="sc-jqUVSM fhOpDW"
+      className="sc-ftvSup gREnpN"
     >
       <button
-        className="sc-hKMtZM caRXkR sc-jSMfEi"
+        className="sc-bczRLJ fVfpgz sc-hKMtZM"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -201,13 +201,13 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-confirm-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup sc-iqcoie dmLUkD lgjTLb"
+  className="sc-gKXOVf sc-jqUVSM bRrwpo ceEQoq"
   id="confirm-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ heXNof"
+    className="sc-dkzDqf jSsIkJ"
     onClick={[Function]}
     type="button"
   >
@@ -228,24 +228,24 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-gKXOVf ewjuBb"
+    className="sc-eCYdqJ eYRrSw"
     id="dialog-confirm-dialog__label"
   >
     ConfirmDialog sample
   </h2>
   <div
-    className="sc-iBkjds llsHDZ"
+    className="sc-jSMfEi feMvHa"
   >
     <div
-      className="sc-papXJ eltvPp"
+      className="sc-iBkjds ixfXJr"
     >
       ConfirmDialog contents
     </div>
     <div
-      className="sc-jqUVSM fhOpDW"
+      className="sc-ftvSup gREnpN"
     >
       <button
-        className="sc-hKMtZM caRXkR sc-jSMfEi"
+        className="sc-bczRLJ fVfpgz sc-hKMtZM"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -254,7 +254,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
         OK
       </button>
       <button
-        className="sc-hKMtZM gksPBs sc-jSMfEi"
+        className="sc-bczRLJ dUViAu sc-hKMtZM"
         color="default"
         fullWidth={true}
         onClick={[Function]}
@@ -272,13 +272,13 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
   aria-describedby="dialog-custom-dialog__described"
   aria-labelledby="dialog-custom-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup dmLUkD"
+  className="sc-gKXOVf bRrwpo"
   id="custom-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ heXNof"
+    className="sc-dkzDqf jSsIkJ"
     onClick={[Function]}
     type="button"
   >
@@ -299,13 +299,13 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-gKXOVf ewjuBb"
+    className="sc-eCYdqJ eYRrSw"
     id="dialog-custom-dialog__label"
   >
     Custom dialog sample
   </h2>
   <div
-    className="sc-iBkjds llsHDZ"
+    className="sc-jSMfEi feMvHa"
     id="dialog-custom-dialog__described"
   >
     Custom dialog contents
@@ -317,13 +317,13 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-popup-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup dmLUkD"
+  className="sc-gKXOVf bRrwpo"
   id="popup-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ heXNof"
+    className="sc-dkzDqf jSsIkJ"
     onClick={[Function]}
     type="button"
   >
@@ -344,16 +344,16 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-gKXOVf ewjuBb"
+    className="sc-eCYdqJ eYRrSw"
     id="dialog-popup-dialog__label"
   >
     PopupDialog sample
   </h2>
   <div
-    className="sc-iBkjds llsHDZ"
+    className="sc-jSMfEi feMvHa"
   >
     <div
-      className="sc-papXJ eltvPp"
+      className="sc-iBkjds ixfXJr"
     >
       PopupDialog contents
     </div>
@@ -365,13 +365,13 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-select-dialog__label"
   aria-modal="true"
-  className="sc-ftvSup sc-crXcEl dmLUkD hGBKpc"
+  className="sc-gKXOVf sc-kDDrLX bRrwpo cgkMut"
   id="select-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-eCYdqJ heXNof"
+    className="sc-dkzDqf jSsIkJ"
     onClick={[Function]}
     type="button"
   >
@@ -392,24 +392,24 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-gKXOVf ewjuBb"
+    className="sc-eCYdqJ eYRrSw"
     id="dialog-select-dialog__label"
   >
     SelectDialog sample
   </h2>
   <div
-    className="sc-iBkjds llsHDZ"
+    className="sc-jSMfEi feMvHa"
   >
     <div
-      className="sc-papXJ eltvPp"
+      className="sc-iBkjds ixfXJr"
     >
       SelectDialog contents
     </div>
     <div
-      className="sc-jqUVSM fhOpDW"
+      className="sc-ftvSup gREnpN"
     >
       <button
-        className="sc-hKMtZM caRXkR sc-jSMfEi"
+        className="sc-bczRLJ fVfpgz sc-hKMtZM"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -418,7 +418,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
         はい
       </button>
       <button
-        className="sc-hKMtZM kkkGcz sc-jSMfEi"
+        className="sc-bczRLJ ovjnp sc-hKMtZM"
         color="primary"
         fullWidth={true}
         onClick={[Function]}
@@ -427,7 +427,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
         いいえ
       </button>
       <button
-        className="sc-hKMtZM gksPBs sc-jSMfEi"
+        className="sc-bczRLJ dUViAu sc-hKMtZM"
         color="default"
         fullWidth={true}
         onClick={[Function]}
@@ -442,10 +442,10 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 
 exports[`Storyshots forms/PasswordForm Docs 1`] = `
 <div
-  className="sc-idiyUo hBvVxy"
+  className="sc-fEOsli kHzLAf"
 >
   <label
-    className="sc-hAZoDl hySozf"
+    className="sc-iqcoie gndmED"
     htmlFor="password-form"
     inline={false}
     required={true}
@@ -453,10 +453,10 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     PasswordForm
   </label>
   <div
-    className="sc-ksZaOG iNVvWa"
+    className="sc-fnykZs iGplpG"
   >
     <input
-      className="sc-evZas iqbUDf"
+      className="sc-ksZaOG hNwacr"
       hasError={false}
       id="password-form"
       name="password-docs"
@@ -468,7 +468,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
       value="PasswordForm sample"
     />
     <button
-      className="sc-eCYdqJ heXNof sc-breuTD"
+      className="sc-dkzDqf jSsIkJ sc-hAZoDl"
       onClick={[Function]}
       type="button"
     >
@@ -494,10 +494,10 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
 
 exports[`Storyshots forms/TextForm Docs 1`] = `
 <div
-  className="sc-dmRaPn OfMIK"
+  className="sc-dIouRR jIFJsS"
 >
   <label
-    className="sc-hAZoDl hySozf"
+    className="sc-iqcoie gndmED"
     htmlFor="text-form"
     inline={false}
     required={true}
@@ -505,10 +505,10 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     TextForm
   </label>
   <div
-    className="sc-hHLeRK dhKjJG"
+    className="sc-idiyUo dsTQZ"
   >
     <input
-      className="sc-evZas iqbUDf"
+      className="sc-ksZaOG hNwacr"
       hasError={false}
       id="text-form"
       name="text-form-docs"
@@ -520,7 +520,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
       value="TextForm sample"
     />
     <button
-      className="sc-eCYdqJ heXNof sc-dIouRR"
+      className="sc-dkzDqf jSsIkJ sc-bjUoiL"
       onClick={[Function]}
       type="button"
     >
@@ -546,7 +546,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-evZas iqbUDf"
+  className="sc-ksZaOG hNwacr"
   hasError={false}
   id="input-base"
   name="input-base-docs"
@@ -557,10 +557,10 @@ exports[`Storyshots inputs/InputBase Docs 1`] = `
 
 exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 <div
-  className="sc-ksZaOG iNVvWa"
+  className="sc-fnykZs iGplpG"
 >
   <input
-    className="sc-evZas iqbUDf"
+    className="sc-ksZaOG hNwacr"
     hasError={false}
     id="password-input"
     name="password-input-docs"
@@ -568,7 +568,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
     value="password input sample"
   />
   <button
-    className="sc-eCYdqJ heXNof sc-breuTD"
+    className="sc-dkzDqf jSsIkJ sc-hAZoDl"
     onClick={[Function]}
     type="button"
   >
@@ -593,7 +593,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-kgflAQ izNUpa"
+  className="sc-hHLeRK daSFZE"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -603,10 +603,10 @@ exports[`Storyshots inputs/TextArea Docs 1`] = `
 
 exports[`Storyshots inputs/TextInput Docs 1`] = `
 <div
-  className="sc-hHLeRK dhKjJG"
+  className="sc-idiyUo dsTQZ"
 >
   <input
-    className="sc-evZas iqbUDf"
+    className="sc-ksZaOG hNwacr"
     hasError={false}
     id="text-input"
     name="text-input-docs"
@@ -614,7 +614,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     value="text input sample"
   />
   <button
-    className="sc-eCYdqJ heXNof sc-dIouRR"
+    className="sc-dkzDqf jSsIkJ sc-bjUoiL"
     onClick={[Function]}
     type="button"
   >
