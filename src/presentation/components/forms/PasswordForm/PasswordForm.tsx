@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import { PasswordInput } from '../inputs/PasswordInput';
-import { FormBaseProps, FormDescription, FormErrorMessage, FormLabel } from './FormBase';
+import { FormBaseProps, FormLabel, FormDescription, FormErrorMessage } from '../FormBase';
+import { PasswordInput } from '@/components/inputs/PasswordInput/PasswordInput';
 
 export type PasswordFormProps = FormBaseProps<string> & {
   onChange: (v: string) => void;

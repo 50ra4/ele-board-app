@@ -1,5 +1,5 @@
 import React from 'react';
-import { Backdrop, BackdropProps } from '../Backdrop/Backdrop';
+import { BackdropProps, Backdrop } from '../Backdrop/Backdrop';
 import { LoadingSpinner } from '../LoadingSpinner/LoadingSpinner';
 
 export type LoadingGuardProps = Omit<BackdropProps, 'children'>;

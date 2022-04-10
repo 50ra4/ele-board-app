@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import { TextInput, TextInputProps } from '../inputs/TextInput';
-import { FormBaseProps, FormDescription, FormErrorMessage, FormLabel } from './FormBase';
+import { TextInput, TextInputProps } from '@/components/inputs/TextInput/TextInput';
+import { FormBaseProps, FormLabel, FormDescription, FormErrorMessage } from '../FormBase';
 
 export type TextFormProps = FormBaseProps<string> & {
   type: TextInputProps['type'];

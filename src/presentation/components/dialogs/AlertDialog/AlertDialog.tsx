@@ -1,7 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import { CustomDialog, DialogProps, DialogContent, DialogMessage } from './CustomDialog';
-import { AlertDialogAction, DialogAction } from './DialogAction';
+import {
+  DialogProps,
+  DialogMessage,
+  CustomDialog,
+  DialogContent,
+} from '../CustomDialog/CustomDialog';
+import { AlertDialogAction, DialogAction } from '../DialogAction';
 
 export type AlertDialogProps = DialogProps &
   Omit<AlertDialogAction, 'type'> & {

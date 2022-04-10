@@ -1,5 +1,5 @@
 import React from 'react';
-import { CustomDialog, DialogMessage, DialogProps } from './CustomDialog';
+import { CustomDialog, DialogMessage, DialogProps } from '../CustomDialog/CustomDialog';
 
 export type PopupDialogProps = DialogProps & { message: React.ReactNode };
 
