@@ -1,5 +1,5 @@
-import React, { ComponentProps } from 'react';
-import type { ComponentStoryObj, ComponentMeta } from '@storybook/react';
+import React, { ComponentProps, ComponentType } from 'react';
+import type { ComponentStoryObj as _ComponentStoryObj, ComponentMeta } from '@storybook/react';
 
 export const createStoryMeta = <T extends React.FC<any>>(
   Component: T,
@@ -16,5 +16,9 @@ export const createStoryDocs = <
 >(
   _: Component,
   props: Props,
-  obj: Omit<ComponentStoryObj<Component>, 'args'> = {},
+  obj: Omit<_ComponentStoryObj<Component>, 'args'> = {},
 ) => ({ ...obj, args: props });
+
+export type ComponentStoryObj<P extends Record<string, unknown>> = _ComponentStoryObj<
+  ComponentType<P>
+>;
