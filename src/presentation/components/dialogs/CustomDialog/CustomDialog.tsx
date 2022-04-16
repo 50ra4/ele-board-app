@@ -56,6 +56,11 @@ export const DialogContent = styled.div`
 `;
 
 export const CustomDialog = styled(UnstyledCustomDialog)`
+  width: 600px;
+  max-width: 90%;
+  min-height: 300px;
+  max-height: 90%;
+
   display: flex;
   flex-direction: column;
   position: relative;
