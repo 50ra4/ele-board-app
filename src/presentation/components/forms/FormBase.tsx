@@ -1,8 +1,5 @@
-import React from 'react';
 import styled, { css } from 'styled-components';
-import { HelpIcon } from '../icons/HelpIcon';
 import { WarningIcon } from '../icons/WarningIcon';
-import { Tooltip, TooltipText } from '../Tooltip/Tooltip';
 
 export type FormBaseProps<T> = {
   // for style
@@ -35,50 +32,19 @@ type FormLabelProps = {
   inline?: boolean;
 };
 
-export const FormLabel = styled(
-  React.memo(function FormLabel({ className, label, htmlFor, description }: FormLabelProps) {
-    return (
-      <div className={className}>
-        <label htmlFor={htmlFor}>{label}</label>
-        {description && (
-          <Tooltip color="primary" text={description} visibleOnHover={true}>
-            <HelpIcon color="primary" size="small" titleAccess={`${label}の説明を表示する`} />
-          </Tooltip>
-        )}
-      </div>
-    );
-  }),
-)`
-  display: flex;
-  align-items: center;
-  justify-content: ${({ inline }) => (inline ? 'space-between' : 'flex-start')};
-
-  & > label {
-    font-size: 16px;
-    font-weight: ${({ theme }) => theme.font.weight.bold};
-    ${({ required }) =>
-      required &&
-      css`
-        &::after {
-          content: '*';
-          color: #c62828;
-        }
-      `};
-  }
-
-  & ${Tooltip} {
-    ${({ inline }) =>
-      !inline &&
-      css`
-        margin-left: 8px;
-      `}
-    & ${TooltipText} {
-      min-width: 300px;
-      margin-left: -150px;
-      font-size: 12px;
-      line-height: 18px;
-    }
-  }
+export const FormLabel = styled(function FormLabel({ label, ...props }: FormLabelProps) {
+  return <label {...props}>{label}</label>;
+})`
+  font-size: 16px;
+  font-weight: ${({ theme }) => theme.font.weight.bold};
+  ${({ required }) =>
+    required &&
+    css`
+      &::after {
+        content: '*';
+        color: #c62828;
+      }
+    `};
 `;
 
 type FormDescriptionProps = {
