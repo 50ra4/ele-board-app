@@ -369,7 +369,7 @@ exports[`Storyshots Tooltip Docs 1`] = `
       hover me
     </button>
     <span
-      className="sc-papXJ eIaPkB"
+      className="sc-papXJ eHFAGQ"
       color="primary"
     >
       tooltip sample
@@ -395,7 +395,7 @@ exports[`Storyshots Tooltip With State 1`] = `
       click me
     </button>
     <span
-      className="sc-papXJ eIaPkB"
+      className="sc-papXJ eHFAGQ"
       color="primary"
     >
       tooltip
