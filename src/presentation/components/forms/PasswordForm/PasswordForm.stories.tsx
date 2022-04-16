@@ -18,7 +18,7 @@ export const Docs: Story = {
     required: true,
     inline: false,
     errorMessage: '',
-    description: '',
+    description: '半角英数6文字以上18文字以下で入力してください',
     onChange: () => {},
   },
 };

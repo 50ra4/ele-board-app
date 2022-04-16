@@ -766,6 +766,13 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     PasswordForm
   </label>
   <div
+    className="sc-dIouRR ooPSm"
+  >
+    <span>
+      半角英数6文字以上18文字以下で入力してください
+    </span>
+  </div>
+  <div
     className="sc-bBrHrO etZQUQ"
   >
     <input
@@ -817,6 +824,13 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
   >
     TextForm
   </label>
+  <div
+    className="sc-dIouRR ooPSm"
+  >
+    <span>
+      登録したメールアドレスを入力してください
+    </span>
+  </div>
   <div
     className="sc-llJcti ihawGp"
   >
