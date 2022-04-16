@@ -30,7 +30,7 @@ const UnstyledTextForm = React.memo(function TextForm({
   return (
     <div className={className}>
       <FormLabel htmlFor={id} label={label} required={required} inline={inline} />
-      {!!description && <FormDescription description={description} />}
+      {!!description && <FormDescription id={id} description={description} />}
       <TextInput
         type={type}
         id={id}

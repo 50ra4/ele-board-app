@@ -19,7 +19,7 @@ export const Docs: Story = {
     required: true,
     inline: false,
     errorMessage: '',
-    description: '',
+    description: '登録したメールアドレスを入力してください',
     onChange: () => {},
     onClear: () => {},
   },

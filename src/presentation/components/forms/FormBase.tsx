@@ -32,11 +32,16 @@ type FormLabelProps = {
   inline?: boolean;
 };
 
-function UnstyledFormLabel({ label, ...props }: FormLabelProps) {
-  return <label {...props}>{label}</label>;
-}
+const createAriaDescribedby = (id?: string) => (id ? `${id}-describe` : undefined);
 
-export const FormLabel = styled(UnstyledFormLabel)`
+export const FormLabel = styled(function FormLabel({ label, htmlFor, ...props }: FormLabelProps) {
+  const ariaDescribedby = createAriaDescribedby(htmlFor);
+  return (
+    <label {...props} htmlFor={htmlFor} aria-describedby={ariaDescribedby}>
+      {label}
+    </label>
+  );
+})`
   font-size: 16px;
   font-weight: ${({ theme }) => theme.font.weight.bold};
   ${({ required }) =>
@@ -51,18 +56,22 @@ export const FormLabel = styled(UnstyledFormLabel)`
 
 type FormDescriptionProps = {
   className?: string;
+  id: string;
   description: string;
 };
 
-function UnstyledFormDescription({ className, description }: FormDescriptionProps) {
+export const FormDescription = styled(function FormDescription({
+  className,
+  id,
+  description,
+}: FormDescriptionProps) {
+  const ariaDescribedby = createAriaDescribedby(id);
   return (
     <div className={className}>
-      <span>{description}</span>
+      <span id={ariaDescribedby}>{description}</span>
     </div>
   );
-}
-
-export const FormDescription = styled(UnstyledFormDescription)`
+})`
   margin: 8px 0;
   & > span {
     font-size: 12px;
@@ -75,21 +84,22 @@ type FormErrorMessageProps = {
   message: string;
 };
 
-function UnstyledFormErrorMessage({ className, message }: FormErrorMessageProps) {
+const StyledWarningIcon = styled(WarningIcon)`
+  fill: #c62828;
+  margin-right: 4px;
+`;
+
+export const FormErrorMessage = styled(function FormErrorMessage({
+  className,
+  message,
+}: FormErrorMessageProps) {
   return (
     <div className={className}>
       <StyledWarningIcon size="small" />
       <span>{message}</span>
     </div>
   );
-}
-
-const StyledWarningIcon = styled(WarningIcon)`
-  fill: #c62828;
-  margin-right: 4px;
-`;
-
-export const FormErrorMessage = styled(UnstyledFormErrorMessage)`
+})`
   display: flex;
   margin: 8px 0;
 
