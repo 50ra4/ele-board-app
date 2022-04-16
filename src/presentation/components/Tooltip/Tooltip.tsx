@@ -20,9 +20,10 @@ export const TooltipText = styled.span`
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
-  bottom: 120%;
-  left: 50%;
-  margin-left: -60px;
+  bottom: 100%;
+  margin-bottom: 16px; /** border * 2 */
+  left: calc(50%);
+  margin-left: -60px; /** width / 2 */
 
   /* Fade in tooltip */
   opacity: 0;
