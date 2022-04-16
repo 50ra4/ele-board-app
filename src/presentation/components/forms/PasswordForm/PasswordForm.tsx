@@ -26,7 +26,7 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
   return (
     <div className={className}>
       <FormLabel htmlFor={id} label={label} required={required} inline={inline} />
-      {!!description && <FormDescription description={description} />}
+      {!!description && <FormDescription id={id} description={description} />}
       <PasswordInput
         id={id}
         name={name}

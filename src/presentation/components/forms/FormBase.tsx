@@ -32,8 +32,15 @@ type FormLabelProps = {
   inline?: boolean;
 };
 
-export const FormLabel = styled(function FormLabel({ label, ...props }: FormLabelProps) {
-  return <label {...props}>{label}</label>;
+const createAriaDescribedby = (id?: string) => (id ? `${id}-describe` : undefined);
+
+export const FormLabel = styled(function FormLabel({ label, htmlFor, ...props }: FormLabelProps) {
+  const ariaDescribedby = createAriaDescribedby(htmlFor);
+  return (
+    <label {...props} htmlFor={htmlFor} aria-describedby={ariaDescribedby}>
+      {label}
+    </label>
+  );
 })`
   font-size: 16px;
   font-weight: ${({ theme }) => theme.font.weight.bold};
@@ -49,16 +56,19 @@ export const FormLabel = styled(function FormLabel({ label, ...props }: FormLabe
 
 type FormDescriptionProps = {
   className?: string;
+  id: string;
   description: string;
 };
 
 export const FormDescription = styled(function FormDescription({
   className,
+  id,
   description,
 }: FormDescriptionProps) {
+  const ariaDescribedby = createAriaDescribedby(id);
   return (
     <div className={className}>
-      <span>{description}</span>
+      <span id={ariaDescribedby}>{description}</span>
     </div>
   );
 })`

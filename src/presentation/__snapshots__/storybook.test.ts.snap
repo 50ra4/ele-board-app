@@ -758,6 +758,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
   className="sc-ivTmOn hFOlIt"
 >
   <label
+    aria-describedby="password-form-describe"
     className="sc-idiyUo erKdek"
     htmlFor="password-form"
     inline={false}
@@ -768,7 +769,9 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
   <div
     className="sc-dIouRR ooPSm"
   >
-    <span>
+    <span
+      id="password-form-describe"
+    >
       半角英数6文字以上18文字以下で入力してください
     </span>
   </div>
@@ -817,6 +820,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
   className="sc-iIPllB bAFLdH"
 >
   <label
+    aria-describedby="text-form-describe"
     className="sc-idiyUo erKdek"
     htmlFor="text-form"
     inline={false}
@@ -827,7 +831,9 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
   <div
     className="sc-dIouRR ooPSm"
   >
-    <span>
+    <span
+      id="text-form-describe"
+    >
       登録したメールアドレスを入力してください
     </span>
   </div>
