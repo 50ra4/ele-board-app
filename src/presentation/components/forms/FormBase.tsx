@@ -32,11 +32,9 @@ type FormLabelProps = {
   inline?: boolean;
 };
 
-function UnstyledFormLabel({ label, ...props }: FormLabelProps) {
+export const FormLabel = styled(function FormLabel({ label, ...props }: FormLabelProps) {
   return <label {...props}>{label}</label>;
-}
-
-export const FormLabel = styled(UnstyledFormLabel)`
+})`
   font-size: 16px;
   font-weight: ${({ theme }) => theme.font.weight.bold};
   ${({ required }) =>
@@ -54,15 +52,16 @@ type FormDescriptionProps = {
   description: string;
 };
 
-function UnstyledFormDescription({ className, description }: FormDescriptionProps) {
+export const FormDescription = styled(function FormDescription({
+  className,
+  description,
+}: FormDescriptionProps) {
   return (
     <div className={className}>
       <span>{description}</span>
     </div>
   );
-}
-
-export const FormDescription = styled(UnstyledFormDescription)`
+})`
   margin: 8px 0;
   & > span {
     font-size: 12px;
@@ -75,21 +74,22 @@ type FormErrorMessageProps = {
   message: string;
 };
 
-function UnstyledFormErrorMessage({ className, message }: FormErrorMessageProps) {
+const StyledWarningIcon = styled(WarningIcon)`
+  fill: #c62828;
+  margin-right: 4px;
+`;
+
+export const FormErrorMessage = styled(function FormErrorMessage({
+  className,
+  message,
+}: FormErrorMessageProps) {
   return (
     <div className={className}>
       <StyledWarningIcon size="small" />
       <span>{message}</span>
     </div>
   );
-}
-
-const StyledWarningIcon = styled(WarningIcon)`
-  fill: #c62828;
-  margin-right: 4px;
-`;
-
-export const FormErrorMessage = styled(UnstyledFormErrorMessage)`
+})`
   display: flex;
   margin: 8px 0;
 
