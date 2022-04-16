@@ -1,13 +1,16 @@
-import { createStoryDocs, createStoryMeta } from 'src/utils/storybookUtils';
-import { TextArea } from './TextArea';
+import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
+import { TextArea, TextAreaProps } from './TextArea';
 
 export default createStoryMeta(TextArea, {
   title: 'inputs/TextArea',
 });
 
-export const Docs = createStoryDocs(TextArea, {
-  id: 'TextArea',
-  name: 'text-area-docs',
-  value: 'TextArea sample',
-  hasError: false,
-});
+type Story = ComponentStoryObj<TextAreaProps>;
+export const Docs: Story = {
+  args: {
+    id: 'TextArea',
+    name: 'text-area-docs',
+    value: 'TextArea sample',
+    hasError: false,
+  },
+};

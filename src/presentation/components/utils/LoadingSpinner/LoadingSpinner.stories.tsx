@@ -1,11 +1,15 @@
 import { LoadingSpinner } from './LoadingSpinner';
-import { createStoryDocs, createStoryMeta } from 'src/utils/storybookUtils';
+import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
+import { IconProps } from '@/components/icons/SvgIcon';
 
 export default createStoryMeta(LoadingSpinner, {
   title: 'LoadingSpinner',
 });
 
-export const Docs = createStoryDocs(LoadingSpinner, {
-  color: 'primary',
-  size: 'large',
-});
+type Story = ComponentStoryObj<IconProps>;
+export const Docs: Story = {
+  args: {
+    color: 'primary',
+    size: 'large',
+  },
+};
