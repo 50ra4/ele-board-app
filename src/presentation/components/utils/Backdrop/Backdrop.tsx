@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 type OwnProps = {
+  transparent?: boolean;
   onClick: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 };
 
@@ -34,7 +35,7 @@ export const Backdrop = styled(UnstyledBackdrop)`
   position: fixed;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: ${({ transparent }) => (!transparent ? 'rgba(0, 0, 0, 0.5)' : 'transparent')};
   -webkit-tap-highlight-color: transparent;
   z-index: ${({ theme }) => theme.zIndex.drawer + 1};
 `;
