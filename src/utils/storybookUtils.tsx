@@ -1,20 +1,18 @@
-import React, { ComponentProps } from 'react';
-import type { ComponentStoryObj, ComponentMeta } from '@storybook/react';
+import React, { ComponentType } from 'react';
+import type {
+  ComponentStoryObj as _ComponentStoryObj,
+  ComponentMeta as _ComponentMeta,
+} from '@storybook/react';
 
-export const createStoryMeta = <T extends React.FC<any>>(
+export const createStoryMeta = <T extends React.VFC<any>>(
   Component: T,
-  { title, ...params }: { title: string } & Omit<ComponentMeta<T>, 'title' | 'component'>,
-): ComponentMeta<T> => ({
+  { title, ...params }: { title: string } & Omit<_ComponentMeta<T>, 'title' | 'component'>,
+): _ComponentMeta<T> => ({
   title: title,
   component: Component,
   ...params,
 });
 
-export const createStoryDocs = <
-  Component extends React.FC<any>,
-  Props extends Record<string, unknown> = ComponentProps<Component>,
->(
-  _: Component,
-  props: Props,
-  obj: Omit<ComponentStoryObj<Component>, 'args'> = {},
-) => ({ ...obj, args: props });
+export type ComponentStoryObj<P extends Record<string, unknown>> = _ComponentStoryObj<
+  ComponentType<P>
+>;

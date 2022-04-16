@@ -1,14 +1,17 @@
-import { createStoryDocs, createStoryMeta } from 'src/utils/storybookUtils';
-import { Snackbar } from './Snackbar';
+import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
+import { Snackbar, SnackbarProps } from './Snackbar';
 
 export default createStoryMeta(Snackbar, {
   title: 'Snackbar',
 });
 
-export const Docs = createStoryDocs(Snackbar, {
-  severity: 'info',
-  children: 'snackbar',
-});
+type Story = ComponentStoryObj<SnackbarProps>;
+export const Docs: Story = {
+  args: {
+    severity: 'info',
+    children: 'snackbar',
+  },
+};
 
 export const Info = () => {
   return <Snackbar severity="info">Info snackbar</Snackbar>;

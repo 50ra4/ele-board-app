@@ -1,17 +1,20 @@
-import { createStoryDocs, createStoryMeta } from 'src/utils/storybookUtils';
+import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { Button, ButtonProps } from '@/components/Button/Button';
 
 export default createStoryMeta(Button, {
   title: 'Button',
 });
 
-export const Docs = createStoryDocs<typeof Button, ButtonProps>(Button, {
-  color: 'primary',
-  variant: 'contained',
-  children: 'Docs',
-  fullWidth: false,
-  onClick: () => {},
-});
+type Story = ComponentStoryObj<ButtonProps>;
+export const Docs: Story = {
+  args: {
+    color: 'primary',
+    variant: 'contained',
+    children: 'Docs',
+    fullWidth: false,
+    onClick: () => {},
+  },
+};
 
 export const Primary = () => <Button color="primary">Primary</Button>;
 

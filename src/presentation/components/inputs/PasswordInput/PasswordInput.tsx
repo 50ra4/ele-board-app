@@ -4,7 +4,7 @@ import { useToggle } from 'src/hooks/useToggle';
 import { InputBaseProps, InputBase } from '../InputBase/InputBase';
 import { VisibilityButton } from './VisibilityButton';
 
-type PasswordInputProps = Omit<InputBaseProps, 'type'>;
+export type PasswordInputProps = Omit<InputBaseProps, 'type'>;
 
 function UnstyledPasswordInput({ className, value = '', ...otherProps }: PasswordInputProps) {
   const [visible, toggleVisible] = useToggle(false);

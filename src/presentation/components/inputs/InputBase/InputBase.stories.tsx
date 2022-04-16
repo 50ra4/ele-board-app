@@ -1,14 +1,17 @@
-import { createStoryDocs, createStoryMeta } from 'src/utils/storybookUtils';
-import { InputBase } from './InputBase';
+import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
+import { InputBase, InputBaseProps } from './InputBase';
 
 export default createStoryMeta(InputBase, {
   title: 'inputs/InputBase',
 });
 
-export const Docs = createStoryDocs(InputBase, {
-  type: 'text',
-  id: 'input-base',
-  name: 'input-base-docs',
-  value: 'input base sample',
-  hasError: false,
-});
+type Story = ComponentStoryObj<InputBaseProps>;
+export const Docs: Story = {
+  args: {
+    type: 'text',
+    id: 'input-base',
+    name: 'input-base-docs',
+    value: 'input base sample',
+    hasError: false,
+  },
+};

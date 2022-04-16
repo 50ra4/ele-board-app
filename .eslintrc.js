@@ -19,4 +19,12 @@ module.exports = {
     'plugin:@next/next/recommended',
   ],
   rules: {},
+  overrides: [
+    {
+      files: ['**/*.stories.tsx'],
+      rules: {
+        '@typescript-eslint/no-empty-function': 'off',
+      },
+    },
+  ],
 };
