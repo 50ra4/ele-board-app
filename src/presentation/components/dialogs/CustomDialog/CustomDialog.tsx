@@ -31,7 +31,7 @@ function UnstyledCustomDialog({ className, id, title, onClose, children }: Custo
       }}
     >
       <IconButton onClick={onClose}>
-        <CloseIcon color="primary" size="large" titleAccess="ダイアログを閉じる" />
+        <CloseIcon color="default" size="large" titleAccess="ダイアログを閉じる" />
       </IconButton>
       {title && <DialogTitle id={dialogLabelId}>{title}</DialogTitle>}
       <DialogContent id={dialogDescribedId}>{children}</DialogContent>
@@ -40,8 +40,8 @@ function UnstyledCustomDialog({ className, id, title, onClose, children }: Custo
 }
 
 const DialogTitle = styled.h2`
-  color: ${({ theme }) => theme.color.default.font};
-  background-color: ${({ theme }) => theme.color.default.background};
+  color: ${({ theme }) => theme.color.primary.font};
+  background-color: ${({ theme }) => theme.color.primary.background};
   font-weight: ${({ theme }) => theme.font.weight.bold};
   font-size: 18px;
   line-height: 38px;
@@ -56,10 +56,6 @@ export const DialogContent = styled.div`
 `;
 
 export const CustomDialog = styled(UnstyledCustomDialog)`
-  width: 340px;
-  max-width: 90%;
-  min-height: 300px;
-
   display: flex;
   flex-direction: column;
   position: relative;

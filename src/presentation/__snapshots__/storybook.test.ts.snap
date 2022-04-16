@@ -320,7 +320,7 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-alert-dialog__label"
   aria-modal="true"
-  className="sc-jqUVSM sc-crXcEl bZkPCx hpulIi"
+  className="sc-jqUVSM sc-crXcEl iURRip hpulIi"
   id="alert-dialog"
   onClick={[Function]}
   role="dialog"
@@ -332,7 +332,7 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gsnTZi fHfrxz"
+      className="sc-gsnTZi xUDog"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -347,7 +347,7 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ftvSup bKTQRO"
+    className="sc-ftvSup gJOWeR"
     id="dialog-alert-dialog__label"
   >
     AlertDialog sample
@@ -381,7 +381,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-confirm-dialog__label"
   aria-modal="true"
-  className="sc-jqUVSM sc-evZas bZkPCx lbLPdm"
+  className="sc-jqUVSM sc-evZas iURRip lbLPdm"
   id="confirm-dialog"
   onClick={[Function]}
   role="dialog"
@@ -393,7 +393,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gsnTZi fHfrxz"
+      className="sc-gsnTZi xUDog"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -408,7 +408,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ftvSup bKTQRO"
+    className="sc-ftvSup gJOWeR"
     id="dialog-confirm-dialog__label"
   >
     ConfirmDialog sample
@@ -452,7 +452,7 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
   aria-describedby="dialog-custom-dialog__described"
   aria-labelledby="dialog-custom-dialog__label"
   aria-modal="true"
-  className="sc-jqUVSM bZkPCx"
+  className="sc-jqUVSM iURRip"
   id="custom-dialog"
   onClick={[Function]}
   role="dialog"
@@ -464,7 +464,7 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gsnTZi fHfrxz"
+      className="sc-gsnTZi xUDog"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -479,7 +479,7 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ftvSup bKTQRO"
+    className="sc-ftvSup gJOWeR"
     id="dialog-custom-dialog__label"
   >
     Custom dialog sample
@@ -497,7 +497,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-popup-dialog__label"
   aria-modal="true"
-  className="sc-jqUVSM bZkPCx"
+  className="sc-jqUVSM iURRip"
   id="popup-dialog"
   onClick={[Function]}
   role="dialog"
@@ -509,7 +509,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gsnTZi fHfrxz"
+      className="sc-gsnTZi xUDog"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -524,7 +524,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ftvSup bKTQRO"
+    className="sc-ftvSup gJOWeR"
     id="dialog-popup-dialog__label"
   >
     PopupDialog sample
@@ -545,7 +545,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-select-dialog__label"
   aria-modal="true"
-  className="sc-jqUVSM sc-breuTD bZkPCx gSlxdh"
+  className="sc-jqUVSM sc-breuTD iURRip gSlxdh"
   id="select-dialog"
   onClick={[Function]}
   role="dialog"
@@ -557,7 +557,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gsnTZi fHfrxz"
+      className="sc-gsnTZi xUDog"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -572,7 +572,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ftvSup bKTQRO"
+    className="sc-ftvSup gJOWeR"
     id="dialog-select-dialog__label"
   >
     SelectDialog sample
