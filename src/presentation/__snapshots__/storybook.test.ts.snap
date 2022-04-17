@@ -779,7 +779,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     className="sc-bBrHrO etZQUQ"
   >
     <input
-      className="sc-kgflAQ hLbxHa"
+      className="sc-kgflAQ eKhdFi"
       hasError={false}
       id="password-form"
       name="password-docs"
@@ -841,7 +841,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     className="sc-llJcti ihawGp"
   >
     <input
-      className="sc-kgflAQ hLbxHa"
+      className="sc-kgflAQ eKhdFi"
       hasError={false}
       id="text-form"
       name="text-form-docs"
@@ -879,7 +879,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-kgflAQ hLbxHa"
+  className="sc-kgflAQ eKhdFi"
   hasError={false}
   id="input-base"
   name="input-base-docs"
@@ -893,7 +893,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
   className="sc-bBrHrO etZQUQ"
 >
   <input
-    className="sc-kgflAQ hLbxHa"
+    className="sc-kgflAQ eKhdFi"
     hasError={false}
     id="password-input"
     name="password-input-docs"
@@ -926,7 +926,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-gicCDI ghpDVD"
+  className="sc-gicCDI hGtSuP"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -939,7 +939,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
   className="sc-llJcti ihawGp"
 >
   <input
-    className="sc-kgflAQ hLbxHa"
+    className="sc-kgflAQ eKhdFi"
     hasError={false}
     id="text-input"
     name="text-input-docs"
@@ -968,4 +968,10 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     </svg>
   </button>
 </div>
+`;
+
+exports[`Storyshots utils/Divider Docs 1`] = `
+<hr
+  className="sc-bZkfAO dwdvOp"
+/>
 `;

@@ -12,8 +12,15 @@ const inputColor = {
     outline: '#c62828',
     background: '#ffeeff',
   },
-  caret: '',
+  caret: '#c6a700',
 } as const;
+
+const borderColor = {
+  light: '#c7c7c7',
+  medium: '#828d86',
+  dark: '#828d86',
+} as const;
+export type BorderColor = keyof typeof borderColor;
 
 const color = {
   default: {
@@ -131,7 +138,10 @@ const zIndex = {
 } as const;
 
 export const STYLE_THEME = {
-  color,
+  color: {
+    ...color,
+    border: borderColor,
+  },
   font: {
     family: fontFamilies,
     weight: fontWeight,
