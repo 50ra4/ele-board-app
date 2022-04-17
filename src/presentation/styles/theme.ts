@@ -22,6 +22,11 @@ const borderColor = {
 } as const;
 export type BorderColor = keyof typeof borderColor;
 
+const cardColor = {
+  font: '#212121',
+  background: '#fafafa',
+} as const;
+
 const color = {
   default: {
     font: '#212121',
@@ -141,6 +146,7 @@ export const STYLE_THEME = {
   color: {
     ...color,
     border: borderColor,
+    card: cardColor,
   },
   font: {
     family: fontFamilies,
