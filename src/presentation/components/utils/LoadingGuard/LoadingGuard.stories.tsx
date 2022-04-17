@@ -3,7 +3,7 @@ import { createStoryMeta } from 'src/utils/storybookUtils';
 import { LoadingGuard } from './LoadingGuard';
 
 export default createStoryMeta(LoadingGuard, {
-  title: 'LoadingGuard',
+  title: 'utils/LoadingGuard',
 });
 
 export const Loading = () => {

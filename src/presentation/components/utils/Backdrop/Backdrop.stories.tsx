@@ -4,7 +4,7 @@ import { LoadingSpinner } from '../LoadingSpinner/LoadingSpinner';
 import { createStoryMeta } from 'src/utils/storybookUtils';
 
 export default createStoryMeta(Backdrop, {
-  title: 'Backdrop',
+  title: 'utils/Backdrop',
 });
 
 export const WithLoading = () => {

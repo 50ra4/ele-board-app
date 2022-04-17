@@ -3,7 +3,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { IconProps } from '@/components/icons/SvgIcon';
 
 export default createStoryMeta(LoadingSpinner, {
-  title: 'LoadingSpinner',
+  title: 'utils/LoadingSpinner',
 });
 
 type Story = ComponentStoryObj<IconProps>;

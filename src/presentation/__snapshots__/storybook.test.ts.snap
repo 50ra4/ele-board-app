@@ -1,13 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Backdrop With Loading 1`] = `
-<button
-  onClick={[Function]}
->
-  Open
-</button>
-`;
-
 exports[`Storyshots Button Disabled 1`] = `
 <button
   className="sc-bczRLJ ezIvBU"
@@ -96,31 +88,6 @@ exports[`Storyshots IconButton Docs 1`] = `
     />
   </svg>
 </button>
-`;
-
-exports[`Storyshots LoadingGuard Loading 1`] = `
-<button
-  onClick={[Function]}
->
-  Open
-</button>
-`;
-
-exports[`Storyshots LoadingSpinner Docs 1`] = `
-<svg
-  aria-hidden={true}
-  className="sc-gsnTZi fHfrxz sc-ezWOiH iQVEVj"
-  viewBox="0 0 24 24"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    d="M0 0h24v24H0z"
-    fill="none"
-  />
-  <path
-    d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"
-  />
-</svg>
 `;
 
 exports[`Storyshots Snackbar Docs 1`] = `
@@ -970,8 +937,41 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 </div>
 `;
 
+exports[`Storyshots utils/Backdrop With Loading 1`] = `
+<button
+  onClick={[Function]}
+>
+  Open
+</button>
+`;
+
 exports[`Storyshots utils/Divider Docs 1`] = `
 <hr
   className="sc-bZkfAO dwdvOp"
 />
+`;
+
+exports[`Storyshots utils/LoadingGuard Loading 1`] = `
+<button
+  onClick={[Function]}
+>
+  Open
+</button>
+`;
+
+exports[`Storyshots utils/LoadingSpinner Docs 1`] = `
+<svg
+  aria-hidden={true}
+  className="sc-gsnTZi fHfrxz sc-ezWOiH iQVEVj"
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M0 0h24v24H0z"
+    fill="none"
+  />
+  <path
+    d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"
+  />
+</svg>
 `;
