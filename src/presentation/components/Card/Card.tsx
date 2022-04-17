@@ -31,4 +31,5 @@ export const Card = styled(function Card({ title, children, className, ...rest }
   background-color: ${({ theme }) => theme.color.card.background};
   color: ${({ theme }) => theme.color.card.font};
   padding: 4px;
+  border: 1px solid ${({ theme }) => theme.color.border.light};
 `;

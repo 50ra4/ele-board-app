@@ -68,7 +68,7 @@ exports[`Storyshots Button Secondary 1`] = `
 
 exports[`Storyshots Card Docs 1`] = `
 <section
-  className="sc-eCYdqJ dRcSba"
+  className="sc-eCYdqJ FhbGZ"
 >
   <h3
     className="sc-dkzDqf jYCQsd"
@@ -112,16 +112,28 @@ exports[`Storyshots IconButton Docs 1`] = `
 </button>
 `;
 
-exports[`Storyshots Snackbar Docs 1`] = `
-<div
-  className="sc-papXJ hGPLWl"
+exports[`Storyshots Paper Docs 1`] = `
+<section
+  className="sc-ftvSup eTjDyH"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-iBkjds cnKDjO"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+</section>
+`;
+
+exports[`Storyshots Snackbar Docs 1`] = `
+<div
+  className="sc-kDDrLX fbxDxj"
+>
+  <div
+    className="sc-papXJ CfNOJ"
   >
     <svg
       aria-hidden={true}
-      className="sc-jSMfEi cMmpbA sc-jqUVSM djYUnP"
+      className="sc-jSMfEi cMmpbA sc-iqcoie hzjlVx"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -135,7 +147,7 @@ exports[`Storyshots Snackbar Docs 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-jqUVSM bzrymY"
   >
     snackbar
   </div>
@@ -144,14 +156,14 @@ exports[`Storyshots Snackbar Docs 1`] = `
 
 exports[`Storyshots Snackbar Error 1`] = `
 <div
-  className="sc-papXJ cuUsvL"
+  className="sc-kDDrLX dwLlOh"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-papXJ CfNOJ"
   >
     <svg
       aria-hidden={true}
-      className="sc-jSMfEi cMmpbA sc-jqUVSM djYUnP"
+      className="sc-jSMfEi cMmpbA sc-iqcoie hzjlVx"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -165,7 +177,7 @@ exports[`Storyshots Snackbar Error 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-jqUVSM bzrymY"
   >
     Error snackbar
   </div>
@@ -174,14 +186,14 @@ exports[`Storyshots Snackbar Error 1`] = `
 
 exports[`Storyshots Snackbar Info 1`] = `
 <div
-  className="sc-papXJ hGPLWl"
+  className="sc-kDDrLX fbxDxj"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-papXJ CfNOJ"
   >
     <svg
       aria-hidden={true}
-      className="sc-jSMfEi cMmpbA sc-jqUVSM djYUnP"
+      className="sc-jSMfEi cMmpbA sc-iqcoie hzjlVx"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -195,7 +207,7 @@ exports[`Storyshots Snackbar Info 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-jqUVSM bzrymY"
   >
     Info snackbar
   </div>
@@ -204,14 +216,14 @@ exports[`Storyshots Snackbar Info 1`] = `
 
 exports[`Storyshots Snackbar Long Text 1`] = `
 <div
-  className="sc-papXJ hGPLWl"
+  className="sc-kDDrLX fbxDxj"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-papXJ CfNOJ"
   >
     <svg
       aria-hidden={true}
-      className="sc-jSMfEi cMmpbA sc-jqUVSM djYUnP"
+      className="sc-jSMfEi cMmpbA sc-iqcoie hzjlVx"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -225,7 +237,7 @@ exports[`Storyshots Snackbar Long Text 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-jqUVSM bzrymY"
   >
     long long long long long long long long long long long long long long long long long long long long text
   </div>
@@ -234,14 +246,14 @@ exports[`Storyshots Snackbar Long Text 1`] = `
 
 exports[`Storyshots Snackbar Success 1`] = `
 <div
-  className="sc-papXJ iWfvOn"
+  className="sc-kDDrLX fllSVx"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-papXJ CfNOJ"
   >
     <svg
       aria-hidden={true}
-      className="sc-jSMfEi cMmpbA sc-jqUVSM djYUnP"
+      className="sc-jSMfEi cMmpbA sc-iqcoie hzjlVx"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -255,7 +267,7 @@ exports[`Storyshots Snackbar Success 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-jqUVSM bzrymY"
   >
     Success snackbar
   </div>
@@ -264,14 +276,14 @@ exports[`Storyshots Snackbar Success 1`] = `
 
 exports[`Storyshots Snackbar Warning 1`] = `
 <div
-  className="sc-papXJ gFwVRu"
+  className="sc-kDDrLX kBbTAg"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-papXJ CfNOJ"
   >
     <svg
       aria-hidden={true}
-      className="sc-jSMfEi cMmpbA sc-jqUVSM gFdlQX"
+      className="sc-jSMfEi cMmpbA sc-iqcoie eZLtrZ"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -285,7 +297,7 @@ exports[`Storyshots Snackbar Warning 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-jqUVSM bzrymY"
   >
     Warning snackbar
   </div>
@@ -295,7 +307,7 @@ exports[`Storyshots Snackbar Warning 1`] = `
 exports[`Storyshots Snackbar/SnackbarProvider Play 1`] = `
 <div>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -303,7 +315,7 @@ exports[`Storyshots Snackbar/SnackbarProvider Play 1`] = `
     info
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -311,7 +323,7 @@ exports[`Storyshots Snackbar/SnackbarProvider Play 1`] = `
     success
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -319,7 +331,7 @@ exports[`Storyshots Snackbar/SnackbarProvider Play 1`] = `
     Popup
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -331,7 +343,7 @@ exports[`Storyshots Snackbar/SnackbarProvider Play 1`] = `
 
 exports[`Storyshots TextButton Docs 1`] = `
 <button
-  className="sc-bczRLJ pEKWW sc-kDDrLX"
+  className="sc-bczRLJ pEKWW sc-crXcEl"
   color="primary"
   fullWidth={false}
   onClick={[Function]}
@@ -344,21 +356,21 @@ exports[`Storyshots TextButton Docs 1`] = `
 
 exports[`Storyshots Tooltip Docs 1`] = `
 <div
-  className="sc-breuTD brNMEM"
+  className="sc-hAZoDl kwhuqA"
 >
   <div
-    className="sc-evZas diuQnh"
+    className="sc-ksZaOG bEtYAt"
     visibleOnHover={true}
   >
     <button
-      className="sc-bczRLJ pEKWW sc-kDDrLX"
+      className="sc-bczRLJ pEKWW sc-crXcEl"
       color="primary"
       type="button"
     >
       hover me
     </button>
     <span
-      className="sc-crXcEl ekRffM"
+      className="sc-breuTD bfKovL"
       color="primary"
     >
       tooltip sample
@@ -369,14 +381,14 @@ exports[`Storyshots Tooltip Docs 1`] = `
 
 exports[`Storyshots Tooltip With State 1`] = `
 <div
-  className="sc-breuTD brNMEM"
+  className="sc-hAZoDl kwhuqA"
 >
   <div
-    className="sc-evZas flxgaH"
+    className="sc-ksZaOG eEZHSX"
     show={false}
   >
     <button
-      className="sc-bczRLJ pEKWW sc-kDDrLX"
+      className="sc-bczRLJ pEKWW sc-crXcEl"
       color="primary"
       onClick={[Function]}
       type="button"
@@ -384,7 +396,7 @@ exports[`Storyshots Tooltip With State 1`] = `
       click me
     </button>
     <span
-      className="sc-crXcEl ekRffM"
+      className="sc-breuTD bfKovL"
       color="primary"
     >
       tooltip
@@ -397,7 +409,7 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-alert-dialog__label"
   aria-modal="true"
-  className="sc-fnykZs sc-idiyUo kORIkN bAIJWZ"
+  className="sc-bjUoiL sc-hHLeRK SmDhp cnXcNo"
   id="alert-dialog"
   onClick={[Function]}
   role="dialog"
@@ -424,24 +436,24 @@ exports[`Storyshots dialogs/AlertDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ksZaOG bOuegk"
+    className="sc-fnykZs bJAwlE"
     id="dialog-alert-dialog__label"
   >
     AlertDialog sample
   </h2>
   <div
-    className="sc-hAZoDl kqJCVc"
+    className="sc-fEOsli ieQgQy"
   >
     <div
-      className="sc-fEOsli cAleGA"
+      className="sc-idiyUo gIAxXJ"
     >
       AlertDialog contents
     </div>
     <div
-      className="sc-bjUoiL hKGxwE"
+      className="sc-dIouRR hglAqi"
     >
       <button
-        className="sc-bczRLJ fVfpgz sc-kDDrLX"
+        className="sc-bczRLJ fVfpgz sc-crXcEl"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -458,7 +470,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-confirm-dialog__label"
   aria-modal="true"
-  className="sc-fnykZs sc-dIouRR kORIkN ydmkR"
+  className="sc-bjUoiL sc-dmRaPn SmDhp iLxYeE"
   id="confirm-dialog"
   onClick={[Function]}
   role="dialog"
@@ -485,24 +497,24 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ksZaOG bOuegk"
+    className="sc-fnykZs bJAwlE"
     id="dialog-confirm-dialog__label"
   >
     ConfirmDialog sample
   </h2>
   <div
-    className="sc-hAZoDl kqJCVc"
+    className="sc-fEOsli ieQgQy"
   >
     <div
-      className="sc-fEOsli cAleGA"
+      className="sc-idiyUo gIAxXJ"
     >
       ConfirmDialog contents
     </div>
     <div
-      className="sc-bjUoiL hKGxwE"
+      className="sc-dIouRR hglAqi"
     >
       <button
-        className="sc-bczRLJ fVfpgz sc-kDDrLX"
+        className="sc-bczRLJ fVfpgz sc-crXcEl"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -511,7 +523,7 @@ exports[`Storyshots dialogs/ConfirmDialog Docs 1`] = `
         OK
       </button>
       <button
-        className="sc-bczRLJ dUViAu sc-kDDrLX"
+        className="sc-bczRLJ dUViAu sc-crXcEl"
         color="default"
         fullWidth={true}
         onClick={[Function]}
@@ -529,7 +541,7 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
   aria-describedby="dialog-custom-dialog__described"
   aria-labelledby="dialog-custom-dialog__label"
   aria-modal="true"
-  className="sc-fnykZs kORIkN"
+  className="sc-bjUoiL SmDhp"
   id="custom-dialog"
   onClick={[Function]}
   role="dialog"
@@ -556,13 +568,13 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ksZaOG bOuegk"
+    className="sc-fnykZs bJAwlE"
     id="dialog-custom-dialog__label"
   >
     Custom dialog sample
   </h2>
   <div
-    className="sc-hAZoDl kqJCVc"
+    className="sc-fEOsli ieQgQy"
     id="dialog-custom-dialog__described"
   >
     Custom dialog contents
@@ -573,7 +585,7 @@ exports[`Storyshots dialogs/CustomDialog Docs 1`] = `
 exports[`Storyshots dialogs/DialogProvider Play 1`] = `
 <div>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -581,7 +593,7 @@ exports[`Storyshots dialogs/DialogProvider Play 1`] = `
     Popup
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -589,7 +601,7 @@ exports[`Storyshots dialogs/DialogProvider Play 1`] = `
     Alert
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -597,7 +609,7 @@ exports[`Storyshots dialogs/DialogProvider Play 1`] = `
     Confirm
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -605,7 +617,7 @@ exports[`Storyshots dialogs/DialogProvider Play 1`] = `
     Select
   </button>
   <button
-    className="sc-bczRLJ pEKWW sc-kDDrLX"
+    className="sc-bczRLJ pEKWW sc-crXcEl"
     color="primary"
     onClick={[Function]}
     type="button"
@@ -619,7 +631,7 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-popup-dialog__label"
   aria-modal="true"
-  className="sc-fnykZs kORIkN"
+  className="sc-bjUoiL SmDhp"
   id="popup-dialog"
   onClick={[Function]}
   role="dialog"
@@ -646,16 +658,16 @@ exports[`Storyshots dialogs/PopupDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ksZaOG bOuegk"
+    className="sc-fnykZs bJAwlE"
     id="dialog-popup-dialog__label"
   >
     PopupDialog sample
   </h2>
   <div
-    className="sc-hAZoDl kqJCVc"
+    className="sc-fEOsli ieQgQy"
   >
     <div
-      className="sc-fEOsli cAleGA"
+      className="sc-idiyUo gIAxXJ"
     >
       PopupDialog contents
     </div>
@@ -667,7 +679,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-select-dialog__label"
   aria-modal="true"
-  className="sc-fnykZs sc-hHLeRK kORIkN jQUQPG"
+  className="sc-bjUoiL sc-kgflAQ SmDhp NhWoe"
   id="select-dialog"
   onClick={[Function]}
   role="dialog"
@@ -694,24 +706,24 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-ksZaOG bOuegk"
+    className="sc-fnykZs bJAwlE"
     id="dialog-select-dialog__label"
   >
     SelectDialog sample
   </h2>
   <div
-    className="sc-hAZoDl kqJCVc"
+    className="sc-fEOsli ieQgQy"
   >
     <div
-      className="sc-fEOsli cAleGA"
+      className="sc-idiyUo gIAxXJ"
     >
       SelectDialog contents
     </div>
     <div
-      className="sc-bjUoiL hKGxwE"
+      className="sc-dIouRR hglAqi"
     >
       <button
-        className="sc-bczRLJ fVfpgz sc-kDDrLX"
+        className="sc-bczRLJ fVfpgz sc-crXcEl"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -720,7 +732,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
         はい
       </button>
       <button
-        className="sc-bczRLJ ovjnp sc-kDDrLX"
+        className="sc-bczRLJ ovjnp sc-crXcEl"
         color="primary"
         fullWidth={true}
         onClick={[Function]}
@@ -729,7 +741,7 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
         いいえ
       </button>
       <button
-        className="sc-bczRLJ dUViAu sc-kDDrLX"
+        className="sc-bczRLJ dUViAu sc-crXcEl"
         color="default"
         fullWidth={true}
         onClick={[Function]}
@@ -744,11 +756,11 @@ exports[`Storyshots dialogs/SelectDialog Docs 1`] = `
 
 exports[`Storyshots forms/PasswordForm Docs 1`] = `
 <div
-  className="sc-gicCDI eyCMzx"
+  className="sc-bZkfAO hWANQE"
 >
   <label
     aria-describedby="password-form-describe"
-    className="sc-kgflAQ ktOMSl"
+    className="sc-bBrHrO jWcRoI"
     htmlFor="password-form"
     inline={false}
     required={true}
@@ -756,7 +768,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     PasswordForm
   </label>
   <div
-    className="sc-fLlhyt cKRsiy"
+    className="sc-ivTmOn cylHOS"
   >
     <span
       id="password-form-describe"
@@ -765,10 +777,10 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     </span>
   </div>
   <div
-    className="sc-iIPllB jwwgSB"
+    className="sc-ezWOiH eaVzvt"
   >
     <input
-      className="sc-cxabCf dpKqp"
+      className="sc-iIPllB dwoKZK"
       hasError={false}
       id="password-form"
       name="password-docs"
@@ -780,7 +792,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
       value="PasswordForm sample"
     />
     <button
-      className="sc-gKXOVf gaTOEn sc-llJcti"
+      className="sc-gKXOVf gaTOEn sc-gicCDI"
       onClick={[Function]}
       type="button"
     >
@@ -806,11 +818,11 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
 
 exports[`Storyshots forms/TextForm Docs 1`] = `
 <div
-  className="sc-kLLXSd gfxxdz"
+  className="sc-jIZahH csqwtF"
 >
   <label
     aria-describedby="text-form-describe"
-    className="sc-kgflAQ ktOMSl"
+    className="sc-bBrHrO jWcRoI"
     htmlFor="text-form"
     inline={false}
     required={true}
@@ -818,7 +830,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     TextForm
   </label>
   <div
-    className="sc-fLlhyt cKRsiy"
+    className="sc-ivTmOn cylHOS"
   >
     <span
       id="text-form-describe"
@@ -827,10 +839,10 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     </span>
   </div>
   <div
-    className="sc-bZkfAO enqZaa"
+    className="sc-ikZpkk cIvGRs"
   >
     <input
-      className="sc-cxabCf dpKqp"
+      className="sc-iIPllB dwoKZK"
       hasError={false}
       id="text-form"
       name="text-form-docs"
@@ -842,7 +854,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
       value="TextForm sample"
     />
     <button
-      className="sc-gKXOVf gaTOEn sc-ezWOiH"
+      className="sc-gKXOVf gaTOEn sc-kLLXSd"
       onClick={[Function]}
       type="button"
     >
@@ -868,7 +880,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-cxabCf dpKqp"
+  className="sc-iIPllB dwoKZK"
   hasError={false}
   id="input-base"
   name="input-base-docs"
@@ -879,10 +891,10 @@ exports[`Storyshots inputs/InputBase Docs 1`] = `
 
 exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 <div
-  className="sc-iIPllB jwwgSB"
+  className="sc-ezWOiH eaVzvt"
 >
   <input
-    className="sc-cxabCf dpKqp"
+    className="sc-iIPllB dwoKZK"
     hasError={false}
     id="password-input"
     name="password-input-docs"
@@ -890,7 +902,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
     value="password input sample"
   />
   <button
-    className="sc-gKXOVf gaTOEn sc-llJcti"
+    className="sc-gKXOVf gaTOEn sc-gicCDI"
     onClick={[Function]}
     type="button"
   >
@@ -915,7 +927,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-ikZpkk fVxrpw"
+  className="sc-himrzO jiyXGb"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -925,10 +937,10 @@ exports[`Storyshots inputs/TextArea Docs 1`] = `
 
 exports[`Storyshots inputs/TextInput Docs 1`] = `
 <div
-  className="sc-bZkfAO enqZaa"
+  className="sc-ikZpkk cIvGRs"
 >
   <input
-    className="sc-cxabCf dpKqp"
+    className="sc-iIPllB dwoKZK"
     hasError={false}
     id="text-input"
     name="text-input-docs"
@@ -936,7 +948,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     value="text input sample"
   />
   <button
-    className="sc-gKXOVf gaTOEn sc-ezWOiH"
+    className="sc-gKXOVf gaTOEn sc-kLLXSd"
     onClick={[Function]}
     type="button"
   >
@@ -984,7 +996,7 @@ exports[`Storyshots utils/LoadingGuard Loading 1`] = `
 exports[`Storyshots utils/LoadingSpinner Docs 1`] = `
 <svg
   aria-hidden={true}
-  className="sc-jSMfEi lhDahQ sc-jIZahH ilnChF"
+  className="sc-jSMfEi lhDahQ sc-gXmSlM kZiHJN"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
 >
