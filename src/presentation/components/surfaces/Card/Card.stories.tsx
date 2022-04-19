@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta, LOREM_IPSUM_TEXT } from 'src/utils/
 import { Card, CardProps } from './Card';
 
 export default createStoryMeta(Card, {
-  title: 'Card',
+  title: 'surfaces/Card',
 });
 
 type Story = ComponentStoryObj<CardProps>;
