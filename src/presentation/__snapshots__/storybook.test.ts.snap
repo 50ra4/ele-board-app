@@ -937,12 +937,55 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 </div>
 `;
 
+exports[`Storyshots surfaces/Accordion Docs 1`] = `
+<section
+  className="sc-jIZahH exlDKn"
+>
+  <button
+    aria-controls="accordion-docs-section"
+    aria-disabled={true}
+    className="sc-bZkfAO kdbGQB"
+    id="accordion-docs-header"
+    onClick={[Function]}
+  >
+    <h3
+      className="sc-kLLXSd fmrkQq"
+    >
+      Accordion Component
+    </h3>
+    <svg
+      aria-hidden={true}
+      className="sc-gsnTZi bIsyTI"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
+      />
+    </svg>
+  </button>
+  <div
+    aria-labelledby="accordion-docs-header"
+    className="sc-ikZpkk gbQvZv"
+    id="accordion-docs-section"
+  >
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+  </div>
+</section>
+`;
+
 exports[`Storyshots surfaces/Card Docs 1`] = `
 <section
-  className="sc-ikZpkk kSTwrx"
+  className="sc-cCsOjp Pyuhz"
 >
   <h3
-    className="sc-bZkfAO bIlyvY"
+    className="sc-himrzO iZuAAE"
   >
     Card Component
   </h3>
@@ -950,7 +993,7 @@ exports[`Storyshots surfaces/Card Docs 1`] = `
     className="sc-ezWOiH kEDJeI"
   />
   <div
-    className="sc-kLLXSd fLecKf"
+    className="sc-gXmSlM hVipCX"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -961,10 +1004,10 @@ exports[`Storyshots surfaces/Card Docs 1`] = `
 
 exports[`Storyshots surfaces/Paper Docs 1`] = `
 <section
-  className="sc-himrzO jVCUMW"
+  className="sc-jdAMXn cpwWkp"
 >
   <div
-    className="sc-jIZahH cdmDL"
+    className="sc-ciZhAO duAQZl"
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
@@ -996,7 +1039,7 @@ exports[`Storyshots utils/LoadingGuard Loading 1`] = `
 exports[`Storyshots utils/LoadingSpinner Docs 1`] = `
 <svg
   aria-hidden={true}
-  className="sc-gsnTZi fHfrxz sc-gXmSlM kZiHJN"
+  className="sc-gsnTZi fHfrxz sc-bZnhIo gDSa-DN"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
 >
