@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Divider } from '../utils/Divider/Divider';
+import { Divider } from '@/components/utils/Divider/Divider';
 
 type OwnProps = {
   title: string | React.ReactNode;
