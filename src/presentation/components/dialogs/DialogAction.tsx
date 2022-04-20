@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { TextButton } from '../TextButton/TextButton';
+import { TextButton } from '../inputs/TextButton/TextButton';
 
 export type PopupDialogAction = {
   type: 'popup';

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SvgIcon } from '../icons/SvgIcon';
+import { SvgIcon } from '../../icons/SvgIcon';
 
 type OwnProps = {
   disabled?: boolean;

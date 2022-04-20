@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IconButton } from '../IconButton/IconButton';
+import { IconButton } from './IconButton/IconButton';
 import { BackSpaceIcon } from '../icons/BackSpaceIcon';
 
 export type BackSpaceButtonProps = {

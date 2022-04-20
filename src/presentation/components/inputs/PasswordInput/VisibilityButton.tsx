@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IconButton } from '@/components/IconButton/IconButton';
+import { IconButton } from '@/components/inputs/IconButton/IconButton';
 import { VisibilityIcon } from '@/components/icons/VisibilityIcon';
 
 type VisibilityButtonProps = {
