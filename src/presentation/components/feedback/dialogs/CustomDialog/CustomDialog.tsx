@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { IconButton } from '../../inputs/IconButton/IconButton';
-import { CloseIcon } from '../../icons/CloseIcon';
+import { IconButton } from '../../../inputs/IconButton/IconButton';
+import { CloseIcon } from '../../../icons/CloseIcon';
 
 export type DialogProps = {
   className?: string;

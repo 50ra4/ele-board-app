@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { Snackbar, SnackbarProps } from './Snackbar';
 
 export default createStoryMeta(Snackbar, {
-  title: 'Snackbar',
+  title: 'feedback/Snackbar',
 });
 
 type Story = ComponentStoryObj<SnackbarProps>;

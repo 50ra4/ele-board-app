@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { CustomDialog, CustomDialogProps } from './CustomDialog';
 
 export default createStoryMeta(CustomDialog, {
-  title: 'dialogs/CustomDialog',
+  title: 'feedback/dialogs/CustomDialog',
 });
 
 type Story = ComponentStoryObj<CustomDialogProps>;

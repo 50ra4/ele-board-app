@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { InfoIcon } from '../icons/InfoIcon';
-import { WarningIcon } from '../icons/WarningIcon';
+import { InfoIcon } from '../../icons/InfoIcon';
+import { WarningIcon } from '../../icons/WarningIcon';
 
 const SNACKBAR_SEVERITY = {
   success: {

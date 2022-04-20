@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { ConfirmDialog, ConfirmDialogProps } from './ConfirmDialog';
 
 export default createStoryMeta(ConfirmDialog, {
-  title: 'dialogs/ConfirmDialog',
+  title: 'feedback/dialogs/ConfirmDialog',
 });
 
 type Story = ComponentStoryObj<ConfirmDialogProps>;
