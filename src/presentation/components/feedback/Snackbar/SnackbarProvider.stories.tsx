@@ -1,10 +1,10 @@
 import React from 'react';
 import { createStoryMeta } from 'src/utils/storybookUtils';
-import { TextButton } from '../TextButton/TextButton';
+import { TextButton } from '../../inputs/TextButton/TextButton';
 import { SnackbarProvider, useSnackBar } from './SnackbarProvider';
 
 export default createStoryMeta(SnackbarProvider, {
-  title: 'Snackbar/SnackbarProvider',
+  title: 'feedback/Snackbar/SnackbarProvider',
 });
 
 const PlayButtons = () => {

@@ -10,7 +10,7 @@ import {
 } from './DialogAction';
 import { PopupDialog } from './PopupDialog/PopupDialog';
 import { SelectDialog } from './SelectDialog/SelectDialog';
-import { Backdrop } from '../utils/Backdrop/Backdrop';
+import { Backdrop } from '../../utils/Backdrop/Backdrop';
 
 type DialogParameter = {
   title: string;

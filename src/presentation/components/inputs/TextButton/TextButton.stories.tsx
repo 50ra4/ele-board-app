@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { TextButton, TextButtonProps } from './TextButton';
 
 export default createStoryMeta(TextButton, {
-  title: 'TextButton',
+  title: 'inputs/TextButton',
 });
 
 type Story = ComponentStoryObj<TextButtonProps>;

@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { SelectDialog, SelectDialogProps } from './SelectDialog';
 
 export default createStoryMeta(SelectDialog, {
-  title: 'dialogs/SelectDialog',
+  title: 'feedback/dialogs/SelectDialog',
 });
 
 type Story = ComponentStoryObj<SelectDialogProps>;

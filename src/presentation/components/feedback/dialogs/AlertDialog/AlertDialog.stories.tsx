@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { AlertDialog, AlertDialogProps } from './AlertDialog';
 
 export default createStoryMeta(AlertDialog, {
-  title: 'dialogs/AlertDialog',
+  title: 'feedback/dialogs/AlertDialog',
 });
 
 type Story = ComponentStoryObj<AlertDialogProps>;

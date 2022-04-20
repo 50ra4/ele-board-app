@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { IconButton, IconButtonProps } from '@/components/IconButton/IconButton';
+import { IconButton, IconButtonProps } from '@/components/inputs/IconButton/IconButton';
 import { CloseIcon } from '@/components/icons/CloseIcon';
 import { MenuIcon } from '@/components/icons/MenuIcon';
 import { SvgIcon } from '@/components/icons/SvgIcon';

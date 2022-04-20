@@ -2,7 +2,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { PopupDialog, PopupDialogProps } from './PopupDialog';
 
 export default createStoryMeta(PopupDialog, {
-  title: 'dialogs/PopupDialog',
+  title: 'feedback/dialogs/PopupDialog',
 });
 
 type Story = ComponentStoryObj<PopupDialogProps>;

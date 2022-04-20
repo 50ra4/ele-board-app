@@ -1,8 +1,8 @@
 import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
-import { Button, ButtonProps } from '@/components/Button/Button';
+import { Button, ButtonProps } from '@/components/inputs/Button/Button';
 
 export default createStoryMeta(Button, {
-  title: 'Button',
+  title: 'inputs/Button',
 });
 
 type Story = ComponentStoryObj<ButtonProps>;

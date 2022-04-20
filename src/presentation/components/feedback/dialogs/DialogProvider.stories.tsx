@@ -1,11 +1,11 @@
 import React from 'react';
 import { createStoryMeta } from 'src/utils/storybookUtils';
-import { TextButton } from '../TextButton/TextButton';
+import { TextButton } from '../../inputs/TextButton/TextButton';
 import { CustomDialog } from './CustomDialog/CustomDialog';
 import { DialogProvider, useDialog } from './DialogProvider';
 
 export default createStoryMeta(DialogProvider, {
-  title: 'dialogs/DialogProvider',
+  title: 'feedback/dialogs/DialogProvider',
 });
 
 const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {

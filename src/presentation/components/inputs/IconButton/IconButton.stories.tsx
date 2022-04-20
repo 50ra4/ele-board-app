@@ -1,9 +1,9 @@
 import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
-import { DeleteIcon } from '../icons/DeleteIcon';
+import { DeleteIcon } from '../../icons/DeleteIcon';
 import { IconButton, IconButtonProps } from './IconButton';
 
 export default createStoryMeta(IconButton, {
-  title: 'IconButton',
+  title: 'inputs/IconButton',
 });
 
 type Story = ComponentStoryObj<IconButtonProps>;

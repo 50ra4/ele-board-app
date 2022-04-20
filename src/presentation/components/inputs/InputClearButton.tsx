@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { IconButton } from '../IconButton/IconButton';
+import { IconButton } from './IconButton/IconButton';
 import { HighLightOffIcon } from '../icons/HighLightOff';
 
 export type InputClearButtonProps = {
