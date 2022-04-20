@@ -1,7 +1,7 @@
 import { useToggle } from 'src/hooks/useToggle';
 import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import styled from 'styled-components';
-import { TextButton } from '../inputs/TextButton/TextButton';
+import { TextButton } from '../../inputs/TextButton/TextButton';
 import { Tooltip, TooltipProps } from './Tooltip';
 
 const Wrapper = styled.div`
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 `;
 
 export default createStoryMeta(Tooltip, {
-  title: 'Tooltip',
+  title: 'display/Tooltip',
   decorators: [(fn) => <Wrapper>{fn()}</Wrapper>],
 });
 

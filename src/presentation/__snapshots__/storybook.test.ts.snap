@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Tooltip Docs 1`] = `
+exports[`Storyshots display/Tooltip Docs 1`] = `
 <div
   className="sc-eCYdqJ cbCfkw"
 >
@@ -25,7 +25,7 @@ exports[`Storyshots Tooltip Docs 1`] = `
 </div>
 `;
 
-exports[`Storyshots Tooltip With State 1`] = `
+exports[`Storyshots display/Tooltip With State 1`] = `
 <div
   className="sc-eCYdqJ cbCfkw"
 >
