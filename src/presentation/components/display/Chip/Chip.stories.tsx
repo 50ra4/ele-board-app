@@ -3,7 +3,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { Chip, ChipList } from './Chip';
 
 export default createStoryMeta(Chip, {
-  title: 'display/chip',
+  title: 'display/Chip',
 });
 
 type Story = ComponentStoryObj<ComponentProps<typeof Chip>>;

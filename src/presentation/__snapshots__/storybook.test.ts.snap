@@ -1,54 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots display/Tooltip Docs 1`] = `
-<div
-  className="sc-eCYdqJ cbCfkw"
->
-  <div
-    className="sc-hKMtZM jkyQbP"
-    visibleOnHover={true}
-  >
-    <button
-      className="sc-jSMfEi XGztO"
-    >
-      hover me
-    </button>
-    <span
-      className="sc-dkzDqf leJesx"
-      color="primary"
-    >
-      tooltip sample
-    </span>
-  </div>
-</div>
-`;
-
-exports[`Storyshots display/Tooltip With State 1`] = `
-<div
-  className="sc-eCYdqJ cbCfkw"
->
-  <div
-    className="sc-hKMtZM gBhVIF"
-    show={false}
-  >
-    <button
-      className="sc-jSMfEi XGztO"
-      onClick={[Function]}
-    >
-      hover me
-    </button>
-    ,
-    <span
-      className="sc-dkzDqf leJesx"
-      color="primary"
-    >
-      tooltip
-    </span>
-  </div>
-</div>
-`;
-
-exports[`Storyshots display/chip Chip List Group 1`] = `
+exports[`Storyshots display/Chip Chip List Group 1`] = `
 <ul
   className="sc-gsnTZi cgptcv"
 >
@@ -103,7 +55,7 @@ exports[`Storyshots display/chip Chip List Group 1`] = `
 </ul>
 `;
 
-exports[`Storyshots display/chip Disabled 1`] = `
+exports[`Storyshots display/Chip Disabled 1`] = `
 <li
   className="sc-bczRLJ hzoKJI"
   color="primary"
@@ -113,7 +65,7 @@ exports[`Storyshots display/chip Disabled 1`] = `
 </li>
 `;
 
-exports[`Storyshots display/chip Docs 1`] = `
+exports[`Storyshots display/Chip Docs 1`] = `
 <li
   className="sc-bczRLJ kaQvzq"
   color="primary"
@@ -122,13 +74,61 @@ exports[`Storyshots display/chip Docs 1`] = `
 </li>
 `;
 
-exports[`Storyshots display/chip Outlined 1`] = `
+exports[`Storyshots display/Chip Outlined 1`] = `
 <li
   className="sc-bczRLJ epEICQ"
   color="secondary"
 >
   Outlined
 </li>
+`;
+
+exports[`Storyshots display/Tooltip Docs 1`] = `
+<div
+  className="sc-eCYdqJ cbCfkw"
+>
+  <div
+    className="sc-hKMtZM jkyQbP"
+    visibleOnHover={true}
+  >
+    <button
+      className="sc-jSMfEi XGztO"
+    >
+      hover me
+    </button>
+    <span
+      className="sc-dkzDqf leJesx"
+      color="primary"
+    >
+      tooltip sample
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots display/Tooltip With State 1`] = `
+<div
+  className="sc-eCYdqJ cbCfkw"
+>
+  <div
+    className="sc-hKMtZM gBhVIF"
+    show={false}
+  >
+    <button
+      className="sc-jSMfEi XGztO"
+      onClick={[Function]}
+    >
+      hover me
+    </button>
+    ,
+    <span
+      className="sc-dkzDqf leJesx"
+      color="primary"
+    >
+      tooltip
+    </span>
+  </div>
+</div>
 `;
 
 exports[`Storyshots feedback/Snackbar Docs 1`] = `
@@ -869,6 +869,443 @@ exports[`Storyshots inputs/Button Secondary 1`] = `
 </button>
 `;
 
+exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
+<ul
+  className="sc-gsnTZi cgptcv"
+>
+  <li
+    className="sc-bczRLJ sc-jIZahH eCwSUC iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-apple"
+    >
+      <input
+        checked={true}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-apple"
+        name="checkbox-apple"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      林檎
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH iyvnPX iduTVN"
+    color="secondary"
+    disabled={true}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-strawberry"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-strawberry"
+        name="checkbox-strawberry"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      苺
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-orange"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-orange"
+        name="checkbox-orange"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      オレンジ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-grapefruit"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-grapefruit"
+        name="checkbox-grapefruit"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      グレープフルーツ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-coconut"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-coconut"
+        name="checkbox-coconut"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      ココナッツ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-cherry"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-cherry"
+        name="checkbox-cherry"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      さくらんぼ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-pineapple"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-pineapple"
+        name="checkbox-pineapple"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      パイナップル
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-banana"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-banana"
+        name="checkbox-banana"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      バナナ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-grape"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-grape"
+        name="checkbox-grape"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      葡萄
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH epEICQ iduTVN"
+    color="secondary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="checkbox-raspberry"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="checkbox-raspberry"
+        name="checkbox-raspberry"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      木苺
+    </label>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots inputs/ChipSelector Docs 1`] = `
+<li
+  className="sc-bczRLJ sc-jIZahH kaQvzq iduTVN"
+  color="primary"
+  disabled={false}
+>
+  <label
+    className="sc-himrzO haaEho"
+    htmlFor="docs"
+  >
+    <input
+      checked={true}
+      className="sc-gXmSlM liEDK"
+      id="docs"
+      name="docs"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    docs
+  </label>
+</li>
+`;
+
+exports[`Storyshots inputs/ChipSelector Radio 1`] = `
+<ul
+  className="sc-gsnTZi cgptcv"
+>
+  <li
+    className="sc-bczRLJ sc-jIZahH kaQvzq iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-apple"
+    >
+      <input
+        checked={true}
+        className="sc-gXmSlM liEDK"
+        id="radio-apple"
+        name="radio-apple"
+        onChange={[Function]}
+        type="radio"
+      />
+      林檎
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH hrVvJR iduTVN"
+    color="primary"
+    disabled={true}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-strawberry"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-strawberry"
+        name="radio-strawberry"
+        onChange={[Function]}
+        type="radio"
+      />
+      苺
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-orange"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-orange"
+        name="radio-orange"
+        onChange={[Function]}
+        type="radio"
+      />
+      オレンジ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-grapefruit"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-grapefruit"
+        name="radio-grapefruit"
+        onChange={[Function]}
+        type="radio"
+      />
+      グレープフルーツ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-coconut"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-coconut"
+        name="radio-coconut"
+        onChange={[Function]}
+        type="radio"
+      />
+      ココナッツ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-cherry"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-cherry"
+        name="radio-cherry"
+        onChange={[Function]}
+        type="radio"
+      />
+      さくらんぼ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-pineapple"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-pineapple"
+        name="radio-pineapple"
+        onChange={[Function]}
+        type="radio"
+      />
+      パイナップル
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-banana"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-banana"
+        name="radio-banana"
+        onChange={[Function]}
+        type="radio"
+      />
+      バナナ
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-grape"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-grape"
+        name="radio-grape"
+        onChange={[Function]}
+        type="radio"
+      />
+      葡萄
+    </label>
+  </li>
+  <li
+    className="sc-bczRLJ sc-jIZahH kFRnpC iduTVN"
+    color="primary"
+    disabled={false}
+  >
+    <label
+      className="sc-himrzO haaEho"
+      htmlFor="radio-raspberry"
+    >
+      <input
+        checked={false}
+        className="sc-gXmSlM liEDK"
+        id="radio-raspberry"
+        name="radio-raspberry"
+        onChange={[Function]}
+        type="radio"
+      />
+      木苺
+    </label>
+  </li>
+</ul>
+`;
+
 exports[`Storyshots inputs/IconButton Docs 1`] = `
 <button
   className="sc-crXcEl jwBjfz"
@@ -942,7 +1379,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-jIZahH fIWEgk"
+  className="sc-cCsOjp cdozHy"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -1001,17 +1438,17 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 
 exports[`Storyshots surfaces/Accordion Docs 1`] = `
 <section
-  className="sc-jdAMXn eMOmXn"
+  className="sc-iAvgwm jcOqmM"
 >
   <button
     aria-controls="accordion-docs-section"
     aria-disabled={true}
-    className="sc-gXmSlM cNaALQ"
+    className="sc-jdAMXn cWcIgI"
     id="accordion-docs-header"
     onClick={[Function]}
   >
     <h3
-      className="sc-cCsOjp eVeqeQ"
+      className="sc-bZnhIo cLVkbW"
     >
       Accordion Component
     </h3>
@@ -1032,7 +1469,7 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
   </button>
   <div
     aria-labelledby="accordion-docs-header"
-    className="sc-ciZhAO XTzwx"
+    className="sc-iTONeN gwMdTQ"
     id="accordion-docs-section"
   >
     <p>
@@ -1044,18 +1481,18 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
 
 exports[`Storyshots surfaces/Card Docs 1`] = `
 <section
-  className="sc-iAvgwm eDPapu"
+  className="sc-jOrMOR khUSEm"
 >
   <h3
-    className="sc-bZnhIo lfvqfX"
+    className="sc-efBctP cqQTQt"
   >
     Card Component
   </h3>
   <hr
-    className="sc-himrzO cEJxtd"
+    className="sc-ciZhAO hMjvgk"
   />
   <div
-    className="sc-iTONeN iZimIE"
+    className="sc-cTQhss fFBhkN"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -1066,16 +1503,16 @@ exports[`Storyshots surfaces/Card Docs 1`] = `
 
 exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 <header
-  className="sc-jOrMOR eUWaKH"
+  className="sc-cOFTSb ipZlFD"
 >
   <h2
-    className="sc-cTQhss cCBVzK"
+    className="sc-bBXxYQ jaTKAM"
   >
     HeaderBar Component
   </h2>
   <button
     aria-label="メニューを表示する"
-    className="sc-crXcEl jwBjfz sc-efBctP cKPWJw"
+    className="sc-crXcEl jwBjfz sc-dPyBCJ fiiKqs"
     onClick={[Function]}
     type="button"
   >
@@ -1100,10 +1537,10 @@ exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 
 exports[`Storyshots surfaces/Paper Docs 1`] = `
 <section
-  className="sc-bBXxYQ lndaVF"
+  className="sc-kgUAyh cmMRKQ"
 >
   <div
-    className="sc-dPyBCJ jEUUpl"
+    className="sc-BeQoi jEcNfn"
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
@@ -1120,7 +1557,7 @@ exports[`Storyshots utils/Backdrop With Loading 1`] = `
 
 exports[`Storyshots utils/Divider Docs 1`] = `
 <hr
-  className="sc-himrzO cEJxtd"
+  className="sc-ciZhAO hMjvgk"
 />
 `;
 
@@ -1135,7 +1572,7 @@ exports[`Storyshots utils/LoadingGuard Loading 1`] = `
 exports[`Storyshots utils/LoadingSpinner Docs 1`] = `
 <svg
   aria-hidden={true}
-  className="sc-gKXOVf gfWmrp sc-cOFTSb gUYzce"
+  className="sc-gKXOVf gfWmrp sc-hTtwUo kSAYso"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
 >
