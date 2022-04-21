@@ -79,6 +79,21 @@ const ellipsis = (row = 1) =>
         -webkit-line-clamp: ${row};
       `;
 
+/**
+ * @see https://qiita.com/uto-usui/items/9208afc3955c7465e554
+ */
+const visuallyHidden = () => css`
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+`;
+
 const rotation = keyframes`
   from { 
     transform: rotate(0);
@@ -156,6 +171,7 @@ export const STYLE_THEME = {
     color: inputColor,
   },
   ellipsis,
+  visuallyHidden,
   keyframe: {
     rotation,
     fadeIn,
