@@ -1,8 +1,19 @@
 import React from 'react';
 import { createStoryMeta } from 'src/utils/storybookUtils';
-import { TextButton } from '../../inputs/TextButton/TextButton';
+import styled from 'styled-components';
 import { CustomDialog } from './CustomDialog/CustomDialog';
 import { DialogProvider, useDialog } from './DialogProvider';
+
+const Button = styled.button`
+  padding: 8px 16px;
+  & + & {
+    margin-left: 8px;
+  }
+`;
+
+const TextButton = ({ text, onClick }: { text: string; onClick: () => void }) => {
+  return <Button onClick={onClick}>{text}</Button>;
+};
 
 export default createStoryMeta(DialogProvider, {
   title: 'feedback/dialogs/DialogProvider',
@@ -14,7 +25,6 @@ const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {
   return (
     <div>
       <TextButton
-        color="primary"
         text="Popup"
         onClick={async () => {
           const res = await dialog.showPopup({
@@ -30,7 +40,6 @@ const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {
         }}
       />
       <TextButton
-        color="primary"
         text="Alert"
         onClick={async () => {
           const res = await dialog.showAlert({
@@ -46,7 +55,6 @@ const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {
         }}
       />
       <TextButton
-        color="primary"
         text="Confirm"
         onClick={async () => {
           const res = await dialog.showConfirm({
@@ -62,7 +70,6 @@ const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {
         }}
       />
       <TextButton
-        color="primary"
         text="Select"
         onClick={async () => {
           const res = await dialog.showSelect({
@@ -78,7 +85,6 @@ const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {
         }}
       />
       <TextButton
-        color="primary"
         text="Custom"
         onClick={async () => {
           const res = await dialog.showCustom((resolver: (v: 'foo' | 'bar' | 'close') => void) => (
@@ -91,14 +97,12 @@ const PlayButtons = ({ children = null }: { children?: React.ReactNode }) => {
             >
               Custom
               <TextButton
-                color="primary"
                 text="foo"
                 onClick={() => {
                   resolver('foo');
                 }}
               />
               <TextButton
-                color="primary"
                 text="bar"
                 onClick={() => {
                   resolver('bar');
