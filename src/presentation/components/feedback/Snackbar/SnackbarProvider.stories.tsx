@@ -1,7 +1,14 @@
 import React from 'react';
 import { createStoryMeta } from 'src/utils/storybookUtils';
-import { TextButton } from '../../inputs/TextButton/TextButton';
+import styled from 'styled-components';
 import { SnackbarProvider, useSnackBar } from './SnackbarProvider';
+
+const Button = styled.button`
+  padding: 8px 16px;
+  & + & {
+    margin-left: 8px;
+  }
+`;
 
 export default createStoryMeta(SnackbarProvider, {
   title: 'feedback/Snackbar/SnackbarProvider',
@@ -16,34 +23,34 @@ const PlayButtons = () => {
 
   return (
     <div>
-      <TextButton
-        color="primary"
-        text="info"
+      <Button
         onClick={() => {
           enqueue('info', { severity: 'info', onFadeOut });
         }}
-      />
-      <TextButton
-        color="primary"
-        text="success"
+      >
+        info
+      </Button>
+      <Button
         onClick={() => {
           enqueue('success', { severity: 'success', onFadeOut });
         }}
-      />
-      <TextButton
-        color="primary"
-        text="Popup"
+      >
+        success
+      </Button>
+      <Button
         onClick={() => {
           enqueue('warning', { severity: 'warning', onFadeOut });
         }}
-      />
-      <TextButton
-        color="primary"
-        text="Popup"
+      >
+        warning
+      </Button>
+      <Button
         onClick={() => {
           enqueue('error', { severity: 'error', duration: 10000, onFadeOut });
         }}
-      />
+      >
+        error
+      </Button>
     </div>
   );
 };
