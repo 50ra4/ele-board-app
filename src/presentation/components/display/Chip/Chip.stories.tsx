@@ -38,6 +38,7 @@ export const ChipListGroup = () => {
     <ChipList>
       {LIST.map((v, i) => (
         <Chip
+          key={v}
           color={i % 2 === 1 ? 'primary' : 'secondary'}
           variant={i % 3 === 1 ? 'outlined' : 'contained'}
         >
