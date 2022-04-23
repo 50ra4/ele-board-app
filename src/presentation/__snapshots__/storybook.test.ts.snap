@@ -350,7 +350,7 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-crXcEl jwBjfz"
+    className="sc-crXcEl lytTS"
     onClick={[Function]}
     type="button"
   >
@@ -411,7 +411,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-crXcEl jwBjfz"
+    className="sc-crXcEl lytTS"
     onClick={[Function]}
     type="button"
   >
@@ -482,7 +482,7 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-crXcEl jwBjfz"
+    className="sc-crXcEl lytTS"
     onClick={[Function]}
     type="button"
   >
@@ -562,7 +562,7 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-crXcEl jwBjfz"
+    className="sc-crXcEl lytTS"
     onClick={[Function]}
     type="button"
   >
@@ -610,7 +610,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-crXcEl jwBjfz"
+    className="sc-crXcEl lytTS"
     onClick={[Function]}
     type="button"
   >
@@ -705,7 +705,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     className="sc-gicCDI bcXTRP"
   >
     <input
-      className="sc-llJcti ejEZIo"
+      className="sc-llJcti jJQhVV"
       hasError={false}
       id="password-form"
       name="password-docs"
@@ -717,7 +717,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
       value="PasswordForm sample"
     />
     <button
-      className="sc-crXcEl jwBjfz sc-iIPllB"
+      className="sc-crXcEl lytTS sc-iIPllB"
       onClick={[Function]}
       type="button"
     >
@@ -767,7 +767,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     className="sc-kLLXSd gihTnN"
   >
     <input
-      className="sc-llJcti ejEZIo"
+      className="sc-llJcti jJQhVV"
       hasError={false}
       id="text-form"
       name="text-form-docs"
@@ -779,7 +779,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
       value="TextForm sample"
     />
     <button
-      className="sc-crXcEl jwBjfz sc-bZkfAO"
+      className="sc-crXcEl lytTS sc-bZkfAO"
       onClick={[Function]}
       type="button"
     >
@@ -1308,7 +1308,7 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
 
 exports[`Storyshots inputs/IconButton Docs 1`] = `
 <button
-  className="sc-crXcEl jwBjfz"
+  className="sc-crXcEl lytTS"
   onClick={[Function]}
   type="button"
 >
@@ -1332,7 +1332,7 @@ exports[`Storyshots inputs/IconButton Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-llJcti ejEZIo"
+  className="sc-llJcti jJQhVV"
   hasError={false}
   id="input-base"
   name="input-base-docs"
@@ -1346,7 +1346,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
   className="sc-gicCDI bcXTRP"
 >
   <input
-    className="sc-llJcti ejEZIo"
+    className="sc-llJcti jJQhVV"
     hasError={false}
     id="password-input"
     name="password-input-docs"
@@ -1354,7 +1354,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
     value="password input sample"
   />
   <button
-    className="sc-crXcEl jwBjfz sc-iIPllB"
+    className="sc-crXcEl lytTS sc-iIPllB"
     onClick={[Function]}
     type="button"
   >
@@ -1379,7 +1379,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-cCsOjp cdozHy"
+  className="sc-cCsOjp ctdJKr"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -1405,7 +1405,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
   className="sc-kLLXSd gihTnN"
 >
   <input
-    className="sc-llJcti ejEZIo"
+    className="sc-llJcti jJQhVV"
     hasError={false}
     id="text-input"
     name="text-input-docs"
@@ -1413,7 +1413,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     value="text input sample"
   />
   <button
-    className="sc-crXcEl jwBjfz sc-bZkfAO"
+    className="sc-crXcEl lytTS sc-bZkfAO"
     onClick={[Function]}
     type="button"
   >
@@ -1438,17 +1438,17 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 
 exports[`Storyshots surfaces/Accordion Docs 1`] = `
 <section
-  className="sc-iAvgwm jcOqmM"
+  className="sc-cTQhss fpbGVV"
 >
   <button
     aria-controls="accordion-docs-section"
     aria-disabled={true}
-    className="sc-jdAMXn cWcIgI"
+    className="sc-iTONeN jyLRaj"
     id="accordion-docs-header"
     onClick={[Function]}
   >
     <h3
-      className="sc-bZnhIo cLVkbW"
+      className="sc-iAvgwm eQbOht"
     >
       Accordion Component
     </h3>
@@ -1469,7 +1469,7 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
   </button>
   <div
     aria-labelledby="accordion-docs-header"
-    className="sc-iTONeN gwMdTQ"
+    className="sc-efBctP hxmUhd"
     id="accordion-docs-section"
   >
     <p>
@@ -1481,18 +1481,18 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
 
 exports[`Storyshots surfaces/Card Docs 1`] = `
 <section
-  className="sc-jOrMOR khUSEm"
+  className="sc-bBXxYQ lndaVF"
 >
   <h3
-    className="sc-efBctP cqQTQt"
+    className="sc-jOrMOR luHBE"
   >
     Card Component
   </h3>
   <hr
-    className="sc-ciZhAO hMjvgk"
+    className="sc-bZnhIo eQfJuC"
   />
   <div
-    className="sc-cTQhss fFBhkN"
+    className="sc-dPyBCJ jEUUpl"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -1503,16 +1503,16 @@ exports[`Storyshots surfaces/Card Docs 1`] = `
 
 exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 <header
-  className="sc-cOFTSb ipZlFD"
+  className="sc-kgUAyh bMqRrB"
 >
   <h2
-    className="sc-bBXxYQ jaTKAM"
+    className="sc-BeQoi iSwoBA"
   >
     HeaderBar Component
   </h2>
   <button
     aria-label="メニューを表示する"
-    className="sc-crXcEl jwBjfz sc-dPyBCJ fiiKqs"
+    className="sc-crXcEl lytTS sc-cOFTSb euWEUd"
     onClick={[Function]}
     type="button"
   >
@@ -1537,10 +1537,10 @@ exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 
 exports[`Storyshots surfaces/Paper Docs 1`] = `
 <section
-  className="sc-kgUAyh cmMRKQ"
+  className="sc-jgbSNz gjMgqR"
 >
   <div
-    className="sc-BeQoi jEcNfn"
+    className="sc-hTtwUo ikkVrW"
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
@@ -1557,7 +1557,7 @@ exports[`Storyshots utils/Backdrop With Loading 1`] = `
 
 exports[`Storyshots utils/Divider Docs 1`] = `
 <hr
-  className="sc-ciZhAO hMjvgk"
+  className="sc-bZnhIo eQfJuC"
 />
 `;
 
@@ -1572,7 +1572,7 @@ exports[`Storyshots utils/LoadingGuard Loading 1`] = `
 exports[`Storyshots utils/LoadingSpinner Docs 1`] = `
 <svg
   aria-hidden={true}
-  className="sc-gKXOVf gfWmrp sc-hTtwUo kSAYso"
+  className="sc-gKXOVf gfWmrp sc-gSAPjG bkDdXx"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
 >
