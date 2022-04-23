@@ -5,11 +5,11 @@ const inputColor = {
     background: '#ffffff',
   },
   focused: {
-    outline: '#c6a700',
+    outline: 'rgba(198, 167, 0, 0.8)',
     background: '#ffffff',
   },
   error: {
-    outline: '#c62828',
+    outline: 'rgba(198, 167, 0, 0.8)',
     background: '#ffeeff',
   },
   caret: '#c6a700',
