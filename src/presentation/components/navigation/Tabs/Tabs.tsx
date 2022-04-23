@@ -5,15 +5,15 @@ import styled, { DefaultTheme, StyledComponent } from 'styled-components';
 type TabColor = Exclude<ColorPalette, 'default'>;
 
 export type TabItem<T extends string> = {
+  id: T;
   label: string;
-  value: T;
 };
 
 export type TabsProps<T extends string> = {
   className?: string;
   items: TabItem<T>[];
-  value?: T;
-  onChange?: (value: T) => void;
+  selectedId: T;
+  onChange?: (id: T) => void;
   color?: TabColor;
 };
 
@@ -24,26 +24,31 @@ export type StyledTabs<T extends string> = StyledComponent<
   never
 >;
 
+const createTabPanelId = <T extends string>(value: T) => `tab-panel-${value}`;
+
 /**
  * @see https://www.w3schools.com/howto/howto_js_tabs.asp
  */
 export const Tabs = React.memo(function Tabs<T extends string>({
   className,
-  value: selectedValue,
+  selectedId,
   onChange,
   items,
   color = 'primary',
 }: TabsProps<T>) {
   return (
-    <TabContainer className={className}>
-      {items.map(({ label, value }) => (
-        <Tab key={value} color={color} isActive={value === selectedValue}>
+    <TabContainer className={className} role="tablist">
+      {items.map(({ label, id }) => (
+        <Tab key={id} role="presentation" color={color} isActive={id === selectedId}>
           <button
+            role="tab"
+            aria-controls={createTabPanelId(id)}
+            aria-selected={id === selectedId}
             type="button"
             onClick={() => {
-              if (value === selectedValue) return;
+              if (id === selectedId) return;
               if (!onChange) return;
-              onChange(value);
+              onChange(id);
             }}
           >
             <span>{label}</span>
@@ -89,3 +94,19 @@ const Tab = styled.li<{ color: TabColor; isActive?: boolean }>`
     }
   }
 `;
+
+export function TabPanel({
+  className,
+  id,
+  children,
+}: {
+  className?: string;
+  id: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div role="tabpanel" className={className} id={createTabPanelId(id)}>
+      {children}
+    </div>
+  );
+}
