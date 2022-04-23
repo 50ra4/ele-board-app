@@ -28,6 +28,7 @@ const createTabPanelId = <T extends string>(value: T) => `tab-panel-${value}`;
 
 /**
  * @see https://www.w3schools.com/howto/howto_js_tabs.asp
+ * @see https://ics.media/entry/17109/
  */
 export const Tabs = React.memo(function Tabs<T extends string>({
   className,
