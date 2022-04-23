@@ -1436,6 +1436,65 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 </div>
 `;
 
+exports[`Storyshots navigation/Tabs Docs 1`] = `
+<ul
+  className="sc-ciZhAO gtukKg"
+  role="tablist"
+>
+  <li
+    className="sc-jdAMXn iqquxL"
+    color="secondary"
+    role="presentation"
+  >
+    <button
+      aria-controls="tab-panel-apple"
+      aria-selected={false}
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      <span>
+        林檎
+      </span>
+    </button>
+  </li>
+  <li
+    className="sc-jdAMXn iDGYo"
+    color="secondary"
+    role="presentation"
+  >
+    <button
+      aria-controls="tab-panel-strawberry"
+      aria-selected={true}
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      <span>
+        苺
+      </span>
+    </button>
+  </li>
+  <li
+    className="sc-jdAMXn iqquxL"
+    color="secondary"
+    role="presentation"
+  >
+    <button
+      aria-controls="tab-panel-orange"
+      aria-selected={false}
+      onClick={[Function]}
+      role="tab"
+      type="button"
+    >
+      <span>
+        オレンジ
+      </span>
+    </button>
+  </li>
+</ul>
+`;
+
 exports[`Storyshots surfaces/Accordion Docs 1`] = `
 <section
   className="sc-cTQhss fpbGVV"
