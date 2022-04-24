@@ -13,7 +13,7 @@ const inputColor = {
     background: '#ffffff',
   },
   error: {
-    outline: 'rgba(198, 167, 0, 0.8)',
+    outline: 'rgba(198, 40, 40, 0.8)',
     background: '#ffeeff',
   },
   caret: '#c6a700',
@@ -167,13 +167,11 @@ export const STYLE_THEME = {
     border: borderColor,
     card: cardColor,
     font: fontColor,
+    input: inputColor,
   },
   font: {
     family: fontFamilies,
     weight: fontWeight,
-  },
-  input: {
-    color: inputColor,
   },
   ellipsis,
   visuallyHidden,

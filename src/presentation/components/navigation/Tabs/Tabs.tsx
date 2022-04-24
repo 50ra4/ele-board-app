@@ -82,7 +82,7 @@ const Tab = styled.li<{ color: TabColor; isActive?: boolean }>`
     padding-bottom: ${({ isActive }) => (isActive ? '0' : '3px')};
 
     &:focus {
-      outline: 3px solid ${({ theme }) => theme.input.color.focused.outline};
+      outline: 3px solid ${({ theme }) => theme.color.input.focused.outline};
       outline-offset: -2px;
     }
 

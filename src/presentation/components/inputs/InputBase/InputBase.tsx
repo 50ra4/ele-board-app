@@ -24,19 +24,19 @@ export const InputBase = styled(UnstyledInputBase)`
   height: 48px;
   font-size: 16px;
   ${({ theme }) => theme.ellipsis(1)};
-  background-color: ${({ theme }) => theme.input.color.default.background};
-  caret-color: ${({ theme }) => theme.input.color.caret};
+  background-color: ${({ theme }) => theme.color.input.default.background};
+  caret-color: ${({ theme }) => theme.color.input.caret};
   padding: 0 8px;
   &:focus {
-    background-color: ${({ theme }) => theme.input.color.focused.background};
-    outline: 3px solid ${({ theme }) => theme.input.color.focused.outline};
+    background-color: ${({ theme }) => theme.color.input.focused.background};
+    outline: 3px solid ${({ theme }) => theme.color.input.focused.outline};
     outline-offset: -2px;
   }
   ${({ hasError }) =>
     hasError &&
     css`
-      background-color: ${({ theme }) => theme.input.color.error.background};
-      outline: 3px solid ${({ theme }) => theme.input.color.error.outline};
+      background-color: ${({ theme }) => theme.color.input.error.background};
+      outline: 3px solid ${({ theme }) => theme.color.input.error.outline};
       outline-offset: -2px;
     `}
 `;
