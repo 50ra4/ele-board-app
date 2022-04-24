@@ -65,9 +65,6 @@ export const CustomDialog = styled(UnstyledCustomDialog)`
   flex-direction: column;
   position: relative;
 
-  border: 1px solid #dadce0;
-  border-radius: 3px;
-
   & ${IconButton} {
     position: absolute;
     top: 0;
