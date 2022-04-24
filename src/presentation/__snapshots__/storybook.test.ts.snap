@@ -357,7 +357,7 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-alert-dialog__label"
   aria-modal="true"
-  className="sc-hAZoDl sc-dmRaPn cCgIBC cKcOXl"
+  className="sc-hAZoDl sc-dmRaPn iodGhl cKcOXl"
   id="alert-dialog"
   onClick={[Function]}
   role="dialog"
@@ -369,7 +369,7 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-iBkjds ldxyZs"
+      className="sc-iBkjds eXmDJP"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -384,7 +384,7 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-breuTD dSgZOj"
+    className="sc-breuTD kwZwOa"
     id="dialog-alert-dialog__label"
   >
     AlertDialog sample
@@ -417,7 +417,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-confirm-dialog__label"
   aria-modal="true"
-  className="sc-hAZoDl sc-kgflAQ cCgIBC KaClX"
+  className="sc-hAZoDl sc-kgflAQ iodGhl KaClX"
   id="confirm-dialog"
   onClick={[Function]}
   role="dialog"
@@ -429,7 +429,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-iBkjds ldxyZs"
+      className="sc-iBkjds eXmDJP"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -444,7 +444,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-breuTD dSgZOj"
+    className="sc-breuTD kwZwOa"
     id="dialog-confirm-dialog__label"
   >
     ConfirmDialog sample
@@ -486,7 +486,7 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
   aria-describedby="dialog-custom-dialog__described"
   aria-labelledby="dialog-custom-dialog__label"
   aria-modal="true"
-  className="sc-hAZoDl cCgIBC"
+  className="sc-hAZoDl iodGhl"
   id="custom-dialog"
   onClick={[Function]}
   role="dialog"
@@ -498,7 +498,7 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-iBkjds ldxyZs"
+      className="sc-iBkjds eXmDJP"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -513,7 +513,7 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-breuTD dSgZOj"
+    className="sc-breuTD kwZwOa"
     id="dialog-custom-dialog__label"
   >
     Custom dialog sample
@@ -566,7 +566,7 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-popup-dialog__label"
   aria-modal="true"
-  className="sc-hAZoDl cCgIBC"
+  className="sc-hAZoDl iodGhl"
   id="popup-dialog"
   onClick={[Function]}
   role="dialog"
@@ -578,7 +578,7 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-iBkjds ldxyZs"
+      className="sc-iBkjds eXmDJP"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -593,7 +593,7 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-breuTD dSgZOj"
+    className="sc-breuTD kwZwOa"
     id="dialog-popup-dialog__label"
   >
     PopupDialog sample
@@ -614,7 +614,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-select-dialog__label"
   aria-modal="true"
-  className="sc-hAZoDl sc-fLlhyt cCgIBC gojDdS"
+  className="sc-hAZoDl sc-fLlhyt iodGhl gojDdS"
   id="select-dialog"
   onClick={[Function]}
   role="dialog"
@@ -626,7 +626,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-iBkjds ldxyZs"
+      className="sc-iBkjds eXmDJP"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -641,7 +641,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-breuTD dSgZOj"
+    className="sc-breuTD kwZwOa"
     id="dialog-select-dialog__label"
   >
     SelectDialog sample

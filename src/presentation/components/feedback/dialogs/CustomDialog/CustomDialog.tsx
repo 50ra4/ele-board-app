@@ -31,7 +31,7 @@ function UnstyledCustomDialog({ className, id, title, onClose, children }: Custo
       }}
     >
       <IconButton onClick={onClose}>
-        <CloseIcon color="default" size="large" titleAccess="ダイアログを閉じる" />
+        <CloseIcon color="primary" size="large" titleAccess="ダイアログを閉じる" />
       </IconButton>
       {title && <DialogTitle id={dialogLabelId}>{title}</DialogTitle>}
       <DialogContent id={dialogDescribedId}>{children}</DialogContent>
@@ -40,19 +40,20 @@ function UnstyledCustomDialog({ className, id, title, onClose, children }: Custo
 }
 
 const DialogTitle = styled.h2`
-  color: ${({ theme }) => theme.color.primary.font};
-  background-color: ${({ theme }) => theme.color.primary.background};
+  color: ${({ theme }) => theme.color.card.font};
+  background-color: ${({ theme }) => theme.color.card.background};
   font-weight: ${({ theme }) => theme.font.weight.bold};
   font-size: 18px;
   line-height: 38px;
   height: 38px;
   padding: 0 8px;
+  border-bottom: 1px solid ${({ theme }) => theme.color.border.light};
 `;
 
 export const DialogContent = styled.div`
   flex: 1 1 auto;
   padding: 8px;
-  background-color: ${({ theme }) => theme.color.primary.font};
+  background-color: ${({ theme }) => theme.color.card.background};
 `;
 
 export const CustomDialog = styled(UnstyledCustomDialog)`
@@ -65,9 +66,11 @@ export const CustomDialog = styled(UnstyledCustomDialog)`
   flex-direction: column;
   position: relative;
 
+  padding: 4px;
+
   & ${IconButton} {
     position: absolute;
-    top: 0;
+    top: calc(0 - 4px); // for padding
     right: 0;
     z-index: ${({ theme }) => theme.zIndex.modal + 1};
     background-color: transparent;
