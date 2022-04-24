@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export type LinkProps = {
   className?: string;
-  text: string;
+  children: React.ReactNode;
 } & Omit<NextLinkProps, 'passHref'>;
 
 const AppLink = styled.a`
@@ -23,10 +23,10 @@ const AppLink = styled.a`
 /**
  * @see https://nextjs.org/docs/api-reference/next/link
  */
-export const Link = styled(function Link({ className, text, ...nextLinkProps }: LinkProps) {
+export const Link = styled(function Link({ className, children, ...nextLinkProps }: LinkProps) {
   return (
     <NextLink passHref={true} {...nextLinkProps}>
-      <AppLink className={className}>{text}</AppLink>
+      <AppLink className={className}>{children}</AppLink>
     </NextLink>
   );
 })``;
