@@ -9,7 +9,7 @@ export const NotImplemented = () => {
       <Content>
         <h2>{`${router.pathname} はまだ実装前です。`}</h2>
         <h2>
-          <Link href="/" text="ホームに戻る" />
+          <Link href="/" replace={true} text="ホームに戻る" />
         </h2>
       </Content>
     </Root>
