@@ -3,7 +3,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { GithubButton } from './GithubButton';
 
 export default createStoryMeta(GithubButton, {
-  title: 'parts/auth/GithubButton',
+  title: 'unique/GithubButton',
 });
 
 type Story = ComponentStoryObj<ComponentProps<typeof GithubButton>>;

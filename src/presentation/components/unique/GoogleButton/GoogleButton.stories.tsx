@@ -3,7 +3,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { GoogleButton } from './GoogleButton';
 
 export default createStoryMeta(GoogleButton, {
-  title: 'parts/auth/GoogleButton',
+  title: 'unique/GoogleButton',
 });
 
 type Story = ComponentStoryObj<ComponentProps<typeof GoogleButton>>;

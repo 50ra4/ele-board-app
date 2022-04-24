@@ -3,7 +3,7 @@ import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
 import { MailButton } from './MailButton';
 
 export default createStoryMeta(MailButton, {
-  title: 'parts/auth/MailButton',
+  title: 'inputs/MailButton',
 });
 
 type Story = ComponentStoryObj<ComponentProps<typeof MailButton>>;
