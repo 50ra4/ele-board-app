@@ -11,7 +11,6 @@ export const Docs: Story = {
     color: 'primary',
     variant: 'contained',
     children: 'Docs',
-    fullWidth: false,
     onClick: () => {},
   },
 };
@@ -29,11 +28,5 @@ export const Outlined = () => (
 export const Disabled = () => (
   <Button color="primary" disabled={true}>
     Disabled
-  </Button>
-);
-
-export const FullWidth = () => (
-  <Button color="primary" fullWidth={true}>
-    FullWidth
   </Button>
 );

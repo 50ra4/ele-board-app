@@ -3,7 +3,6 @@ import styled, { css } from 'styled-components';
 import { ColorPalette } from 'src/presentation/styles/theme';
 
 type ButtonStyleProps = {
-  fullWidth?: boolean;
   variant?: 'outlined' | 'contained';
   color: ColorPalette;
 };
@@ -46,9 +45,4 @@ export const Button = styled(UnstyledButton)`
     `}
   padding: 5px 16px;
   border-radius: 6px;
-  ${({ fullWidth }) =>
-    !!fullWidth &&
-    css`
-      width: 100%;
-    `};
 `;

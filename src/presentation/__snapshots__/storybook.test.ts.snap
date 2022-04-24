@@ -388,7 +388,7 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
       className="sc-bjUoiL fEYojD"
     >
       <button
-        className="sc-fnykZs coryVX sc-fEOsli"
+        className="sc-fnykZs gQEPnO sc-fEOsli"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -449,7 +449,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
       className="sc-bjUoiL fEYojD"
     >
       <button
-        className="sc-fnykZs coryVX sc-fEOsli"
+        className="sc-fnykZs gQEPnO sc-fEOsli"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -458,7 +458,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
         OK
       </button>
       <button
-        className="sc-fnykZs duaxKG sc-fEOsli"
+        className="sc-fnykZs hDUEFv sc-fEOsli"
         color="default"
         fullWidth={true}
         onClick={[Function]}
@@ -648,7 +648,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
       className="sc-bjUoiL fEYojD"
     >
       <button
-        className="sc-fnykZs coryVX sc-fEOsli"
+        className="sc-fnykZs gQEPnO sc-fEOsli"
         color="secondary"
         fullWidth={true}
         onClick={[Function]}
@@ -657,7 +657,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
         はい
       </button>
       <button
-        className="sc-fnykZs dXTRIN sc-fEOsli"
+        className="sc-fnykZs gdJrhI sc-fEOsli"
         color="primary"
         fullWidth={true}
         onClick={[Function]}
@@ -666,7 +666,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
         いいえ
       </button>
       <button
-        className="sc-fnykZs duaxKG sc-fEOsli"
+        className="sc-fnykZs hDUEFv sc-fEOsli"
         color="default"
         fullWidth={true}
         onClick={[Function]}
@@ -805,7 +805,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
 
 exports[`Storyshots inputs/Button Disabled 1`] = `
 <button
-  className="sc-fnykZs jOvimw"
+  className="sc-fnykZs jZrRJi"
   color="primary"
   disabled={true}
   type="button"
@@ -816,9 +816,8 @@ exports[`Storyshots inputs/Button Disabled 1`] = `
 
 exports[`Storyshots inputs/Button Docs 1`] = `
 <button
-  className="sc-fnykZs ldckce"
+  className="sc-fnykZs gdJrhI"
   color="primary"
-  fullWidth={false}
   onClick={[Function]}
   type="button"
   variant="contained"
@@ -827,20 +826,9 @@ exports[`Storyshots inputs/Button Docs 1`] = `
 </button>
 `;
 
-exports[`Storyshots inputs/Button Full Width 1`] = `
-<button
-  className="sc-fnykZs dXTRIN"
-  color="primary"
-  fullWidth={true}
-  type="button"
->
-  FullWidth
-</button>
-`;
-
 exports[`Storyshots inputs/Button Outlined 1`] = `
 <button
-  className="sc-fnykZs bWUgLQ"
+  className="sc-fnykZs kCCFZq"
   color="primary"
   type="button"
   variant="outlined"
@@ -851,7 +839,7 @@ exports[`Storyshots inputs/Button Outlined 1`] = `
 
 exports[`Storyshots inputs/Button Primary 1`] = `
 <button
-  className="sc-fnykZs ldckce"
+  className="sc-fnykZs gdJrhI"
   color="primary"
   type="button"
 >
@@ -861,7 +849,7 @@ exports[`Storyshots inputs/Button Primary 1`] = `
 
 exports[`Storyshots inputs/Button Secondary 1`] = `
 <button
-  className="sc-fnykZs fNwryE"
+  className="sc-fnykZs gQEPnO"
   color="secondary"
   type="button"
 >
@@ -1389,7 +1377,7 @@ exports[`Storyshots inputs/TextArea Docs 1`] = `
 
 exports[`Storyshots inputs/TextButton Docs 1`] = `
 <button
-  className="sc-fnykZs ldckce sc-fEOsli"
+  className="sc-fnykZs gdJrhI sc-fEOsli"
   color="primary"
   fullWidth={false}
   onClick={[Function]}
