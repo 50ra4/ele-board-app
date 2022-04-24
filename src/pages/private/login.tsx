@@ -21,6 +21,7 @@ function LoginPage() {
       router.push({ href: router.pathname, query: { type: 'mail' } });
       return;
     }
+    // TODO:
     console.error(`${method} is not implemented.`);
   };
 
