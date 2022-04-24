@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import styled from 'styled-components';
 import { PasswordForm } from '@/components/forms/PasswordForm/PasswordForm';
 import { TextForm } from '@/components/forms/TextForm/TextForm';
 import { TextButton } from '@/components/inputs/TextButton/TextButton';
 import { Card } from '@/components/surfaces/Card/Card';
-import styled from 'styled-components';
+import { Divider } from '@/components/utils/Divider/Divider';
 
 type FormState = {
   email: string;
@@ -61,6 +62,7 @@ export function MailLoginForm({ className, isProcessing, onSubmit }: Props) {
             setState((prev) => ({ ...prev, password: v }));
           }}
         />
+        <Divider />
         <ButtonWrap>
           <TextButton
             type="button"
@@ -87,6 +89,9 @@ export function MailLoginForm({ className, isProcessing, onSubmit }: Props) {
 const Form = styled.form`
   & > * {
     margin-top: 8px;
+  }
+  & > ${Divider} {
+    margin-top: 16px;
   }
 `;
 
