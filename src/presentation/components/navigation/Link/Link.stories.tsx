@@ -9,6 +9,6 @@ type Story = ComponentStoryObj<LinkProps>;
 export const Docs: Story = {
   args: {
     href: './',
-    text: 'Link Story Component',
+    children: 'Link Story Component',
   },
 };

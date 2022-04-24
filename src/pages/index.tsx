@@ -9,11 +9,11 @@ function HomePage() {
       <Root>
         <StyledOutlineDescription>
           初めての方は
-          <Link href="/private/signUp" text="アカウント登録" />
+          <Link href="/private/signUp">アカウント登録</Link>
         </StyledOutlineDescription>
         <StyledOutlineDescription>
           既にアカウントをお持ちの方は
-          <Link href="/private/login" text="ログイン" />
+          <Link href="/private/login">ログイン</Link>
         </StyledOutlineDescription>
       </Root>
     </TemplateNo1>

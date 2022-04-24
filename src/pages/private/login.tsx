@@ -32,11 +32,11 @@ function LoginPage() {
           <StyledMailLoginForm onSubmit={onSubmit} />
           <StyledOutlineDescription>
             パスワードをお忘れの方は
-            <Link href="/private/resetPassword" text="パスワードリセット" />
+            <Link href="/private/resetPassword">パスワードリセット</Link>
           </StyledOutlineDescription>
           <StyledOutlineDescription>
             他の方法で
-            <Link href="/private/login" text="ログイン" />
+            <Link href="/private/login">ログイン</Link>
           </StyledOutlineDescription>
         </>
       ) : (
@@ -44,7 +44,7 @@ function LoginPage() {
       )}
       <StyledOutlineDescription>
         初めての方は
-        <Link href="/private/signUp" text="アカウント登録" />
+        <Link href="/private/signUp">アカウント登録</Link>
       </StyledOutlineDescription>
     </TemplateNo1>
   );
