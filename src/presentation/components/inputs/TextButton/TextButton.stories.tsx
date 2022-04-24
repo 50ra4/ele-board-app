@@ -11,7 +11,6 @@ export const Docs: Story = {
     text: 'TextButton',
     color: 'primary',
     variant: 'contained',
-    fullWidth: false,
     onClick: () => {},
   },
 };
