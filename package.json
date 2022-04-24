@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006",
     "build-storybook": "rm -rf docs/storybook && cp tools/gh-pages/manager-head.html .storybook && build-storybook -s public -o docs/storybook && rm -rf .storybook/manager-head.html",
     "build-typedoc": "rm -rf docs/typedoc && typedoc --options ./typedoc.js",
     "touch-nojeykll": "touch docs/.nojekyll",

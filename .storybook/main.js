@@ -22,4 +22,8 @@ module.exports = {
   typescript: {
     reactDocgen: 'none',
   },
+  /**
+   * @see https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#64-deprecations
+   */
+  staticDirs: ['../public'],
 };
