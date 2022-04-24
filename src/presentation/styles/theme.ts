@@ -167,13 +167,11 @@ export const STYLE_THEME = {
     border: borderColor,
     card: cardColor,
     font: fontColor,
+    input: inputColor,
   },
   font: {
     family: fontFamilies,
     weight: fontWeight,
-  },
-  input: {
-    color: inputColor,
   },
   ellipsis,
   visuallyHidden,
