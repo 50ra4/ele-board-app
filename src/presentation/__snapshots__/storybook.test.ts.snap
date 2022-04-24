@@ -83,21 +83,34 @@ exports[`Storyshots display/Chip Outlined 1`] = `
 </li>
 `;
 
+exports[`Storyshots display/OutlineDescription Docs 1`] = `
+<div
+  className="sc-dkzDqf ibIvJX"
+>
+  初めての方は
+  <a
+    href="#"
+  >
+    新規アカウント登録
+  </a>
+</div>
+`;
+
 exports[`Storyshots display/Tooltip Docs 1`] = `
 <div
-  className="sc-eCYdqJ cbCfkw"
+  className="sc-jSMfEi bMBrRe"
 >
   <div
-    className="sc-hKMtZM jkyQbP"
+    className="sc-eCYdqJ jBkYZu"
     visibleOnHover={true}
   >
     <button
-      className="sc-jSMfEi XGztO"
+      className="sc-gKXOVf dKkGVv"
     >
       hover me
     </button>
     <span
-      className="sc-dkzDqf leJesx"
+      className="sc-hKMtZM bPuqLq"
       color="primary"
     >
       tooltip sample
@@ -108,21 +121,21 @@ exports[`Storyshots display/Tooltip Docs 1`] = `
 
 exports[`Storyshots display/Tooltip With State 1`] = `
 <div
-  className="sc-eCYdqJ cbCfkw"
+  className="sc-jSMfEi bMBrRe"
 >
   <div
-    className="sc-hKMtZM gBhVIF"
+    className="sc-eCYdqJ gDjOYY"
     show={false}
   >
     <button
-      className="sc-jSMfEi XGztO"
+      className="sc-gKXOVf dKkGVv"
       onClick={[Function]}
     >
       hover me
     </button>
     ,
     <span
-      className="sc-dkzDqf leJesx"
+      className="sc-hKMtZM bPuqLq"
       color="primary"
     >
       tooltip
@@ -133,14 +146,14 @@ exports[`Storyshots display/Tooltip With State 1`] = `
 
 exports[`Storyshots feedback/Snackbar Docs 1`] = `
 <div
-  className="sc-papXJ hGPLWl"
+  className="sc-jqUVSM fhsvAw"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-ftvSup eNVwVM"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-jqUVSM djYUnP"
+      className="sc-iBkjds fiupan sc-kDDrLX taHkU"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -154,7 +167,7 @@ exports[`Storyshots feedback/Snackbar Docs 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-papXJ hxeqDt"
   >
     snackbar
   </div>
@@ -163,14 +176,14 @@ exports[`Storyshots feedback/Snackbar Docs 1`] = `
 
 exports[`Storyshots feedback/Snackbar Error 1`] = `
 <div
-  className="sc-papXJ cuUsvL"
+  className="sc-jqUVSM ieRutG"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-ftvSup eNVwVM"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-jqUVSM djYUnP"
+      className="sc-iBkjds fiupan sc-kDDrLX taHkU"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -184,7 +197,7 @@ exports[`Storyshots feedback/Snackbar Error 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-papXJ hxeqDt"
   >
     Error snackbar
   </div>
@@ -193,14 +206,14 @@ exports[`Storyshots feedback/Snackbar Error 1`] = `
 
 exports[`Storyshots feedback/Snackbar Info 1`] = `
 <div
-  className="sc-papXJ hGPLWl"
+  className="sc-jqUVSM fhsvAw"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-ftvSup eNVwVM"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-jqUVSM djYUnP"
+      className="sc-iBkjds fiupan sc-kDDrLX taHkU"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -214,7 +227,7 @@ exports[`Storyshots feedback/Snackbar Info 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-papXJ hxeqDt"
   >
     Info snackbar
   </div>
@@ -223,14 +236,14 @@ exports[`Storyshots feedback/Snackbar Info 1`] = `
 
 exports[`Storyshots feedback/Snackbar Long Text 1`] = `
 <div
-  className="sc-papXJ hGPLWl"
+  className="sc-jqUVSM fhsvAw"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-ftvSup eNVwVM"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-jqUVSM djYUnP"
+      className="sc-iBkjds fiupan sc-kDDrLX taHkU"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -244,7 +257,7 @@ exports[`Storyshots feedback/Snackbar Long Text 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-papXJ hxeqDt"
   >
     long long long long long long long long long long long long long long long long long long long long text
   </div>
@@ -253,14 +266,14 @@ exports[`Storyshots feedback/Snackbar Long Text 1`] = `
 
 exports[`Storyshots feedback/Snackbar Success 1`] = `
 <div
-  className="sc-papXJ iWfvOn"
+  className="sc-jqUVSM jqsetS"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-ftvSup eNVwVM"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-jqUVSM djYUnP"
+      className="sc-iBkjds fiupan sc-kDDrLX taHkU"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -274,7 +287,7 @@ exports[`Storyshots feedback/Snackbar Success 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-papXJ hxeqDt"
   >
     Success snackbar
   </div>
@@ -283,14 +296,14 @@ exports[`Storyshots feedback/Snackbar Success 1`] = `
 
 exports[`Storyshots feedback/Snackbar Warning 1`] = `
 <div
-  className="sc-papXJ gFwVRu"
+  className="sc-jqUVSM cyyXVz"
 >
   <div
-    className="sc-iBkjds flKMFr"
+    className="sc-ftvSup eNVwVM"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-jqUVSM gFdlQX"
+      className="sc-iBkjds fiupan sc-kDDrLX jEqMZg"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -304,7 +317,7 @@ exports[`Storyshots feedback/Snackbar Warning 1`] = `
     </svg>
   </div>
   <div
-    className="sc-ftvSup ejqkzc"
+    className="sc-papXJ hxeqDt"
   >
     Warning snackbar
   </div>
@@ -314,25 +327,25 @@ exports[`Storyshots feedback/Snackbar Warning 1`] = `
 exports[`Storyshots feedback/Snackbar/SnackbarProvider Play 1`] = `
 <div>
   <button
-    className="sc-iqcoie cvwYVM"
+    className="sc-crXcEl cWjlej"
     onClick={[Function]}
   >
     info
   </button>
   <button
-    className="sc-iqcoie cvwYVM"
+    className="sc-crXcEl cWjlej"
     onClick={[Function]}
   >
     success
   </button>
   <button
-    className="sc-iqcoie cvwYVM"
+    className="sc-crXcEl cWjlej"
     onClick={[Function]}
   >
     warning
   </button>
   <button
-    className="sc-iqcoie cvwYVM"
+    className="sc-crXcEl cWjlej"
     onClick={[Function]}
   >
     error
@@ -344,19 +357,19 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-alert-dialog__label"
   aria-modal="true"
-  className="sc-ksZaOG sc-hHLeRK jwDWhZ cYGiW"
+  className="sc-hAZoDl sc-dmRaPn cCgIBC cKcOXl"
   id="alert-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-crXcEl lytTS"
+    className="sc-evZas iBlbdI"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gKXOVf cunure"
+      className="sc-iBkjds ldxyZs"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -371,24 +384,24 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-evZas iJqXLE"
+    className="sc-breuTD dSgZOj"
     id="dialog-alert-dialog__label"
   >
     AlertDialog sample
   </h2>
   <div
-    className="sc-breuTD lofEAI"
+    className="sc-ksZaOG abcSH"
   >
     <div
-      className="sc-hAZoDl iOudKu"
+      className="sc-fnykZs fpwXMl"
     >
       AlertDialog contents
     </div>
     <div
-      className="sc-dIouRR giHWXH"
+      className="sc-hHLeRK gNECWI"
     >
       <button
-        className="sc-bjUoiL fqUvYH sc-idiyUo"
+        className="sc-idiyUo cHUJRD sc-dIouRR"
         color="secondary"
         onClick={[Function]}
         type="button"
@@ -404,19 +417,19 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-confirm-dialog__label"
   aria-modal="true"
-  className="sc-ksZaOG sc-dmRaPn jwDWhZ lcgujW"
+  className="sc-hAZoDl sc-kgflAQ cCgIBC KaClX"
   id="confirm-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-crXcEl lytTS"
+    className="sc-evZas iBlbdI"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gKXOVf cunure"
+      className="sc-iBkjds ldxyZs"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -431,24 +444,24 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-evZas iJqXLE"
+    className="sc-breuTD dSgZOj"
     id="dialog-confirm-dialog__label"
   >
     ConfirmDialog sample
   </h2>
   <div
-    className="sc-breuTD lofEAI"
+    className="sc-ksZaOG abcSH"
   >
     <div
-      className="sc-hAZoDl iOudKu"
+      className="sc-fnykZs fpwXMl"
     >
       ConfirmDialog contents
     </div>
     <div
-      className="sc-dIouRR giHWXH"
+      className="sc-hHLeRK gNECWI"
     >
       <button
-        className="sc-bjUoiL fqUvYH sc-idiyUo"
+        className="sc-idiyUo cHUJRD sc-dIouRR"
         color="secondary"
         onClick={[Function]}
         type="button"
@@ -456,7 +469,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
         OK
       </button>
       <button
-        className="sc-bjUoiL cFSRvq sc-idiyUo"
+        className="sc-idiyUo dNYGQm sc-dIouRR"
         color="default"
         onClick={[Function]}
         type="button"
@@ -473,19 +486,19 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
   aria-describedby="dialog-custom-dialog__described"
   aria-labelledby="dialog-custom-dialog__label"
   aria-modal="true"
-  className="sc-ksZaOG jwDWhZ"
+  className="sc-hAZoDl cCgIBC"
   id="custom-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-crXcEl lytTS"
+    className="sc-evZas iBlbdI"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gKXOVf cunure"
+      className="sc-iBkjds ldxyZs"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -500,13 +513,13 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-evZas iJqXLE"
+    className="sc-breuTD dSgZOj"
     id="dialog-custom-dialog__label"
   >
     Custom dialog sample
   </h2>
   <div
-    className="sc-breuTD lofEAI"
+    className="sc-ksZaOG abcSH"
     id="dialog-custom-dialog__described"
   >
     Custom dialog contents
@@ -517,31 +530,31 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
 exports[`Storyshots feedback/dialogs/DialogProvider Play 1`] = `
 <div>
   <button
-    className="sc-bBrHrO jjmOYf"
+    className="sc-ivTmOn dimZzj"
     onClick={[Function]}
   >
     Popup
   </button>
   <button
-    className="sc-bBrHrO jjmOYf"
+    className="sc-ivTmOn dimZzj"
     onClick={[Function]}
   >
     Alert
   </button>
   <button
-    className="sc-bBrHrO jjmOYf"
+    className="sc-ivTmOn dimZzj"
     onClick={[Function]}
   >
     Confirm
   </button>
   <button
-    className="sc-bBrHrO jjmOYf"
+    className="sc-ivTmOn dimZzj"
     onClick={[Function]}
   >
     Select
   </button>
   <button
-    className="sc-bBrHrO jjmOYf"
+    className="sc-ivTmOn dimZzj"
     onClick={[Function]}
   >
     Custom
@@ -553,19 +566,19 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-popup-dialog__label"
   aria-modal="true"
-  className="sc-ksZaOG jwDWhZ"
+  className="sc-hAZoDl cCgIBC"
   id="popup-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-crXcEl lytTS"
+    className="sc-evZas iBlbdI"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gKXOVf cunure"
+      className="sc-iBkjds ldxyZs"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -580,16 +593,16 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-evZas iJqXLE"
+    className="sc-breuTD dSgZOj"
     id="dialog-popup-dialog__label"
   >
     PopupDialog sample
   </h2>
   <div
-    className="sc-breuTD lofEAI"
+    className="sc-ksZaOG abcSH"
   >
     <div
-      className="sc-hAZoDl iOudKu"
+      className="sc-fnykZs fpwXMl"
     >
       PopupDialog contents
     </div>
@@ -601,19 +614,19 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
 <div
   aria-labelledby="dialog-select-dialog__label"
   aria-modal="true"
-  className="sc-ksZaOG sc-kgflAQ jwDWhZ IOWQo"
+  className="sc-hAZoDl sc-fLlhyt cCgIBC gojDdS"
   id="select-dialog"
   onClick={[Function]}
   role="dialog"
 >
   <button
-    className="sc-crXcEl lytTS"
+    className="sc-evZas iBlbdI"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="ダイアログを閉じる"
-      className="sc-gKXOVf cunure"
+      className="sc-iBkjds ldxyZs"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -628,24 +641,24 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
     </svg>
   </button>
   <h2
-    className="sc-evZas iJqXLE"
+    className="sc-breuTD dSgZOj"
     id="dialog-select-dialog__label"
   >
     SelectDialog sample
   </h2>
   <div
-    className="sc-breuTD lofEAI"
+    className="sc-ksZaOG abcSH"
   >
     <div
-      className="sc-hAZoDl iOudKu"
+      className="sc-fnykZs fpwXMl"
     >
       SelectDialog contents
     </div>
     <div
-      className="sc-dIouRR giHWXH"
+      className="sc-hHLeRK gNECWI"
     >
       <button
-        className="sc-bjUoiL fqUvYH sc-idiyUo"
+        className="sc-idiyUo cHUJRD sc-dIouRR"
         color="secondary"
         onClick={[Function]}
         type="button"
@@ -653,7 +666,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
         はい
       </button>
       <button
-        className="sc-bjUoiL dVYXNF sc-idiyUo"
+        className="sc-idiyUo hQiKYJ sc-dIouRR"
         color="primary"
         onClick={[Function]}
         type="button"
@@ -661,7 +674,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
         いいえ
       </button>
       <button
-        className="sc-bjUoiL cFSRvq sc-idiyUo"
+        className="sc-idiyUo dNYGQm sc-dIouRR"
         color="default"
         onClick={[Function]}
         type="button"
@@ -675,11 +688,11 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
 
 exports[`Storyshots forms/PasswordForm Docs 1`] = `
 <div
-  className="sc-kLLXSd jnFIIm"
+  className="sc-ikZpkk bAkAFX"
 >
   <label
     aria-describedby="password-form-describe"
-    className="sc-ivTmOn doBtVo"
+    className="sc-cxabCf jsgzcy"
     htmlFor="password-form"
     inline={false}
     required={true}
@@ -687,7 +700,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     PasswordForm
   </label>
   <div
-    className="sc-cxabCf goGbmg"
+    className="sc-llJcti gGPsxJ"
   >
     <span
       id="password-form-describe"
@@ -696,10 +709,10 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     </span>
   </div>
   <div
-    className="sc-bZkfAO iCCwRY"
+    className="sc-kLLXSd hmhJIr"
   >
     <input
-      className="sc-gicCDI eAamlG"
+      className="sc-ezWOiH jyJKRD"
       hasError={false}
       id="password-form"
       name="password-docs"
@@ -711,13 +724,13 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
       value="PasswordForm sample"
     />
     <button
-      className="sc-crXcEl lytTS sc-ezWOiH"
+      className="sc-evZas iBlbdI sc-bZkfAO"
       onClick={[Function]}
       type="button"
     >
       <svg
         aria-label="パスワードを表示する"
-        className="sc-gKXOVf dIMGbe"
+        className="sc-iBkjds inntBc"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -737,11 +750,11 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
 
 exports[`Storyshots forms/TextForm Docs 1`] = `
 <div
-  className="sc-himrzO laLFZS"
+  className="sc-gXmSlM gmwcss"
 >
   <label
     aria-describedby="text-form-describe"
-    className="sc-ivTmOn doBtVo"
+    className="sc-cxabCf jsgzcy"
     htmlFor="text-form"
     inline={false}
     required={true}
@@ -749,7 +762,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     TextForm
   </label>
   <div
-    className="sc-cxabCf goGbmg"
+    className="sc-llJcti gGPsxJ"
   >
     <span
       id="text-form-describe"
@@ -758,10 +771,10 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     </span>
   </div>
   <div
-    className="sc-jIZahH itKAIB"
+    className="sc-himrzO gGfMEn"
   >
     <input
-      className="sc-gicCDI eAamlG"
+      className="sc-ezWOiH jyJKRD"
       hasError={false}
       id="text-form"
       name="text-form-docs"
@@ -773,13 +786,13 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
       value="TextForm sample"
     />
     <button
-      className="sc-crXcEl lytTS sc-ikZpkk"
+      className="sc-evZas iBlbdI sc-jIZahH"
       onClick={[Function]}
       type="button"
     >
       <svg
         aria-label="text-form-docsの入力を削除する"
-        className="sc-gKXOVf dIMGbe"
+        className="sc-iBkjds inntBc"
         role="img"
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
@@ -799,7 +812,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
 
 exports[`Storyshots inputs/Button Disabled 1`] = `
 <button
-  className="sc-bjUoiL ftqQVL"
+  className="sc-idiyUo jsZEzn"
   color="primary"
   disabled={true}
   type="button"
@@ -810,7 +823,7 @@ exports[`Storyshots inputs/Button Disabled 1`] = `
 
 exports[`Storyshots inputs/Button Docs 1`] = `
 <button
-  className="sc-bjUoiL dVYXNF"
+  className="sc-idiyUo hQiKYJ"
   color="primary"
   onClick={[Function]}
   type="button"
@@ -822,17 +835,17 @@ exports[`Storyshots inputs/Button Docs 1`] = `
 
 exports[`Storyshots inputs/Button Loading 1`] = `
 <button
-  className="sc-bjUoiL ftqQVL"
+  className="sc-idiyUo jsZEzn"
   color="primary"
   disabled={true}
   type="button"
 >
   <div
-    className="sc-fEOsli heyrZw"
+    className="sc-bjUoiL bKzxvs"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ sc-fnykZs jDVnbC"
+      className="sc-iBkjds fiupan sc-fEOsli drIlWz"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -853,7 +866,7 @@ exports[`Storyshots inputs/Button Loading 1`] = `
 
 exports[`Storyshots inputs/Button Outlined 1`] = `
 <button
-  className="sc-bjUoiL JPEwb"
+  className="sc-idiyUo fzGlsX"
   color="primary"
   type="button"
   variant="outlined"
@@ -864,7 +877,7 @@ exports[`Storyshots inputs/Button Outlined 1`] = `
 
 exports[`Storyshots inputs/Button Primary 1`] = `
 <button
-  className="sc-bjUoiL dVYXNF"
+  className="sc-idiyUo hQiKYJ"
   color="primary"
   type="button"
 >
@@ -874,7 +887,7 @@ exports[`Storyshots inputs/Button Primary 1`] = `
 
 exports[`Storyshots inputs/Button Secondary 1`] = `
 <button
-  className="sc-bjUoiL fqUvYH"
+  className="sc-idiyUo cHUJRD"
   color="secondary"
   type="button"
 >
@@ -887,17 +900,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
   className="sc-gsnTZi cgptcv"
 >
   <li
-    className="sc-bczRLJ sc-gXmSlM eCwSUC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp eCwSUC kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-apple"
     >
       <input
         checked={true}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-apple"
         name="checkbox-apple"
         onChange={[Function]}
@@ -907,17 +920,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM iyvnPX fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp iyvnPX kswRGn"
     color="secondary"
     disabled={true}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-strawberry"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-strawberry"
         name="checkbox-strawberry"
         onChange={[Function]}
@@ -927,17 +940,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-orange"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-orange"
         name="checkbox-orange"
         onChange={[Function]}
@@ -947,17 +960,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-grapefruit"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-grapefruit"
         name="checkbox-grapefruit"
         onChange={[Function]}
@@ -967,17 +980,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-coconut"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-coconut"
         name="checkbox-coconut"
         onChange={[Function]}
@@ -987,17 +1000,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-cherry"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-cherry"
         name="checkbox-cherry"
         onChange={[Function]}
@@ -1007,17 +1020,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-pineapple"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-pineapple"
         name="checkbox-pineapple"
         onChange={[Function]}
@@ -1027,17 +1040,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-banana"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-banana"
         name="checkbox-banana"
         onChange={[Function]}
@@ -1047,17 +1060,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-grape"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-grape"
         name="checkbox-grape"
         onChange={[Function]}
@@ -1067,17 +1080,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM epEICQ fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp epEICQ kswRGn"
     color="secondary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="checkbox-raspberry"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="checkbox-raspberry"
         name="checkbox-raspberry"
         onChange={[Function]}
@@ -1091,17 +1104,17 @@ exports[`Storyshots inputs/ChipSelector Checkbox 1`] = `
 
 exports[`Storyshots inputs/ChipSelector Docs 1`] = `
 <li
-  className="sc-bczRLJ sc-gXmSlM kaQvzq fFtvOR"
+  className="sc-bczRLJ sc-cCsOjp kaQvzq kswRGn"
   color="primary"
   disabled={false}
 >
   <label
-    className="sc-cCsOjp jSIvih"
+    className="sc-ciZhAO bsBhxR"
     htmlFor="docs"
   >
     <input
       checked={true}
-      className="sc-ciZhAO jeUHLQ"
+      className="sc-jdAMXn xQarO"
       id="docs"
       name="docs"
       onChange={[Function]}
@@ -1117,17 +1130,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
   className="sc-gsnTZi cgptcv"
 >
   <li
-    className="sc-bczRLJ sc-gXmSlM kaQvzq fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kaQvzq kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-apple"
     >
       <input
         checked={true}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-apple"
         name="radio-apple"
         onChange={[Function]}
@@ -1137,17 +1150,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM hrVvJR fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp hrVvJR kswRGn"
     color="primary"
     disabled={true}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-strawberry"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-strawberry"
         name="radio-strawberry"
         onChange={[Function]}
@@ -1157,17 +1170,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-orange"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-orange"
         name="radio-orange"
         onChange={[Function]}
@@ -1177,17 +1190,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-grapefruit"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-grapefruit"
         name="radio-grapefruit"
         onChange={[Function]}
@@ -1197,17 +1210,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-coconut"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-coconut"
         name="radio-coconut"
         onChange={[Function]}
@@ -1217,17 +1230,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-cherry"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-cherry"
         name="radio-cherry"
         onChange={[Function]}
@@ -1237,17 +1250,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-pineapple"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-pineapple"
         name="radio-pineapple"
         onChange={[Function]}
@@ -1257,17 +1270,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-banana"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-banana"
         name="radio-banana"
         onChange={[Function]}
@@ -1277,17 +1290,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-grape"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-grape"
         name="radio-grape"
         onChange={[Function]}
@@ -1297,17 +1310,17 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
     </label>
   </li>
   <li
-    className="sc-bczRLJ sc-gXmSlM kFRnpC fFtvOR"
+    className="sc-bczRLJ sc-cCsOjp kFRnpC kswRGn"
     color="primary"
     disabled={false}
   >
     <label
-      className="sc-cCsOjp jSIvih"
+      className="sc-ciZhAO bsBhxR"
       htmlFor="radio-raspberry"
     >
       <input
         checked={false}
-        className="sc-ciZhAO jeUHLQ"
+        className="sc-jdAMXn xQarO"
         id="radio-raspberry"
         name="radio-raspberry"
         onChange={[Function]}
@@ -1321,13 +1334,13 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
 
 exports[`Storyshots inputs/IconButton Docs 1`] = `
 <button
-  className="sc-crXcEl lytTS"
+  className="sc-evZas iBlbdI"
   onClick={[Function]}
   type="button"
 >
   <svg
     aria-label="削除"
-    className="sc-gKXOVf gfWmrp"
+    className="sc-iBkjds eXmDJP"
     role="img"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
@@ -1345,7 +1358,7 @@ exports[`Storyshots inputs/IconButton Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-gicCDI eAamlG"
+  className="sc-ezWOiH jyJKRD"
   hasError={false}
   id="input-base"
   name="input-base-docs"
@@ -1356,7 +1369,7 @@ exports[`Storyshots inputs/InputBase Docs 1`] = `
 
 exports[`Storyshots inputs/MailButton Docs 1`] = `
 <button
-  className="sc-bjUoiL dVYXNF sc-jdAMXn cRorpK"
+  className="sc-idiyUo hQiKYJ sc-bZnhIo dfihyQ"
   color="primary"
   onClick={[Function]}
   type="button"
@@ -1364,7 +1377,7 @@ exports[`Storyshots inputs/MailButton Docs 1`] = `
   <div>
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ"
+      className="sc-iBkjds fiupan"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -1381,10 +1394,10 @@ exports[`Storyshots inputs/MailButton Docs 1`] = `
 
 exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 <div
-  className="sc-bZkfAO iCCwRY"
+  className="sc-kLLXSd hmhJIr"
 >
   <input
-    className="sc-gicCDI eAamlG"
+    className="sc-ezWOiH jyJKRD"
     hasError={false}
     id="password-input"
     name="password-input-docs"
@@ -1392,13 +1405,13 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
     value="password input sample"
   />
   <button
-    className="sc-crXcEl lytTS sc-ezWOiH"
+    className="sc-evZas iBlbdI sc-bZkfAO"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="パスワードを表示する"
-      className="sc-gKXOVf dIMGbe"
+      className="sc-iBkjds inntBc"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -1417,7 +1430,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-bZnhIo kgFGhd"
+  className="sc-iTONeN cYGIZe"
   hasError={false}
   id="TextArea"
   name="text-area-docs"
@@ -1427,7 +1440,7 @@ exports[`Storyshots inputs/TextArea Docs 1`] = `
 
 exports[`Storyshots inputs/TextButton Docs 1`] = `
 <button
-  className="sc-bjUoiL dVYXNF sc-idiyUo"
+  className="sc-idiyUo hQiKYJ sc-dIouRR"
   color="primary"
   onClick={[Function]}
   type="button"
@@ -1439,10 +1452,10 @@ exports[`Storyshots inputs/TextButton Docs 1`] = `
 
 exports[`Storyshots inputs/TextInput Docs 1`] = `
 <div
-  className="sc-jIZahH itKAIB"
+  className="sc-himrzO gGfMEn"
 >
   <input
-    className="sc-gicCDI eAamlG"
+    className="sc-ezWOiH jyJKRD"
     hasError={false}
     id="text-input"
     name="text-input-docs"
@@ -1450,13 +1463,13 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
     value="text input sample"
   />
   <button
-    className="sc-crXcEl lytTS sc-ikZpkk"
+    className="sc-evZas iBlbdI sc-jIZahH"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-label="text-input-docsの入力を削除する"
-      className="sc-gKXOVf dIMGbe"
+      className="sc-iBkjds inntBc"
       role="img"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
@@ -1475,7 +1488,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 
 exports[`Storyshots navigation/Link Docs 1`] = `
 <a
-  className="sc-iTONeN ipECHh sc-iAvgwm"
+  className="sc-iAvgwm fTFCOp sc-efBctP"
   href="/"
   onClick={[Function]}
   onMouseEnter={[Function]}
@@ -1486,11 +1499,11 @@ exports[`Storyshots navigation/Link Docs 1`] = `
 
 exports[`Storyshots navigation/Tabs Docs 1`] = `
 <ul
-  className="sc-efBctP iIyMyM"
+  className="sc-cTQhss gpFnhY"
   role="tablist"
 >
   <li
-    className="sc-cTQhss cHOobx"
+    className="sc-jOrMOR dxLmhw"
     color="secondary"
     role="presentation"
   >
@@ -1507,7 +1520,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
     </button>
   </li>
   <li
-    className="sc-cTQhss dhIEVG"
+    className="sc-jOrMOR fHmLjH"
     color="secondary"
     role="presentation"
   >
@@ -1524,7 +1537,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
     </button>
   </li>
   <li
-    className="sc-cTQhss cHOobx"
+    className="sc-jOrMOR dxLmhw"
     color="secondary"
     role="presentation"
   >
@@ -1545,24 +1558,24 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
 
 exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
 <section
-  className="sc-jgbSNz gjMgqR"
+  className="sc-gSAPjG hRCCoZ"
 >
   <h3
-    className="sc-kgUAyh ddzGrW"
+    className="sc-hTtwUo bHtbMG"
   >
     ログイン
   </h3>
   <hr
-    className="sc-jOrMOR dyPWbV"
+    className="sc-dPyBCJ iUQmdg"
   />
   <div
-    className="sc-hTtwUo ikkVrW"
+    className="sc-jgbSNz cmEJtT"
   >
     <div
-      className="sc-ehmTmK jmLTjq"
+      className="sc-lbOyJj dTJvNc"
     >
       <button
-        className="sc-bjUoiL dVYXNF sc-jdAMXn cRorpK"
+        className="sc-idiyUo hQiKYJ sc-bZnhIo dfihyQ"
         color="primary"
         onClick={[Function]}
         type="button"
@@ -1570,7 +1583,7 @@ exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
         <div>
           <svg
             aria-hidden={true}
-            className="sc-gKXOVf dCngcJ"
+            className="sc-iBkjds fiupan"
             viewBox="0 0 48 48"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1584,7 +1597,7 @@ exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
         </div>
       </button>
       <button
-        className="sc-bjUoiL dVYXNF sc-hiMGwR gobEmQ"
+        className="sc-idiyUo hQiKYJ sc-ehmTmK iBRXia"
         color="primary"
         onClick={[Function]}
         type="button"
@@ -1592,7 +1605,7 @@ exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
         <div>
           <svg
             aria-hidden={true}
-            className="sc-gKXOVf dCngcJ"
+            className="sc-iBkjds fiupan"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1606,7 +1619,7 @@ exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
         </div>
       </button>
       <button
-        className="sc-bjUoiL dVYXNF sc-olbas hAVgux"
+        className="sc-idiyUo hQiKYJ sc-hiMGwR glMsCC"
         color="primary"
         onClick={[Function]}
         type="button"
@@ -1614,7 +1627,7 @@ exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
         <div>
           <svg
             aria-hidden={true}
-            className="sc-gKXOVf dCngcJ"
+            className="sc-iBkjds fiupan"
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -1635,36 +1648,36 @@ exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
 
 exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
 <section
-  className="sc-jgbSNz gjMgqR"
+  className="sc-gSAPjG hRCCoZ"
 >
   <h3
-    className="sc-kgUAyh ddzGrW"
+    className="sc-hTtwUo bHtbMG"
   >
     ログイン
   </h3>
   <hr
-    className="sc-jOrMOR dyPWbV"
+    className="sc-dPyBCJ iUQmdg"
   />
   <div
-    className="sc-hTtwUo ikkVrW"
+    className="sc-jgbSNz cmEJtT"
   >
     <form
-      className="sc-lbOyJj fjNizk"
+      className="sc-gFGZVQ gbExAr"
       onSubmit={[Function]}
     >
       <div
-        className="sc-himrzO laLFZS"
+        className="sc-gXmSlM gmwcss"
       >
         <label
           aria-describedby="email-describe"
-          className="sc-ivTmOn doBtVo"
+          className="sc-cxabCf jsgzcy"
           htmlFor="email"
           required={true}
         >
           Email
         </label>
         <div
-          className="sc-cxabCf goGbmg"
+          className="sc-llJcti gGPsxJ"
         >
           <span
             id="email-describe"
@@ -1673,10 +1686,10 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
           </span>
         </div>
         <div
-          className="sc-jIZahH itKAIB"
+          className="sc-himrzO gGfMEn"
         >
           <input
-            className="sc-gicCDI eAamlG"
+            className="sc-ezWOiH jyJKRD"
             hasError={false}
             id="email"
             name="email"
@@ -1688,18 +1701,18 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
         </div>
       </div>
       <div
-        className="sc-kLLXSd jnFIIm"
+        className="sc-ikZpkk bAkAFX"
       >
         <label
           aria-describedby="password-describe"
-          className="sc-ivTmOn doBtVo"
+          className="sc-cxabCf jsgzcy"
           htmlFor="password"
           required={true}
         >
           パスワード
         </label>
         <div
-          className="sc-cxabCf goGbmg"
+          className="sc-llJcti gGPsxJ"
         >
           <span
             id="password-describe"
@@ -1708,10 +1721,10 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
           </span>
         </div>
         <div
-          className="sc-bZkfAO iCCwRY"
+          className="sc-kLLXSd hmhJIr"
         >
           <input
-            className="sc-gicCDI eAamlG"
+            className="sc-ezWOiH jyJKRD"
             hasError={false}
             id="password"
             name="password"
@@ -1721,13 +1734,13 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
             value=""
           />
           <button
-            className="sc-crXcEl lytTS sc-ezWOiH"
+            className="sc-evZas iBlbdI sc-bZkfAO"
             onClick={[Function]}
             type="button"
           >
             <svg
               aria-label="パスワードを表示する"
-              className="sc-gKXOVf dIMGbe"
+              className="sc-iBkjds inntBc"
               role="img"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -1743,11 +1756,14 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
           </button>
         </div>
       </div>
+      <hr
+        className="sc-dPyBCJ iUQmdg"
+      />
       <div
-        className="sc-gFGZVQ jfvHCi"
+        className="sc-ckMVTt hsYnCa"
       >
         <button
-          className="sc-bjUoiL cFSRvq sc-idiyUo"
+          className="sc-idiyUo dNYGQm sc-dIouRR"
           color="default"
           disabled={false}
           onClick={[Function]}
@@ -1756,7 +1772,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
           クリア
         </button>
         <button
-          className="sc-bjUoiL fqUvYH sc-idiyUo"
+          className="sc-idiyUo cHUJRD sc-dIouRR"
           color="secondary"
           disabled={false}
           type="submit"
@@ -1771,23 +1787,23 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
 
 exports[`Storyshots surfaces/Accordion Docs 1`] = `
 <section
-  className="sc-BeQoi fyleZj"
+  className="sc-kgUAyh eSwqku"
 >
   <button
     aria-controls="accordion-docs-section"
     aria-disabled={true}
-    className="sc-dPyBCJ hLVFSi"
+    className="sc-bBXxYQ hNcyAi"
     id="accordion-docs-header"
     onClick={[Function]}
   >
     <h3
-      className="sc-bBXxYQ gFXfbq"
+      className="sc-cOFTSb kVxkZx"
     >
       Accordion Component
     </h3>
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf KGKlu"
+      className="sc-iBkjds cqXHKM"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -1802,7 +1818,7 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
   </button>
   <div
     aria-labelledby="accordion-docs-header"
-    className="sc-cOFTSb cIaQBQ"
+    className="sc-BeQoi flsIUH"
     id="accordion-docs-section"
   >
     <p>
@@ -1814,18 +1830,18 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
 
 exports[`Storyshots surfaces/Card Docs 1`] = `
 <section
-  className="sc-jgbSNz gjMgqR"
+  className="sc-gSAPjG hRCCoZ"
 >
   <h3
-    className="sc-kgUAyh ddzGrW"
+    className="sc-hTtwUo bHtbMG"
   >
     Card Component
   </h3>
   <hr
-    className="sc-jOrMOR dyPWbV"
+    className="sc-dPyBCJ iUQmdg"
   />
   <div
-    className="sc-hTtwUo ikkVrW"
+    className="sc-jgbSNz cmEJtT"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -1836,22 +1852,22 @@ exports[`Storyshots surfaces/Card Docs 1`] = `
 
 exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 <header
-  className="sc-iNWwEs csVReh"
+  className="sc-jfmDQi jJOQyl"
 >
   <h2
-    className="sc-lbxAil cORiXG"
+    className="sc-iNWwEs hLMkYV"
   >
     HeaderBar Component
   </h2>
   <button
     aria-label="メニューを表示する"
-    className="sc-crXcEl lytTS sc-gSAPjG fDXqPi"
+    className="sc-evZas iBlbdI sc-lbxAil iEFUJu"
     onClick={[Function]}
     type="button"
   >
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ"
+      className="sc-iBkjds fiupan"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -1870,10 +1886,10 @@ exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 
 exports[`Storyshots surfaces/Paper Docs 1`] = `
 <section
-  className="sc-eKszNL flafeg"
+  className="sc-olbas hZDdiG"
 >
   <div
-    className="sc-jfmDQi hUlPlG"
+    className="sc-eKszNL jwxYty"
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
@@ -1882,7 +1898,7 @@ exports[`Storyshots surfaces/Paper Docs 1`] = `
 
 exports[`Storyshots unique/GithubButton Docs 1`] = `
 <button
-  className="sc-bjUoiL dVYXNF sc-olbas hAVgux"
+  className="sc-idiyUo hQiKYJ sc-hiMGwR glMsCC"
   color="primary"
   onClick={[Function]}
   type="button"
@@ -1890,7 +1906,7 @@ exports[`Storyshots unique/GithubButton Docs 1`] = `
   <div>
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ"
+      className="sc-iBkjds fiupan"
       viewBox="0 0 16 16"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -1908,7 +1924,7 @@ exports[`Storyshots unique/GithubButton Docs 1`] = `
 
 exports[`Storyshots unique/GoogleButton Docs 1`] = `
 <button
-  className="sc-bjUoiL dVYXNF sc-hiMGwR gobEmQ"
+  className="sc-idiyUo hQiKYJ sc-ehmTmK iBRXia"
   color="primary"
   onClick={[Function]}
   type="button"
@@ -1916,7 +1932,7 @@ exports[`Storyshots unique/GoogleButton Docs 1`] = `
   <div>
     <svg
       aria-hidden={true}
-      className="sc-gKXOVf dCngcJ"
+      className="sc-iBkjds fiupan"
       viewBox="0 0 16 16"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -1941,7 +1957,7 @@ exports[`Storyshots utils/Backdrop With Loading 1`] = `
 
 exports[`Storyshots utils/Divider Docs 1`] = `
 <hr
-  className="sc-jOrMOR dyPWbV"
+  className="sc-dPyBCJ iUQmdg"
 />
 `;
 
@@ -1956,7 +1972,7 @@ exports[`Storyshots utils/LoadingGuard Loading 1`] = `
 exports[`Storyshots utils/LoadingSpinner Docs 1`] = `
 <svg
   aria-hidden={true}
-  className="sc-gKXOVf gfWmrp sc-fnykZs jDVnbC"
+  className="sc-iBkjds eXmDJP sc-fEOsli drIlWz"
   viewBox="0 0 24 24"
   xmlns="http://www.w3.org/2000/svg"
 >
