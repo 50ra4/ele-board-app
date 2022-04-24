@@ -1,5 +1,9 @@
 import { css, DefaultTheme, keyframes, ThemedCssFunction } from 'styled-components';
 
+const fontColor = {
+  link: '#c6a700',
+} as const;
+
 const inputColor = {
   default: {
     background: '#ffffff',
@@ -162,6 +166,7 @@ export const STYLE_THEME = {
     ...color,
     border: borderColor,
     card: cardColor,
+    font: fontColor,
   },
   font: {
     family: fontFamilies,

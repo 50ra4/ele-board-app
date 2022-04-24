@@ -1448,13 +1448,24 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
 </div>
 `;
 
+exports[`Storyshots navigation/Link Docs 1`] = `
+<a
+  className="sc-bZnhIo jqrdOe sc-iTONeN"
+  href="/"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+>
+  Link Story Component
+</a>
+`;
+
 exports[`Storyshots navigation/Tabs Docs 1`] = `
 <ul
-  className="sc-bZnhIo bmoUui"
+  className="sc-iAvgwm igPOfF"
   role="tablist"
 >
   <li
-    className="sc-iTONeN eUNljo"
+    className="sc-efBctP kzWYgl"
     color="secondary"
     role="presentation"
   >
@@ -1471,7 +1482,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
     </button>
   </li>
   <li
-    className="sc-iTONeN sSnqf"
+    className="sc-efBctP eymMFy"
     color="secondary"
     role="presentation"
   >
@@ -1488,7 +1499,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
     </button>
   </li>
   <li
-    className="sc-iTONeN eUNljo"
+    className="sc-efBctP kzWYgl"
     color="secondary"
     role="presentation"
   >
@@ -1509,17 +1520,17 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
 
 exports[`Storyshots surfaces/Accordion Docs 1`] = `
 <section
-  className="sc-dPyBCJ byNnIB"
+  className="sc-cOFTSb jvTbOk"
 >
   <button
     aria-controls="accordion-docs-section"
     aria-disabled={true}
-    className="sc-efBctP cjvNGy"
+    className="sc-jOrMOR lbWPpn"
     id="accordion-docs-header"
     onClick={[Function]}
   >
     <h3
-      className="sc-cTQhss jZCsaY"
+      className="sc-dPyBCJ kQPHFE"
     >
       Accordion Component
     </h3>
@@ -1540,7 +1551,7 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
   </button>
   <div
     aria-labelledby="accordion-docs-header"
-    className="sc-jOrMOR iTtfVs"
+    className="sc-bBXxYQ eXOFmH"
     id="accordion-docs-section"
   >
     <p>
@@ -1552,18 +1563,18 @@ exports[`Storyshots surfaces/Accordion Docs 1`] = `
 
 exports[`Storyshots surfaces/Card Docs 1`] = `
 <section
-  className="sc-BeQoi gKLuyt"
+  className="sc-hTtwUo bFHNpQ"
 >
   <h3
-    className="sc-bBXxYQ fpNOwT"
+    className="sc-BeQoi dgildX"
   >
     Card Component
   </h3>
   <hr
-    className="sc-iAvgwm elGsah"
+    className="sc-cTQhss inPZIY"
   />
   <div
-    className="sc-cOFTSb fxXSFY"
+    className="sc-kgUAyh iqFwTu"
   >
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -1574,16 +1585,16 @@ exports[`Storyshots surfaces/Card Docs 1`] = `
 
 exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 <header
-  className="sc-jgbSNz cMdnMw"
+  className="sc-lbxAil fDQHvW"
 >
   <h2
-    className="sc-hTtwUo cYnpwB"
+    className="sc-gSAPjG gjzvdI"
   >
     HeaderBar Component
   </h2>
   <button
     aria-label="メニューを表示する"
-    className="sc-crXcEl lytTS sc-kgUAyh jjRqHP"
+    className="sc-crXcEl lytTS sc-jgbSNz ezPVUu"
     onClick={[Function]}
     type="button"
   >
@@ -1608,10 +1619,10 @@ exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
 
 exports[`Storyshots surfaces/Paper Docs 1`] = `
 <section
-  className="sc-lbxAil LDPOH"
+  className="sc-jfmDQi gLprao"
 >
   <div
-    className="sc-gSAPjG laOWMb"
+    className="sc-iNWwEs bzmNma"
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </div>
@@ -1628,7 +1639,7 @@ exports[`Storyshots utils/Backdrop With Loading 1`] = `
 
 exports[`Storyshots utils/Divider Docs 1`] = `
 <hr
-  className="sc-iAvgwm elGsah"
+  className="sc-cTQhss inPZIY"
 />
 `;
 
