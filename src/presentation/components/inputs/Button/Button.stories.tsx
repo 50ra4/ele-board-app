@@ -30,3 +30,11 @@ export const Disabled = () => (
     Disabled
   </Button>
 );
+
+export const Loading = () => {
+  return (
+    <Button color="primary" isLoading={true}>
+      Loading
+    </Button>
+  );
+};
