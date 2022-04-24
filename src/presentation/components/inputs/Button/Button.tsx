@@ -23,7 +23,7 @@ const UnstyledButton = React.forwardRef<HTMLButtonElement, ButtonProps>(function
       ) : (
         <LoadingWrapper>
           <LoadingSpinner />
-          Loading...
+          <span>Loading...</span>
         </LoadingWrapper>
       )}
     </button>
@@ -38,7 +38,9 @@ const LoadingWrapper = styled.div`
   & > ${LoadingSpinner} {
     min-width: 18px;
     min-height: 18px;
-    margin-right: 4px;
+  }
+  & > span {
+    margin-left: 4px;
   }
 `;
 
