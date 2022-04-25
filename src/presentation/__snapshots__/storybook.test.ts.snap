@@ -688,7 +688,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
 >
   <label
     aria-describedby="password-form-describe"
-    className="sc-llJcti cZKIiW"
+    className="sc-llJcti jKaUFn"
     htmlFor="password-form"
     required={true}
   >
@@ -749,7 +749,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
 >
   <label
     aria-describedby="text-form-describe"
-    className="sc-llJcti cZKIiW"
+    className="sc-llJcti jKaUFn"
     htmlFor="text-form"
     required={true}
   >
@@ -1664,7 +1664,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
       >
         <label
           aria-describedby="email-describe"
-          className="sc-llJcti cZKIiW"
+          className="sc-llJcti jKaUFn"
           htmlFor="email"
           required={true}
         >
@@ -1699,7 +1699,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
       >
         <label
           aria-describedby="password-describe"
-          className="sc-llJcti cZKIiW"
+          className="sc-llJcti jKaUFn"
           htmlFor="password"
           required={true}
         >

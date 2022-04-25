@@ -2,6 +2,7 @@ import { css, DefaultTheme, keyframes, ThemedCssFunction } from 'styled-componen
 
 const fontColor = {
   link: '#c6a700',
+  error: '#c62828',
 } as const;
 
 const inputColor = {
