@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { FormBaseProps, FormLabel, FormDescription, FormErrorMessage } from '../FormBase';
 import { PasswordInput } from '@/components/inputs/PasswordInput/PasswordInput';
 
