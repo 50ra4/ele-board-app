@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { TextInput, TextInputProps } from '@/components/inputs/TextInput/TextInput';
 import { FormBaseProps, FormLabel, FormDescription, FormErrorMessage } from '../FormBase';
 
@@ -19,7 +19,6 @@ const UnstyledTextForm = React.memo(function TextForm({
   type,
   required,
   readonly,
-  inline,
   name,
   value,
   placeholder,
@@ -29,14 +28,14 @@ const UnstyledTextForm = React.memo(function TextForm({
 }: TextFormProps) {
   return (
     <div className={className}>
-      <FormLabel htmlFor={id} label={label} required={required} inline={inline} />
+      <FormLabel htmlFor={id} label={label} required={required} />
       {!!description && <FormDescription id={id} description={description} />}
       <TextInput
         type={type}
         id={id}
         name={name}
         value={value}
-        hasError={!!errorMessage}
+        error={!!errorMessage}
         placeholder={placeholder}
         readOnly={readonly}
         onChange={(e) => onChange(e.currentTarget.value ?? '')}
@@ -50,10 +49,6 @@ const UnstyledTextForm = React.memo(function TextForm({
 
 export const TextForm = styled(UnstyledTextForm)`
   & > ${FormLabel} + ${TextInput} {
-    ${({ inline }) =>
-      !inline &&
-      css`
-        margin-top: 4px;
-      `}
+    margin-top: 4px;
   }
 `;

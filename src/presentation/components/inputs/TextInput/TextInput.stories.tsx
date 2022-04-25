@@ -11,7 +11,7 @@ export const Docs: Story = {
     id: 'text-input',
     name: 'text-input-docs',
     value: 'text input sample',
-    hasError: false,
+    error: false,
     onClear: () => {},
   },
 };

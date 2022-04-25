@@ -5,7 +5,6 @@ type OwnProps = {
   text: string;
   color: ColorPalette;
   show?: boolean;
-  visibleOnHover?: boolean;
 };
 
 export type TooltipProps = OwnProps & Omit<React.ComponentPropsWithoutRef<'div'>, keyof OwnProps>;
@@ -71,15 +70,6 @@ export const Tooltip = styled(function Tooltip({
     }
     ${({ show }) =>
       show &&
-      css`
-        visibility: visible;
-        opacity: 1;
-      `}
-  }
-
-  &:hover ${TooltipText} {
-    ${({ visibleOnHover }) =>
-      visibleOnHover &&
       css`
         visibility: visible;
         opacity: 1;

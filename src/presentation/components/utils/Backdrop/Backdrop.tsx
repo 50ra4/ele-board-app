@@ -2,19 +2,22 @@ import React from 'react';
 import styled from 'styled-components';
 
 type OwnProps = {
+  className?: string;
   transparent?: boolean;
   onClick: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 };
 
 export type BackdropProps = OwnProps & Omit<React.ComponentPropsWithoutRef<'div'>, keyof OwnProps>;
 
-const UnstyledBackdrop = React.forwardRef<HTMLDivElement, BackdropProps>(function Backdrop(
-  { onClick, children, ...props },
+export const Backdrop = React.forwardRef<HTMLDivElement, BackdropProps>(function Backdrop(
+  { onClick, children, transparent, className, ...props },
   ref,
 ) {
   return (
-    <div
+    <BackdropWrap
       {...props}
+      className={className}
+      transparent={transparent}
       ref={ref}
       onClick={(e) => {
         e.stopPropagation();
@@ -22,11 +25,11 @@ const UnstyledBackdrop = React.forwardRef<HTMLDivElement, BackdropProps>(functio
       }}
     >
       {children}
-    </div>
+    </BackdropWrap>
   );
 });
 
-export const Backdrop = styled(UnstyledBackdrop)`
+export const BackdropWrap = styled.div<{ transparent?: boolean }>`
   top: 0;
   left: 0;
   right: 0;

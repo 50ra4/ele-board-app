@@ -16,7 +16,6 @@ export type FormBaseProps<T> = {
   // for label
   label: string;
   required?: boolean;
-  inline?: boolean;
 
   // for feedback
   errorMessage?: string;
@@ -29,7 +28,6 @@ type FormLabelProps = {
   htmlFor?: string;
   required?: boolean;
   description?: string;
-  inline?: boolean;
 };
 
 const createAriaDescribedby = (id?: string) => (id ? `${id}-describe` : undefined);
@@ -49,7 +47,7 @@ export const FormLabel = styled(function FormLabel({ label, htmlFor, ...props }:
     css`
       &::after {
         content: '*';
-        color: #c62828;
+        color: ${({ theme }) => theme.color.font.error};
       }
     `};
 `;
@@ -85,7 +83,7 @@ type FormErrorMessageProps = {
 };
 
 const StyledWarningIcon = styled(WarningIcon)`
-  fill: #c62828;
+  fill: ${({ theme }) => theme.color.font.error};
   margin-right: 4px;
 `;
 
@@ -104,7 +102,7 @@ export const FormErrorMessage = styled(function FormErrorMessage({
   margin: 8px 0;
 
   & > span {
-    color: #c62828;
+    color: ${({ theme }) => theme.color.font.error};
     font-size: 12px;
     line-height: 18px;
   }

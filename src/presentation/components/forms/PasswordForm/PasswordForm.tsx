@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { FormBaseProps, FormLabel, FormDescription, FormErrorMessage } from '../FormBase';
 import { PasswordInput } from '@/components/inputs/PasswordInput/PasswordInput';
 
@@ -16,7 +16,6 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
   errorMessage,
   required,
   readonly,
-  inline,
   name,
   value,
   placeholder,
@@ -25,13 +24,13 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
 }: PasswordFormProps) {
   return (
     <div className={className}>
-      <FormLabel htmlFor={id} label={label} required={required} inline={inline} />
+      <FormLabel htmlFor={id} label={label} required={required} />
       {!!description && <FormDescription id={id} description={description} />}
       <PasswordInput
         id={id}
         name={name}
         value={value}
-        hasError={!!errorMessage}
+        error={!!errorMessage}
         placeholder={placeholder}
         readOnly={readonly}
         onChange={(e) => onChange(e.currentTarget.value ?? '')}
@@ -44,10 +43,6 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
 
 export const PasswordForm = styled(UnstyledPasswordForm)`
   & > ${FormLabel} + ${PasswordInput} {
-    ${({ inline }) =>
-      !inline &&
-      css`
-        margin-top: 4px;
-      `}
+    margin-top: 4px;
   }
 `;

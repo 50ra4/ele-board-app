@@ -17,10 +17,10 @@ export const Docs: Story = {
     disabled: false,
     label: 'TextForm',
     required: true,
-    inline: false,
     errorMessage: '',
     description: '登録したメールアドレスを入力してください',
     onChange: () => {},
     onClear: () => {},
+    onBlur: () => {},
   },
 };
