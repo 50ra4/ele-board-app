@@ -19,7 +19,6 @@ const UnstyledTextForm = React.memo(function TextForm({
   type,
   required,
   readonly,
-  inline,
   name,
   value,
   placeholder,
@@ -29,7 +28,7 @@ const UnstyledTextForm = React.memo(function TextForm({
 }: TextFormProps) {
   return (
     <div className={className}>
-      <FormLabel htmlFor={id} label={label} required={required} inline={inline} />
+      <FormLabel htmlFor={id} label={label} required={required} />
       {!!description && <FormDescription id={id} description={description} />}
       <TextInput
         type={type}
@@ -50,10 +49,6 @@ const UnstyledTextForm = React.memo(function TextForm({
 
 export const TextForm = styled(UnstyledTextForm)`
   & > ${FormLabel} + ${TextInput} {
-    ${({ inline }) =>
-      !inline &&
-      css`
-        margin-top: 4px;
-      `}
+    margin-top: 4px;
   }
 `;

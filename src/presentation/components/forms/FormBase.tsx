@@ -16,7 +16,6 @@ export type FormBaseProps<T> = {
   // for label
   label: string;
   required?: boolean;
-  inline?: boolean;
 
   // for feedback
   errorMessage?: string;
@@ -29,7 +28,6 @@ type FormLabelProps = {
   htmlFor?: string;
   required?: boolean;
   description?: string;
-  inline?: boolean;
 };
 
 const createAriaDescribedby = (id?: string) => (id ? `${id}-describe` : undefined);
@@ -49,7 +47,7 @@ export const FormLabel = styled(function FormLabel({ label, htmlFor, ...props }:
     css`
       &::after {
         content: '*';
-        color: #c62828;
+        color: #c62828; // FIXME: replace with theme.color
       }
     `};
 `;

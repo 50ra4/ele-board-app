@@ -16,7 +16,6 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
   errorMessage,
   required,
   readonly,
-  inline,
   name,
   value,
   placeholder,
@@ -25,7 +24,7 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
 }: PasswordFormProps) {
   return (
     <div className={className}>
-      <FormLabel htmlFor={id} label={label} required={required} inline={inline} />
+      <FormLabel htmlFor={id} label={label} required={required} />
       {!!description && <FormDescription id={id} description={description} />}
       <PasswordInput
         id={id}
@@ -44,10 +43,6 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
 
 export const PasswordForm = styled(UnstyledPasswordForm)`
   & > ${FormLabel} + ${PasswordInput} {
-    ${({ inline }) =>
-      !inline &&
-      css`
-        margin-top: 4px;
-      `}
+    margin-top: 4px;
   }
 `;

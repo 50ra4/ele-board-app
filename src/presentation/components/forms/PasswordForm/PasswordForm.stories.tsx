@@ -16,7 +16,6 @@ export const Docs: Story = {
     disabled: false,
     label: 'PasswordForm',
     required: true,
-    inline: false,
     errorMessage: '',
     description: '半角英数6文字以上18文字以下で入力してください',
     onChange: () => {},

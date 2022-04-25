@@ -684,13 +684,12 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
 
 exports[`Storyshots forms/PasswordForm Docs 1`] = `
 <div
-  className="sc-jIZahH bwpGOi"
+  className="sc-jIZahH yLxXh"
 >
   <label
     aria-describedby="password-form-describe"
-    className="sc-llJcti jKaUFn"
+    className="sc-llJcti cZKIiW"
     htmlFor="password-form"
-    inline={false}
     required={true}
   >
     PasswordForm
@@ -746,13 +745,12 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
 
 exports[`Storyshots forms/TextForm Docs 1`] = `
 <div
-  className="sc-cCsOjp ddHMCo"
+  className="sc-cCsOjp dvcKen"
 >
   <label
     aria-describedby="text-form-describe"
-    className="sc-llJcti jKaUFn"
+    className="sc-llJcti cZKIiW"
     htmlFor="text-form"
-    inline={false}
     required={true}
   >
     TextForm
@@ -1662,11 +1660,11 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
       onSubmit={[Function]}
     >
       <div
-        className="sc-cCsOjp ddHMCo"
+        className="sc-cCsOjp dvcKen"
       >
         <label
           aria-describedby="email-describe"
-          className="sc-llJcti jKaUFn"
+          className="sc-llJcti cZKIiW"
           htmlFor="email"
           required={true}
         >
@@ -1697,11 +1695,11 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
         </div>
       </div>
       <div
-        className="sc-jIZahH bwpGOi"
+        className="sc-jIZahH yLxXh"
       >
         <label
           aria-describedby="password-describe"
-          className="sc-llJcti jKaUFn"
+          className="sc-llJcti cZKIiW"
           htmlFor="password"
           required={true}
         >
