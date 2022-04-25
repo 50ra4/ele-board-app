@@ -707,8 +707,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     className="sc-ikZpkk gDIbJB"
   >
     <input
-      className="sc-bZkfAO efWFCK"
-      hasError={false}
+      className="sc-bZkfAO bunSvG"
       id="password-form"
       name="password-docs"
       onBlur={[Function]}
@@ -768,8 +767,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     className="sc-gXmSlM koLHnS"
   >
     <input
-      className="sc-bZkfAO efWFCK"
-      hasError={false}
+      className="sc-bZkfAO bunSvG"
       id="text-form"
       name="text-form-docs"
       onBlur={[Function]}
@@ -1352,8 +1350,7 @@ exports[`Storyshots inputs/IconButton Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-bZkfAO efWFCK"
-  hasError={false}
+  className="sc-bZkfAO bunSvG"
   id="input-base"
   name="input-base-docs"
   type="text"
@@ -1391,8 +1388,7 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
   className="sc-ikZpkk gDIbJB"
 >
   <input
-    className="sc-bZkfAO efWFCK"
-    hasError={false}
+    className="sc-bZkfAO bunSvG"
     id="password-input"
     name="password-input-docs"
     type="password"
@@ -1449,8 +1445,7 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
   className="sc-gXmSlM koLHnS"
 >
   <input
-    className="sc-bZkfAO efWFCK"
-    hasError={false}
+    className="sc-bZkfAO bunSvG"
     id="text-input"
     name="text-input-docs"
     type="text"
@@ -1683,8 +1678,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
           className="sc-gXmSlM koLHnS"
         >
           <input
-            className="sc-bZkfAO efWFCK"
-            hasError={false}
+            className="sc-bZkfAO bunSvG"
             id="email"
             name="email"
             onBlur={[Function]}
@@ -1718,8 +1712,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
           className="sc-ikZpkk gDIbJB"
         >
           <input
-            className="sc-bZkfAO efWFCK"
-            hasError={false}
+            className="sc-bZkfAO bunSvG"
             id="password"
             name="password"
             onBlur={[Function]}

@@ -21,5 +21,6 @@ export const Docs: Story = {
     description: '登録したメールアドレスを入力してください',
     onChange: () => {},
     onClear: () => {},
+    onBlur: () => {},
   },
 };

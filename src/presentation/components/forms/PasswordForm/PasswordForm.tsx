@@ -30,7 +30,7 @@ const UnstyledPasswordForm = React.memo(function PasswordForm({
         id={id}
         name={name}
         value={value}
-        hasError={!!errorMessage}
+        error={!!errorMessage}
         placeholder={placeholder}
         readOnly={readonly}
         onChange={(e) => onChange(e.currentTarget.value ?? '')}
