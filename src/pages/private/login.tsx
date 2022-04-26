@@ -32,7 +32,7 @@ function LoginPage() {
           <StyledMailLoginForm onSubmit={onSubmit} />
           <StyledOutlineDescription>
             パスワードをお忘れの方は
-            <Link href="/private/resetPassword">パスワードリセット</Link>
+            <Link href="/private/resetPassword">リセット</Link>
           </StyledOutlineDescription>
           <StyledOutlineDescription>
             他の方法で
