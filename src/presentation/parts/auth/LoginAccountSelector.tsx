@@ -27,7 +27,7 @@ type Props = {
   onSelect: (type: LoginAccountType) => void;
 };
 
-export function LoginSelectCard({ className, title, items, onSelect }: Props) {
+export function LoginAccountSelector({ className, title, items, onSelect }: Props) {
   const { onClickMail, onClickGoogle, onClickGithub } = useMemo(
     () =>
       LOGIN_ACCOUNT_TYPE.reduce(

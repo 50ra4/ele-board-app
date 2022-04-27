@@ -5,9 +5,9 @@ import { useRouter } from 'next/router';
 import { OutlineDescription } from '@/components/display/OutlineDescription/OutlineDescription';
 import {
   LoginAccountItem,
-  LoginSelectCard,
+  LoginAccountSelector,
   LoginAccountType,
-} from 'src/presentation/parts/auth/LoginSelectCard';
+} from 'src/presentation/parts/auth/LoginAccountSelector';
 import { MailLoginForm } from 'src/presentation/parts/auth/MailLoginForm';
 import { TemplateNo1 } from 'src/presentation/templates/TemplateNo1';
 import { Link } from '@/components/navigation/Link/Link';
@@ -73,7 +73,7 @@ function LoginPage() {
   );
 }
 
-const StyledLoginSelectCard = styled(LoginSelectCard)`
+const StyledLoginSelectCard = styled(LoginAccountSelector)`
   margin-top: 100px;
   width: 100%;
   max-width: 480px;

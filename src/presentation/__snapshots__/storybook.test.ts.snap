@@ -1545,7 +1545,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
 </ul>
 `;
 
-exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
+exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
 <section
   className="sc-lbxAil LDPOH"
 >

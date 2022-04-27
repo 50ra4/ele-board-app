@@ -1,9 +1,9 @@
 import { ComponentProps } from 'react';
 import { ComponentStoryObj, createStoryMeta } from 'src/utils/storybookUtils';
-import { LoginSelectCard, LoginAccountItem } from './LoginSelectCard';
+import { LoginAccountSelector, LoginAccountItem } from './LoginAccountSelector';
 
-export default createStoryMeta(LoginSelectCard, {
-  title: 'parts/auth/LoginSelectCard',
+export default createStoryMeta(LoginAccountSelector, {
+  title: 'parts/auth/LoginAccountSelector',
 });
 
 const items: LoginAccountItem[] = [
@@ -21,7 +21,7 @@ const items: LoginAccountItem[] = [
   },
 ];
 
-type Story = ComponentStoryObj<ComponentProps<typeof LoginSelectCard>>;
+type Story = ComponentStoryObj<ComponentProps<typeof LoginAccountSelector>>;
 export const Docs: Story = {
   args: {
     title: 'ログイン',
