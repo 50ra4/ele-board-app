@@ -24,7 +24,6 @@ const items: LoginAccountItem[] = [
 type Story = ComponentStoryObj<ComponentProps<typeof LoginAccountSelector>>;
 export const Docs: Story = {
   args: {
-    title: 'ログイン',
     items,
   },
 };

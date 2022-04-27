@@ -11,6 +11,7 @@ import {
 import { MailLoginForm } from 'src/presentation/parts/auth/MailLoginForm';
 import { TemplateNo1 } from 'src/presentation/templates/TemplateNo1';
 import { Link } from '@/components/navigation/Link/Link';
+import { Card } from '@/components/surfaces/Card/Card';
 
 const LOGIN_ACCOUNT_ITEMS: LoginAccountItem[] = [
   {
@@ -63,7 +64,9 @@ function LoginPage() {
           </StyledOutlineDescription>
         </>
       ) : (
-        <StyledLoginSelectCard title="ログイン" items={LOGIN_ACCOUNT_ITEMS} onSelect={onSelect} />
+        <StyledCard title="ログイン">
+          <StyledLoginAccountSelector items={LOGIN_ACCOUNT_ITEMS} onSelect={onSelect} />
+        </StyledCard>
       )}
       <StyledOutlineDescription>
         初めての方は
@@ -73,10 +76,14 @@ function LoginPage() {
   );
 }
 
-const StyledLoginSelectCard = styled(LoginAccountSelector)`
+const StyledCard = styled(Card)`
   margin-top: 100px;
   width: 100%;
   max-width: 480px;
+`;
+
+const StyledLoginAccountSelector = styled(LoginAccountSelector)`
+  padding: 0 4px;
 `;
 
 const StyledMailLoginForm = styled(MailLoginForm)`
