@@ -53,7 +53,7 @@ function LoginPage() {
     <TemplateNo1>
       <StyledCard title="ログイン">
         {showMailLoginForm ? (
-          <StyledMailLoginForm onSubmit={onSubmit} />
+          <StyledMailLoginForm type="signIn" onSubmit={onSubmit} />
         ) : (
           <StyledLoginAccountSelector items={LOGIN_ACCOUNT_ITEMS} onSelect={onSelect} />
         )}

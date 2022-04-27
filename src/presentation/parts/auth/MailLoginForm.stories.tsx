@@ -4,12 +4,19 @@ import { MailLoginForm } from './MailLoginForm';
 
 export default createStoryMeta(MailLoginForm, {
   title: 'parts/auth/MailLoginForm',
+  argTypes: {
+    type: {
+      options: ['signIn', 'signOn'],
+      control: { type: 'select' },
+    },
+  },
 });
 
 type Story = ComponentStoryObj<ComponentProps<typeof MailLoginForm>>;
 export const Docs: Story = {
   args: {
     isProcessing: false,
+    type: 'signIn',
     onSubmit: () => {},
   },
 };
