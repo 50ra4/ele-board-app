@@ -51,22 +51,24 @@ function LoginPage() {
 
   return (
     <TemplateNo1>
-      {showMailLoginForm ? (
-        <>
+      <StyledCard title="ログイン">
+        {showMailLoginForm ? (
           <StyledMailLoginForm onSubmit={onSubmit} />
-          <StyledOutlineDescription>
-            パスワードをお忘れの方は
-            <Link href="/private/resetPassword">リセット</Link>
-          </StyledOutlineDescription>
+        ) : (
+          <StyledLoginAccountSelector items={LOGIN_ACCOUNT_ITEMS} onSelect={onSelect} />
+        )}
+      </StyledCard>
+      {showMailLoginForm && (
+        <>
           <StyledOutlineDescription>
             他の方法で
             <Link href="/private/login">ログイン</Link>
           </StyledOutlineDescription>
+          <StyledOutlineDescription>
+            パスワードをお忘れの方は
+            <Link href="/private/resetPassword">リセット</Link>
+          </StyledOutlineDescription>
         </>
-      ) : (
-        <StyledCard title="ログイン">
-          <StyledLoginAccountSelector items={LOGIN_ACCOUNT_ITEMS} onSelect={onSelect} />
-        </StyledCard>
       )}
       <StyledOutlineDescription>
         初めての方は
@@ -87,9 +89,7 @@ const StyledLoginAccountSelector = styled(LoginAccountSelector)`
 `;
 
 const StyledMailLoginForm = styled(MailLoginForm)`
-  margin-top: 100px;
-  width: 100%;
-  max-width: 480px;
+  padding: 0 4px;
 `;
 
 const StyledOutlineDescription = styled(OutlineDescription)`

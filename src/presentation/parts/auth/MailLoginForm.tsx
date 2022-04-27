@@ -23,66 +23,65 @@ export function MailLoginForm({ className, isProcessing, onSubmit }: Props) {
   const hasError = false;
 
   return (
-    <Card className={className} title="ログイン">
-      <Form
-        onSubmit={(e) => {
-          e.preventDefault();
-          onSubmit({ email, password });
+    <Form
+      className={className}
+      onSubmit={(e) => {
+        e.preventDefault();
+        onSubmit({ email, password });
+      }}
+    >
+      <TextForm
+        type="email"
+        id="email"
+        name="email"
+        label="Email"
+        description="登録したメールアドレスを入力してください"
+        value={email}
+        required={true}
+        onChange={(v) => {
+          setState((prev) => ({ ...prev, email: v }));
         }}
-      >
-        <TextForm
-          type="email"
-          id="email"
-          name="email"
-          label="Email"
-          description="登録したメールアドレスを入力してください"
-          value={email}
-          required={true}
-          onChange={(v) => {
-            setState((prev) => ({ ...prev, email: v }));
-          }}
-          onBlur={(v) => {
-            setState((prev) => ({ ...prev, email: v }));
-          }}
-          onClear={() => {
-            setState((prev) => ({ ...prev, email: '' }));
+        onBlur={(v) => {
+          setState((prev) => ({ ...prev, email: v }));
+        }}
+        onClear={() => {
+          setState((prev) => ({ ...prev, email: '' }));
+        }}
+      />
+      <PasswordForm
+        id="password"
+        name="password"
+        label="パスワード"
+        value={password}
+        required={true}
+        description="登録したパスワードを入力してください"
+        onChange={(v) => {
+          setState((prev) => ({ ...prev, password: v }));
+        }}
+        onBlur={(v) => {
+          setState((prev) => ({ ...prev, password: v }));
+        }}
+      />
+      <Divider />
+      <ButtonWrap>
+        <TextButton
+          type="button"
+          color="default"
+          text="クリア"
+          disabled={isProcessing}
+          onClick={() => {
+            setState({ email: '', password: '' });
           }}
         />
-        <PasswordForm
-          id="password"
-          name="password"
-          label="パスワード"
-          value={password}
-          required={true}
-          description="登録したパスワードを入力してください"
-          onChange={(v) => {
-            setState((prev) => ({ ...prev, password: v }));
-          }}
-          onBlur={(v) => {
-            setState((prev) => ({ ...prev, password: v }));
-          }}
+        <TextButton
+          type="submit"
+          isLoading={isProcessing}
+          color="secondary"
+          text="ログイン"
+          disabled={hasError}
         />
-        <Divider />
-        <ButtonWrap>
-          <TextButton
-            type="button"
-            color="default"
-            text="クリア"
-            disabled={isProcessing}
-            onClick={() => {
-              setState({ email: '', password: '' });
-            }}
-          />
-          <TextButton
-            type="submit"
-            isLoading={isProcessing}
-            color="secondary"
-            text="ログイン"
-            disabled={hasError}
-          />
-        </ButtonWrap>
-      </Form>
-    </Card>
+      </ButtonWrap>
+    </Form>
   );
 }
 
