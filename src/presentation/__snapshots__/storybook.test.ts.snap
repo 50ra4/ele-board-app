@@ -1567,7 +1567,7 @@ exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
         />
       </svg>
       <span>
-        メールアドレスでログイン
+        メールアドレスでログインする
       </span>
     </div>
   </button>
@@ -1589,7 +1589,7 @@ exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
         />
       </svg>
       <span>
-        Googleアカウントでログイン
+        Googleアカウントでログインする
       </span>
     </div>
   </button>
@@ -1612,7 +1612,7 @@ exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
         />
       </svg>
       <span>
-        Githubアカウントでログイン
+        Githubアカウントでログインする
       </span>
     </div>
   </button>

@@ -8,10 +8,6 @@ import { GoogleButton } from '@/components/unique/GoogleButton/GoogleButton';
 const LOGIN_ACCOUNT_TYPE = ['mail', 'google', 'github'] as const;
 
 export type LoginAccountType = typeof LOGIN_ACCOUNT_TYPE[number];
-export type LoginAccountItem = {
-  type: LoginAccountType;
-  label: string;
-};
 
 type HandlerNames = `onClick${Capitalize<LoginAccountType>}`;
 const createHandlerName = (type: LoginAccountType) =>
@@ -19,11 +15,10 @@ const createHandlerName = (type: LoginAccountType) =>
 
 type Props = {
   className?: string;
-  items: LoginAccountItem[];
   onSelect: (type: LoginAccountType) => void;
 };
 
-export function LoginAccountSelector({ className, items, onSelect }: Props) {
+export function LoginAccountSelector({ className, onSelect }: Props) {
   const { onClickMail, onClickGoogle, onClickGithub } = useMemo(
     () =>
       LOGIN_ACCOUNT_TYPE.reduce(
@@ -35,18 +30,9 @@ export function LoginAccountSelector({ className, items, onSelect }: Props) {
 
   return (
     <Root className={className}>
-      {items.map(({ type, label }) => {
-        switch (type) {
-          case 'mail':
-            return <MailButton key={type} text={label} onClick={onClickMail} />;
-          case 'google':
-            return <GoogleButton key={type} text={label} onClick={onClickGoogle} />;
-          case 'github':
-            return <GithubButton key={type} text={label} onClick={onClickGithub} />;
-          default:
-            return null;
-        }
-      })}
+      <MailButton text="メールアドレスでログインする" onClick={onClickMail} />
+      <GoogleButton text="Googleアカウントでログインする" onClick={onClickGoogle} />
+      <GithubButton text="Githubアカウントでログインする" onClick={onClickGithub} />
     </Root>
   );
 }

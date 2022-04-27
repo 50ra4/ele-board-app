@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 
 import { OutlineDescription } from '@/components/display/OutlineDescription/OutlineDescription';
 import {
-  LoginAccountItem,
   LoginAccountSelector,
   LoginAccountType,
 } from 'src/presentation/parts/auth/LoginAccountSelector';
@@ -12,21 +11,6 @@ import { MailLoginForm } from 'src/presentation/parts/auth/MailLoginForm';
 import { TemplateNo1 } from 'src/presentation/templates/TemplateNo1';
 import { Link } from '@/components/navigation/Link/Link';
 import { Card } from '@/components/surfaces/Card/Card';
-
-const LOGIN_ACCOUNT_ITEMS: LoginAccountItem[] = [
-  {
-    type: 'mail',
-    label: 'メールアドレスでログイン',
-  },
-  {
-    type: 'google',
-    label: 'Googleアカウントでログイン',
-  },
-  {
-    type: 'github',
-    label: 'Githubアカウントでログイン',
-  },
-];
 
 function LoginPage() {
   const router = useRouter();
@@ -55,7 +39,7 @@ function LoginPage() {
         {showMailLoginForm ? (
           <StyledMailLoginForm type="signIn" onSubmit={onSubmit} />
         ) : (
-          <StyledLoginAccountSelector items={LOGIN_ACCOUNT_ITEMS} onSelect={onSelect} />
+          <StyledLoginAccountSelector onSelect={onSelect} />
         )}
       </StyledCard>
       {showMailLoginForm && (
