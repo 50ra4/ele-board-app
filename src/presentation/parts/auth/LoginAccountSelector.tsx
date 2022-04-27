@@ -15,10 +15,11 @@ const createHandlerName = (type: LoginAccountType) =>
 
 type Props = {
   className?: string;
+  type?: 'signIn' | 'signOn';
   onSelect: (type: LoginAccountType) => void;
 };
 
-export function LoginAccountSelector({ className, onSelect }: Props) {
+export function LoginAccountSelector({ className, type = 'signIn', onSelect }: Props) {
   const { onClickMail, onClickGoogle, onClickGithub } = useMemo(
     () =>
       LOGIN_ACCOUNT_TYPE.reduce(
@@ -30,9 +31,18 @@ export function LoginAccountSelector({ className, onSelect }: Props) {
 
   return (
     <Root className={className}>
-      <MailButton text="メールアドレスでログインする" onClick={onClickMail} />
-      <GoogleButton text="Googleアカウントでログインする" onClick={onClickGoogle} />
-      <GithubButton text="Githubアカウントでログインする" onClick={onClickGithub} />
+      <MailButton
+        text={type === 'signIn' ? 'メールアドレスでログイン' : 'メールアドレスでアカウント作成'}
+        onClick={onClickMail}
+      />
+      <GoogleButton
+        text={type === 'signIn' ? 'Googleアカウントでログイン' : 'Googleアカウントでアカウント作成'}
+        onClick={onClickGoogle}
+      />
+      <GithubButton
+        text={type === 'signIn' ? 'Githubアカウントでログイン' : 'Githubアカウントでアカウント作成'}
+        onClick={onClickGithub}
+      />
     </Root>
   );
 }
