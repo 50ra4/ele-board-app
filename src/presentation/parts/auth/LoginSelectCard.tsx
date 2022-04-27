@@ -6,36 +6,51 @@ import { GithubButton } from '@/components/unique/GithubButton/GithubButton';
 import { GoogleButton } from '@/components/unique/GoogleButton/GoogleButton';
 import { useMemo } from 'react';
 
-const LOGIN_METHOD = ['mail', 'google', 'github'] as const;
+const LOGIN_ACCOUNT_TYPE = ['mail', 'google', 'github'] as const;
 
-export type LoginMethod = typeof LOGIN_METHOD[number];
+export type LoginAccountType = typeof LOGIN_ACCOUNT_TYPE[number];
 
-type HandlerNames = `onClick${Capitalize<LoginMethod>}`;
+type HandlerNames = `onClick${Capitalize<LoginAccountType>}`;
 
-const createHandlerName = (method: LoginMethod) =>
-  `onClick${method.slice(0, 1).toUpperCase()}${method.slice(1)}` as HandlerNames;
+const createHandlerName = (type: LoginAccountType) =>
+  `onClick${type.slice(0, 1).toUpperCase()}${type.slice(1)}` as HandlerNames;
+
+export type LoginAccountItem = {
+  type: LoginAccountType;
+  label: string;
+};
 
 type Props = {
   className?: string;
-  onSelect: (method: LoginMethod) => void;
+  title: string;
+  items: LoginAccountItem[];
+  onSelect: (type: LoginAccountType) => void;
 };
 
-export function LoginSelectCard({ className, onSelect }: Props) {
+export function LoginSelectCard({ className, title, items, onSelect }: Props) {
   const { onClickMail, onClickGoogle, onClickGithub } = useMemo(
     () =>
-      LOGIN_METHOD.reduce(
+      LOGIN_ACCOUNT_TYPE.reduce(
         (acc, method) => ({ ...acc, [createHandlerName(method)]: () => onSelect(method) }),
         {} as Record<HandlerNames, () => void>,
       ),
     [onSelect],
   );
-
   return (
-    <Card className={className} title="ログイン">
+    <Card className={className} title={title}>
       <ButtonWrap>
-        <MailButton text="メールアドレスでログインする" onClick={onClickMail} />
-        <GoogleButton text="Googleアカウントでログインする" onClick={onClickGoogle} />
-        <GithubButton text="Githubアカウントでログインする" onClick={onClickGithub} />
+        {items.map(({ type, label }) => {
+          switch (type) {
+            case 'mail':
+              return <MailButton key={type} text={label} onClick={onClickMail} />;
+            case 'google':
+              return <GoogleButton key={type} text={label} onClick={onClickGoogle} />;
+            case 'github':
+              return <GithubButton key={type} text={label} onClick={onClickGithub} />;
+            default:
+              return null;
+          }
+        })}
       </ButtonWrap>
     </Card>
   );
