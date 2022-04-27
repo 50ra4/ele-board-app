@@ -1545,231 +1545,199 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
 </ul>
 `;
 
-exports[`Storyshots parts/auth/LoginSelectCard Docs 1`] = `
-<section
-  className="sc-lbxAil LDPOH"
+exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
+<div
+  className="sc-gFGZVQ dEIXyi"
 >
-  <h3
-    className="sc-jgbSNz cawDmf"
+  <button
+    className="sc-dIouRR kjztYd sc-iTONeN hQdhng"
+    color="primary"
+    onClick={[Function]}
+    type="button"
   >
-    ログイン
-  </h3>
-  <hr
-    className="sc-bBXxYQ bEulZa"
-  />
-  <div
-    className="sc-gSAPjG laOWMb"
-  >
-    <div
-      className="sc-gFGZVQ kKnxtX"
-    >
-      <button
-        className="sc-dIouRR kjztYd sc-iTONeN hQdhng"
-        color="primary"
-        onClick={[Function]}
-        type="button"
+    <div>
+      <svg
+        aria-hidden={true}
+        className="sc-ftvSup hMehlM"
+        viewBox="0 0 48 48"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <div>
-          <svg
-            aria-hidden={true}
-            className="sc-ftvSup hMehlM"
-            viewBox="0 0 48 48"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M7 40Q5.8 40 4.9 39.1Q4 38.2 4 37V11Q4 9.8 4.9 8.9Q5.8 8 7 8H41Q42.2 8 43.1 8.9Q44 9.8 44 11V37Q44 38.2 43.1 39.1Q42.2 40 41 40ZM24 24.9 7 13.75V37Q7 37 7 37Q7 37 7 37H41Q41 37 41 37Q41 37 41 37V13.75ZM24 21.9 40.8 11H7.25ZM7 13.75V11V13.75V37Q7 37 7 37Q7 37 7 37Q7 37 7 37Q7 37 7 37Z"
-            />
-          </svg>
-          <span>
-            メールアドレスでログインする
-          </span>
-        </div>
-      </button>
-      <button
-        className="sc-dIouRR kjztYd sc-lbOyJj ffXzKv"
-        color="primary"
-        onClick={[Function]}
-        type="button"
-      >
-        <div>
-          <svg
-            aria-hidden={true}
-            className="sc-ftvSup hMehlM"
-            viewBox="0 0 16 16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"
-            />
-          </svg>
-          <span>
-            Googleアカウントでログインする
-          </span>
-        </div>
-      </button>
-      <button
-        className="sc-dIouRR kjztYd sc-ehmTmK cXIDQN"
-        color="primary"
-        onClick={[Function]}
-        type="button"
-      >
-        <div>
-          <svg
-            aria-hidden={true}
-            className="sc-ftvSup hMehlM"
-            viewBox="0 0 16 16"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
-              fillRule="evenodd"
-            />
-          </svg>
-          <span>
-            Githubアカウントでログインする
-          </span>
-        </div>
-      </button>
+        <path
+          d="M7 40Q5.8 40 4.9 39.1Q4 38.2 4 37V11Q4 9.8 4.9 8.9Q5.8 8 7 8H41Q42.2 8 43.1 8.9Q44 9.8 44 11V37Q44 38.2 43.1 39.1Q42.2 40 41 40ZM24 24.9 7 13.75V37Q7 37 7 37Q7 37 7 37H41Q41 37 41 37Q41 37 41 37V13.75ZM24 21.9 40.8 11H7.25ZM7 13.75V11V13.75V37Q7 37 7 37Q7 37 7 37Q7 37 7 37Q7 37 7 37Z"
+        />
+      </svg>
+      <span>
+        メールアドレスでログイン
+      </span>
     </div>
-  </div>
-</section>
+  </button>
+  <button
+    className="sc-dIouRR kjztYd sc-lbOyJj ffXzKv"
+    color="primary"
+    onClick={[Function]}
+    type="button"
+  >
+    <div>
+      <svg
+        aria-hidden={true}
+        className="sc-ftvSup hMehlM"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"
+        />
+      </svg>
+      <span>
+        Googleアカウントでログイン
+      </span>
+    </div>
+  </button>
+  <button
+    className="sc-dIouRR kjztYd sc-ehmTmK cXIDQN"
+    color="primary"
+    onClick={[Function]}
+    type="button"
+  >
+    <div>
+      <svg
+        aria-hidden={true}
+        className="sc-ftvSup hMehlM"
+        viewBox="0 0 16 16"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+          fillRule="evenodd"
+        />
+      </svg>
+      <span>
+        Githubアカウントでログイン
+      </span>
+    </div>
+  </button>
+</div>
 `;
 
 exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
-<section
-  className="sc-lbxAil LDPOH"
+<form
+  className="sc-ckMVTt dPeCAN"
+  onSubmit={[Function]}
 >
-  <h3
-    className="sc-jgbSNz cawDmf"
+  <div
+    className="sc-cCsOjp dvcKen"
   >
-    ログイン
-  </h3>
+    <label
+      aria-describedby="email-describe"
+      className="sc-llJcti jKaUFn"
+      htmlFor="email"
+      required={true}
+    >
+      Email
+    </label>
+    <div
+      className="sc-iIPllB hatPMb"
+    >
+      <span
+        id="email-describe"
+      >
+        登録したメールアドレスを入力してください
+      </span>
+    </div>
+    <div
+      className="sc-gXmSlM koLHnS"
+    >
+      <input
+        className="sc-bZkfAO bunSvG"
+        id="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="email"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="sc-jIZahH yLxXh"
+  >
+    <label
+      aria-describedby="password-describe"
+      className="sc-llJcti jKaUFn"
+      htmlFor="password"
+      required={true}
+    >
+      パスワード
+    </label>
+    <div
+      className="sc-iIPllB hatPMb"
+    >
+      <span
+        id="password-describe"
+      >
+        登録したパスワードを入力してください
+      </span>
+    </div>
+    <div
+      className="sc-ikZpkk gDIbJB"
+    >
+      <input
+        className="sc-bZkfAO bunSvG"
+        id="password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+      <button
+        className="sc-breuTD gbvzOA sc-kLLXSd"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          aria-label="パスワードを表示する"
+          className="sc-ftvSup ljHnLT"
+          role="img"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M12 6c3.79 0 7.17 2.13 8.82 5.5-.59 1.22-1.42 2.27-2.41 3.12l1.41 1.41c1.39-1.23 2.49-2.77 3.18-4.53C21.27 7.11 17 4 12 4c-1.27 0-2.49.2-3.64.57l1.65 1.65C10.66 6.09 11.32 6 12 6zm-1.07 1.14L13 9.21c.57.25 1.03.71 1.28 1.28l2.07 2.07c.08-.34.14-.7.14-1.07C16.5 9.01 14.48 7 12 7c-.37 0-.72.05-1.07.14zM2.01 3.87l2.68 2.68C3.06 7.83 1.77 9.53 1 11.5 2.73 15.89 7 19 12 19c1.52 0 2.98-.29 4.32-.82l3.42 3.42 1.41-1.41L3.42 2.45 2.01 3.87zm7.5 7.5l2.61 2.61c-.04.01-.08.02-.12.02-1.38 0-2.5-1.12-2.5-2.5 0-.05.01-.08.01-.13zm-3.4-3.4l1.75 1.75c-.23.55-.36 1.15-.36 1.78 0 2.48 2.02 4.5 4.5 4.5.63 0 1.23-.13 1.77-.36l.98.98c-.88.24-1.8.38-2.75.38-3.79 0-7.17-2.13-8.82-5.5.7-1.43 1.72-2.61 2.93-3.53z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
   <hr
     className="sc-bBXxYQ bEulZa"
   />
   <div
-    className="sc-gSAPjG laOWMb"
+    className="sc-fbPSWO guvcZq"
   >
-    <form
-      className="sc-ckMVTt dPeCAN"
-      onSubmit={[Function]}
+    <button
+      className="sc-dIouRR iTtnFO sc-hHLeRK"
+      color="default"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
     >
-      <div
-        className="sc-cCsOjp dvcKen"
-      >
-        <label
-          aria-describedby="email-describe"
-          className="sc-llJcti jKaUFn"
-          htmlFor="email"
-          required={true}
-        >
-          Email
-        </label>
-        <div
-          className="sc-iIPllB hatPMb"
-        >
-          <span
-            id="email-describe"
-          >
-            登録したメールアドレスを入力してください
-          </span>
-        </div>
-        <div
-          className="sc-gXmSlM koLHnS"
-        >
-          <input
-            className="sc-bZkfAO bunSvG"
-            id="email"
-            name="email"
-            onBlur={[Function]}
-            onChange={[Function]}
-            type="email"
-            value=""
-          />
-        </div>
-      </div>
-      <div
-        className="sc-jIZahH yLxXh"
-      >
-        <label
-          aria-describedby="password-describe"
-          className="sc-llJcti jKaUFn"
-          htmlFor="password"
-          required={true}
-        >
-          パスワード
-        </label>
-        <div
-          className="sc-iIPllB hatPMb"
-        >
-          <span
-            id="password-describe"
-          >
-            登録したパスワードを入力してください
-          </span>
-        </div>
-        <div
-          className="sc-ikZpkk gDIbJB"
-        >
-          <input
-            className="sc-bZkfAO bunSvG"
-            id="password"
-            name="password"
-            onBlur={[Function]}
-            onChange={[Function]}
-            type="password"
-            value=""
-          />
-          <button
-            className="sc-breuTD gbvzOA sc-kLLXSd"
-            onClick={[Function]}
-            type="button"
-          >
-            <svg
-              aria-label="パスワードを表示する"
-              className="sc-ftvSup ljHnLT"
-              role="img"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0zm0 0h24v24H0V0z"
-                fill="none"
-              />
-              <path
-                d="M12 6c3.79 0 7.17 2.13 8.82 5.5-.59 1.22-1.42 2.27-2.41 3.12l1.41 1.41c1.39-1.23 2.49-2.77 3.18-4.53C21.27 7.11 17 4 12 4c-1.27 0-2.49.2-3.64.57l1.65 1.65C10.66 6.09 11.32 6 12 6zm-1.07 1.14L13 9.21c.57.25 1.03.71 1.28 1.28l2.07 2.07c.08-.34.14-.7.14-1.07C16.5 9.01 14.48 7 12 7c-.37 0-.72.05-1.07.14zM2.01 3.87l2.68 2.68C3.06 7.83 1.77 9.53 1 11.5 2.73 15.89 7 19 12 19c1.52 0 2.98-.29 4.32-.82l3.42 3.42 1.41-1.41L3.42 2.45 2.01 3.87zm7.5 7.5l2.61 2.61c-.04.01-.08.02-.12.02-1.38 0-2.5-1.12-2.5-2.5 0-.05.01-.08.01-.13zm-3.4-3.4l1.75 1.75c-.23.55-.36 1.15-.36 1.78 0 2.48 2.02 4.5 4.5 4.5.63 0 1.23-.13 1.77-.36l.98.98c-.88.24-1.8.38-2.75.38-3.79 0-7.17-2.13-8.82-5.5.7-1.43 1.72-2.61 2.93-3.53z"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-      <hr
-        className="sc-bBXxYQ bEulZa"
-      />
-      <div
-        className="sc-fbPSWO guvcZq"
-      >
-        <button
-          className="sc-dIouRR iTtnFO sc-hHLeRK"
-          color="default"
-          disabled={false}
-          onClick={[Function]}
-          type="button"
-        >
-          クリア
-        </button>
-        <button
-          className="sc-dIouRR oZiKj sc-hHLeRK"
-          color="secondary"
-          disabled={false}
-          type="submit"
-        >
-          ログイン
-        </button>
-      </div>
-    </form>
+      クリア
+    </button>
+    <button
+      className="sc-dIouRR oZiKj sc-hHLeRK"
+      color="secondary"
+      disabled={false}
+      type="submit"
+    >
+      ログイン
+    </button>
   </div>
-</section>
+</form>
 `;
 
 exports[`Storyshots surfaces/Accordion Docs 1`] = `
