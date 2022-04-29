@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import styled from 'styled-components';
+
 import { PasswordForm } from '@/components/forms/PasswordForm/PasswordForm';
 import { TextForm } from '@/components/forms/TextForm/TextForm';
 import { TextButton } from '@/components/inputs/TextButton/TextButton';
 import { Divider } from '@/components/utils/Divider/Divider';
+import { useToggle } from 'src/hooks/useToggle';
+import { AgreeToTermsCheckbox } from './AgreeToTermsCheckbox';
 
 type FormState = {
   email: string;
@@ -19,6 +22,7 @@ type Props = {
 
 export function MailLoginForm({ className, type, isProcessing, onSubmit }: Props) {
   const [{ email, password }, setState] = useState<FormState>({ email: '', password: '' });
+  const [hasAgreedToTerms, setHasAgreedToTerms] = useToggle(false);
 
   const hasError = false;
 
@@ -70,6 +74,11 @@ export function MailLoginForm({ className, type, isProcessing, onSubmit }: Props
           setState((prev) => ({ ...prev, password: v }));
         }}
       />
+
+      {type === 'signUp' && (
+        <AgreeToTermsCheckbox checked={hasAgreedToTerms} onChange={setHasAgreedToTerms} />
+      )}
+
       <Divider />
       <ButtonWrap>
         <TextButton
@@ -86,7 +95,7 @@ export function MailLoginForm({ className, type, isProcessing, onSubmit }: Props
           isLoading={isProcessing}
           color="secondary"
           text={type === 'signIn' ? 'ログイン' : 'アカウント登録'}
-          disabled={hasError}
+          disabled={hasError || !hasAgreedToTerms}
         />
       </ButtonWrap>
     </Form>
