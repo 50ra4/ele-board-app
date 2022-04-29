@@ -99,6 +99,16 @@ const visuallyHidden = () => css`
   border: 0 !important;
 `;
 
+const focusOutline = (color: string) => css`
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }
+  &:focus-visible {
+    outline: 3px solid ${color};
+    outline-offset: -2px;
+  }
+`;
+
 const rotation = keyframes`
   from { 
     transform: rotate(0);
@@ -176,6 +186,7 @@ export const STYLE_THEME = {
   },
   ellipsis,
   visuallyHidden,
+  focusOutline,
   keyframe: {
     rotation,
     fadeIn,
