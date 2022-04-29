@@ -49,6 +49,7 @@ const customCss = (theme: StyledComponentsTheme) => css`
 
   button,
   input,
+  textarea,
   a,
   select {
     ${theme.focusOutline(theme.color.input.focused.outline)}
