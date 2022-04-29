@@ -13,15 +13,16 @@ export const AgreeToTermsCheckbox = ({
   onChange: (checked: boolean) => void;
 }) => {
   return (
-    <div className={className}>
-      <StyledCheckbox
-        id="agreeToTerms"
-        name="agreeToTerms"
-        value={checked}
-        checked={checked}
-        onChange={onChange}
-        color="primary"
-      >
+    <StyledCheckbox
+      className={className}
+      id="agreeToTerms"
+      name="agreeToTerms"
+      value={checked}
+      checked={checked}
+      onChange={onChange}
+      color="primary"
+    >
+      <Wrap>
         <div>
           <Link href="/private/terms" target="_blank">
             利用規約
@@ -32,12 +33,21 @@ export const AgreeToTermsCheckbox = ({
           </Link>
           に同意の上、アカウントを作成する
         </div>
-      </StyledCheckbox>
-    </div>
+      </Wrap>
+    </StyledCheckbox>
   );
 };
 
+const Wrap = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: center;
+`;
+
 const StyledCheckbox = styled(Checkbox)`
+  & svg {
+    flex: 0 0 auto;
+  }
   & > ${CheckboxLabel} {
     align-items: flex-start;
     font-size: 12px;
