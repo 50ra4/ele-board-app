@@ -12,6 +12,7 @@ export const Docs: Story = {
     id: 'input-base',
     name: 'input-base-docs',
     value: 'input base sample',
-    error: false,
+    hasError: false,
+    onChange: () => {},
   },
 };

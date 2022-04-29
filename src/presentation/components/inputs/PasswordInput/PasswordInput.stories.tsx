@@ -11,6 +11,6 @@ export const Docs: Story = {
     id: 'password-input',
     name: 'password-input-docs',
     value: 'password input sample',
-    error: false,
+    hasError: false,
   },
 };

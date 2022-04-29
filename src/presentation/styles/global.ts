@@ -46,6 +46,14 @@ const customCss = (theme: StyledComponentsTheme) => css`
       display: none;
     }
   }
+
+  button,
+  input,
+  textarea,
+  a,
+  select {
+    ${theme.focusOutline(theme.color.input.focused.outline)}
+  }
 `;
 
 export const GlobalStyle = createGlobalStyle<{ theme: StyledComponentsTheme }>`

@@ -359,7 +359,7 @@ exports[`Storyshots feedback/dialogs/AlertDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-breuTD gbvzOA"
+    className="sc-breuTD fczDUF"
     onClick={[Function]}
     type="button"
   >
@@ -419,7 +419,7 @@ exports[`Storyshots feedback/dialogs/ConfirmDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-breuTD gbvzOA"
+    className="sc-breuTD fczDUF"
     onClick={[Function]}
     type="button"
   >
@@ -488,7 +488,7 @@ exports[`Storyshots feedback/dialogs/CustomDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-breuTD gbvzOA"
+    className="sc-breuTD fczDUF"
     onClick={[Function]}
     type="button"
   >
@@ -568,7 +568,7 @@ exports[`Storyshots feedback/dialogs/PopupDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-breuTD gbvzOA"
+    className="sc-breuTD fczDUF"
     onClick={[Function]}
     type="button"
   >
@@ -616,7 +616,7 @@ exports[`Storyshots feedback/dialogs/SelectDialog Docs 1`] = `
   role="dialog"
 >
   <button
-    className="sc-breuTD gbvzOA"
+    className="sc-breuTD fczDUF"
     onClick={[Function]}
     type="button"
   >
@@ -707,7 +707,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
     className="sc-ikZpkk gDIbJB"
   >
     <input
-      className="sc-bZkfAO bunSvG"
+      className="sc-bZkfAO kJFhRV"
       id="password-form"
       name="password-docs"
       onBlur={[Function]}
@@ -718,7 +718,7 @@ exports[`Storyshots forms/PasswordForm Docs 1`] = `
       value="PasswordForm sample"
     />
     <button
-      className="sc-breuTD gbvzOA sc-kLLXSd"
+      className="sc-breuTD fczDUF sc-kLLXSd"
       onClick={[Function]}
       type="button"
     >
@@ -767,7 +767,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
     className="sc-gXmSlM koLHnS"
   >
     <input
-      className="sc-bZkfAO bunSvG"
+      className="sc-bZkfAO kJFhRV"
       id="text-form"
       name="text-form-docs"
       onBlur={[Function]}
@@ -778,7 +778,7 @@ exports[`Storyshots forms/TextForm Docs 1`] = `
       value="TextForm sample"
     />
     <button
-      className="sc-breuTD gbvzOA sc-himrzO"
+      className="sc-breuTD fczDUF sc-himrzO"
       onClick={[Function]}
       type="button"
     >
@@ -1702,7 +1702,7 @@ exports[`Storyshots inputs/ChipSelector Radio 1`] = `
 
 exports[`Storyshots inputs/IconButton Docs 1`] = `
 <button
-  className="sc-breuTD gbvzOA"
+  className="sc-breuTD fczDUF"
   onClick={[Function]}
   type="button"
 >
@@ -1726,9 +1726,10 @@ exports[`Storyshots inputs/IconButton Docs 1`] = `
 
 exports[`Storyshots inputs/InputBase Docs 1`] = `
 <input
-  className="sc-bZkfAO bunSvG"
+  className="sc-bZkfAO kJFhRV"
   id="input-base"
   name="input-base-docs"
+  onChange={[Function]}
   type="text"
   value="input base sample"
 />
@@ -1764,14 +1765,14 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
   className="sc-ikZpkk gDIbJB"
 >
   <input
-    className="sc-bZkfAO bunSvG"
+    className="sc-bZkfAO kJFhRV"
     id="password-input"
     name="password-input-docs"
     type="password"
     value="password input sample"
   />
   <button
-    className="sc-breuTD gbvzOA sc-kLLXSd"
+    className="sc-breuTD fczDUF sc-kLLXSd"
     onClick={[Function]}
     type="button"
   >
@@ -1796,10 +1797,10 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
-  className="sc-bBXxYQ gyA-DRZ"
-  hasError={false}
+  className="sc-bBXxYQ kwvFKa"
   id="TextArea"
   name="text-area-docs"
+  onChange={[Function]}
   value="TextArea sample"
 />
 `;
@@ -1821,14 +1822,14 @@ exports[`Storyshots inputs/TextInput Docs 1`] = `
   className="sc-gXmSlM koLHnS"
 >
   <input
-    className="sc-bZkfAO bunSvG"
+    className="sc-bZkfAO kJFhRV"
     id="text-input"
     name="text-input-docs"
     type="text"
     value="text input sample"
   />
   <button
-    className="sc-breuTD gbvzOA sc-himrzO"
+    className="sc-breuTD fczDUF sc-himrzO"
     onClick={[Function]}
     type="button"
   >
@@ -1868,7 +1869,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
   role="tablist"
 >
   <li
-    className="sc-hTtwUo icKcBK"
+    className="sc-hTtwUo gJfHsG"
     color="secondary"
     role="presentation"
   >
@@ -1885,7 +1886,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
     </button>
   </li>
   <li
-    className="sc-hTtwUo gNdIqN"
+    className="sc-hTtwUo eBXLhd"
     color="secondary"
     role="presentation"
   >
@@ -1902,7 +1903,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
     </button>
   </li>
   <li
-    className="sc-hTtwUo icKcBK"
+    className="sc-hTtwUo gJfHsG"
     color="secondary"
     role="presentation"
   >
@@ -2024,7 +2025,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
       className="sc-gXmSlM koLHnS"
     >
       <input
-        className="sc-bZkfAO bunSvG"
+        className="sc-bZkfAO kJFhRV"
         id="email"
         name="email"
         onBlur={[Function]}
@@ -2058,7 +2059,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
       className="sc-ikZpkk gDIbJB"
     >
       <input
-        className="sc-bZkfAO bunSvG"
+        className="sc-bZkfAO kJFhRV"
         id="password"
         name="password"
         onBlur={[Function]}
@@ -2067,7 +2068,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
         value=""
       />
       <button
-        className="sc-breuTD gbvzOA sc-kLLXSd"
+        className="sc-breuTD fczDUF sc-kLLXSd"
         onClick={[Function]}
         type="button"
       >
@@ -2192,7 +2193,7 @@ exports[`Storyshots surfaces/HeaderBar Docs 1`] = `
   </h2>
   <button
     aria-label="メニューを表示する"
-    className="sc-breuTD gbvzOA sc-ehmTmK kHjJrB"
+    className="sc-breuTD fczDUF sc-ehmTmK kHjJrB"
     onClick={[Function]}
     type="button"
   >
