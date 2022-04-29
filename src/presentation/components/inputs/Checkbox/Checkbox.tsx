@@ -48,7 +48,7 @@ export const Checkbox = React.memo(function Checkbox<T>({
 
   return (
     <CheckboxRoot className={className}>
-      <CheckboxLabel htmlFor={id} size={size}>
+      <CheckboxLabel htmlFor={id} size={size} disabled={disabled || readOnly}>
         <HiddenInput
           {...props}
           type="checkbox"
