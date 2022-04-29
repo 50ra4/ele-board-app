@@ -32,7 +32,11 @@ export const Link = styled(function Link({
 }: LinkProps) {
   return (
     <NextLink passHref={true} {...nextLinkProps}>
-      <AppLink className={className} target={target}>
+      <AppLink
+        className={className}
+        target={target}
+        rel={target === '_blank' ? 'noopener noreferrer' : undefined}
+      >
         {children}
       </AppLink>
     </NextLink>
