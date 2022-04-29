@@ -6,7 +6,8 @@ type OwnProps = {
   id: string;
   name: string;
   value: string | undefined;
-  error?: boolean;
+  hasError?: boolean;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
 export type InputBaseProps = OwnProps &
@@ -25,8 +26,8 @@ export const InputBase = styled.input<OwnProps>`
     background-color: ${({ theme }) => theme.color.input.focused.background};
   }
 
-  ${({ error, theme }) =>
-    error &&
+  ${({ hasError, theme }) =>
+    hasError &&
     css`
       background-color: ${({ theme }) => theme.color.input.error.background};
       ${theme.focusOutline(theme.color.input.error.outline)}

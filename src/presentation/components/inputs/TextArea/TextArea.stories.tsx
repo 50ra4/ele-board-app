@@ -12,5 +12,6 @@ export const Docs: Story = {
     name: 'text-area-docs',
     value: 'TextArea sample',
     hasError: false,
+    onChange: () => {},
   },
 };

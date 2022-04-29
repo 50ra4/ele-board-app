@@ -2,25 +2,18 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 
 type OwnProps = {
-  className?: string;
   id: string;
   name: string;
   value: string | undefined;
   row?: number;
   hasError?: boolean;
+  onChange: (e: React.ChangeEvent<HTMLTextAreaElement>) => void;
 };
 
 export type TextAreaProps = OwnProps &
   Omit<React.ComponentPropsWithoutRef<'textarea'>, keyof OwnProps | 'children'>;
 
-const UnstyledTextArea = React.forwardRef<HTMLTextAreaElement, TextAreaProps>(function TextArea(
-  props,
-  ref,
-) {
-  return <textarea {...props} ref={ref} />;
-});
-
-export const TextArea = styled(UnstyledTextArea)`
+export const TextArea = styled.textarea<OwnProps>`
   resize: none;
   width: 100%;
   height: ${({ row = 2 }) => row * 24}px;

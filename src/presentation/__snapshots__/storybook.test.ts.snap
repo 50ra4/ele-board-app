@@ -1729,6 +1729,7 @@ exports[`Storyshots inputs/InputBase Docs 1`] = `
   className="sc-bZkfAO kJFhRV"
   id="input-base"
   name="input-base-docs"
+  onChange={[Function]}
   type="text"
   value="input base sample"
 />
@@ -1797,9 +1798,9 @@ exports[`Storyshots inputs/PasswordInput Docs 1`] = `
 exports[`Storyshots inputs/TextArea Docs 1`] = `
 <textarea
   className="sc-bBXxYQ kwvFKa"
-  hasError={false}
   id="TextArea"
   name="text-area-docs"
+  onChange={[Function]}
   value="TextArea sample"
 />
 `;

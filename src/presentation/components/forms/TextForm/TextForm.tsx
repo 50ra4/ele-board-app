@@ -35,7 +35,7 @@ const UnstyledTextForm = React.memo(function TextForm({
         id={id}
         name={name}
         value={value}
-        error={!!errorMessage}
+        hasError={!!errorMessage}
         placeholder={placeholder}
         readOnly={readonly}
         onChange={(e) => onChange(e.currentTarget.value ?? '')}
