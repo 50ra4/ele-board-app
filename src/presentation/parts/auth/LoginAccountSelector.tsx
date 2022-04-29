@@ -15,7 +15,7 @@ const createHandlerName = (type: LoginAccountType) =>
 
 type Props = {
   className?: string;
-  type?: 'signIn' | 'signOn';
+  type?: 'signIn' | 'signUp';
   onSelect: (type: LoginAccountType) => void;
 };
 

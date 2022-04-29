@@ -12,7 +12,7 @@ type FormState = {
 
 type Props = {
   className?: string;
-  type: 'signIn' | 'signOn';
+  type: 'signIn' | 'signUp';
   isProcessing?: boolean;
   onSubmit: (state: FormState) => void;
 };

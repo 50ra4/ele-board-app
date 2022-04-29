@@ -38,9 +38,9 @@ function SignUpPage() {
     <TemplateNo1>
       <StyledCard title="アカウント作成">
         {showMailLoginForm ? (
-          <StyledMailLoginForm type="signOn" onSubmit={onSubmit} />
+          <StyledMailLoginForm type="signUp" onSubmit={onSubmit} />
         ) : (
-          <StyledLoginAccountSelector type="signOn" onSelect={onSelect} />
+          <StyledLoginAccountSelector type="signUp" onSelect={onSelect} />
         )}
       </StyledCard>
       {showMailLoginForm && (

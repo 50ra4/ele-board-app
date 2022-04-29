@@ -6,7 +6,7 @@ export default createStoryMeta(MailLoginForm, {
   title: 'parts/auth/MailLoginForm',
   argTypes: {
     type: {
-      options: ['signIn', 'signOn'],
+      options: ['signIn', 'signUp'],
       control: { type: 'select' },
     },
   },
