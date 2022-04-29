@@ -13,12 +13,12 @@ export const Docs: Story = {
   args: {
     id: 'docs',
     name: 'docs',
-    label: 'docs',
     value: { id: 'strawberry', name: '苺' },
     checked: true,
     disabled: false,
     color: 'primary',
     onChange: () => {},
+    children: 'docs',
   },
 };
 
@@ -41,13 +41,14 @@ export const Group = () => {
           key={v.id}
           id={`checkbox-${v.id}`}
           name={`checkbox-${v.id}`}
-          label={v.name}
           value={v}
           disabled={v.name === FRUIT_NAME.strawberry}
           checked={fruitNames.includes(v.name)}
           color="secondary"
           onChange={onChange}
-        />
+        >
+          {v.name}
+        </Checkbox>
       ))}
     </CheckboxGroup>
   );
