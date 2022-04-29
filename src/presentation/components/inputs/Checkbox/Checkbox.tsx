@@ -73,7 +73,7 @@ const CheckboxRoot = styled.div`
   flex: 1 0 auto;
 `;
 
-const CheckboxLabel = styled.label<{ size: IconSize; disabled?: boolean }>`
+export const CheckboxLabel = styled.label<{ size: IconSize; disabled?: boolean }>`
   display: flex;
   align-items: center;
   cursor: ${({ disabled }) => (!disabled ? 'pointer' : 'default')};
