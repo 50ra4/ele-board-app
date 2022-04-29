@@ -1,7 +1,7 @@
-import { NotImplemented } from 'src/presentation/templates/NotImplemented';
+import { NotImplementedTemplate } from 'src/presentation/templates/NotImplemented';
 
 function ResetPassword() {
-  return <NotImplemented />;
+  return <NotImplementedTemplate />;
 }
 
 export default ResetPassword;
