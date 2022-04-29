@@ -81,11 +81,6 @@ const Tab = styled.li<{ color: TabColor; isActive?: boolean }>`
       isActive ? `3px solid ${theme.color[color].background}` : 'none'};
     padding-bottom: ${({ isActive }) => (isActive ? '0' : '3px')};
 
-    &:focus {
-      outline: 3px solid ${({ theme }) => theme.color.input.focused.outline};
-      outline-offset: -2px;
-    }
-
     & > span {
       font-size: 16px;
       font-weight: ${({ theme }) => theme.font.weight.bold};

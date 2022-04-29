@@ -23,15 +23,12 @@ export const InputBase = styled.input<OwnProps>`
 
   &:focus {
     background-color: ${({ theme }) => theme.color.input.focused.background};
-    outline: 3px solid ${({ theme }) => theme.color.input.focused.outline};
-    outline-offset: -2px;
   }
 
-  ${({ error }) =>
+  ${({ error, theme }) =>
     error &&
     css`
       background-color: ${({ theme }) => theme.color.input.error.background};
-      outline: 3px solid ${({ theme }) => theme.color.input.error.outline};
-      outline-offset: -2px;
+      ${theme.focusOutline(theme.color.input.error.outline)}
     `}
 `;

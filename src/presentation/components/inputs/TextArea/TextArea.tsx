@@ -28,16 +28,15 @@ export const TextArea = styled(UnstyledTextArea)`
   padding: 8px;
   background-color: ${({ theme }) => theme.color.input.default.background};
   caret-color: ${({ theme }) => theme.color.input.caret};
+
   &:focus {
     background-color: ${({ theme }) => theme.color.input.focused.background};
-    outline: 3px solid ${({ theme }) => theme.color.input.focused.outline};
-    outline-offset: -2px;
   }
-  ${({ hasError }) =>
+
+  ${({ hasError, theme }) =>
     hasError &&
     css`
       background-color: ${({ theme }) => theme.color.input.error.background};
-      outline: 3px solid ${({ theme }) => theme.color.input.error.outline};
-      outline-offset: -2px;
+      ${theme.focusOutline(theme.color.input.error.outline)}
     `}
 `;

@@ -25,10 +25,6 @@ export const IconButton = styled(UnstyledIconButton)`
   align-items: center;
   background-color: inherit;
   padding: 8px;
-  &:focus {
-    outline: 3px solid ${({ theme }) => theme.color.input.focused.outline};
-    outline-offset: -2px;
-  }
   &:disabled > ${SvgIcon} {
     // TODO:
   }
