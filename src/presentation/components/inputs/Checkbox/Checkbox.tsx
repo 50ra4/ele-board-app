@@ -7,7 +7,6 @@ import { IconSize } from '@/components/icons/SvgIcon';
 
 type OwnProps<T> = {
   id: string;
-  label: string;
   name: string;
   value: T;
   checked: boolean;
@@ -19,7 +18,7 @@ type OwnProps<T> = {
 };
 
 export type CheckboxProps<T> = OwnProps<T> &
-  Omit<React.ComponentPropsWithoutRef<'input'>, keyof OwnProps<T> | 'children' | 'type'>;
+  Omit<React.ComponentPropsWithoutRef<'input'>, keyof OwnProps<T> | 'type'>;
 
 export type StyledCheckbox<T> = StyledComponent<
   (props: CheckboxProps<T>) => JSX.Element,
@@ -31,7 +30,6 @@ export type StyledCheckbox<T> = StyledComponent<
 export const Checkbox = React.memo(function Checkbox<T>({
   className,
   id,
-  label,
   name,
   value,
   checked,
@@ -40,6 +38,7 @@ export const Checkbox = React.memo(function Checkbox<T>({
   disabled,
   readOnly,
   color,
+  children,
   ...props
 }: CheckboxProps<T>) {
   const handleOnChange = () => {
@@ -63,7 +62,7 @@ export const Checkbox = React.memo(function Checkbox<T>({
           size={size}
           color={disabled || readOnly ? 'default' : color}
         />
-        {label}
+        {children}
       </CheckboxLabel>
     </CheckboxRoot>
   );
@@ -74,7 +73,7 @@ const CheckboxRoot = styled.div`
   flex: 1 0 auto;
 `;
 
-const CheckboxLabel = styled.label<{ size: IconSize; disabled?: boolean }>`
+export const CheckboxLabel = styled.label<{ size: IconSize; disabled?: boolean }>`
   display: flex;
   align-items: center;
   cursor: ${({ disabled }) => (!disabled ? 'pointer' : 'default')};
@@ -98,5 +97,8 @@ export const CheckboxGroup = styled.div<{ direction: 'row' | 'column' }>`
         `
       : css`
           flex-direction: row;
+          & > ${CheckboxRoot} + ${CheckboxRoot} {
+            margin-left: 8px;
+          }
         `};
 `;

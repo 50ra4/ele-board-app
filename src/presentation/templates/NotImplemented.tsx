@@ -2,12 +2,12 @@ import styled from 'styled-components';
 import { useRouter } from 'next/router';
 import { Link } from '@/components/navigation/Link/Link';
 
-export const NotImplemented = () => {
+export const NotImplementedTemplate = () => {
   const router = useRouter();
   return (
     <Root>
       <Content>
-        <h2>{`${router.pathname} はまだ実装前です。`}</h2>
+        <h2>{`${router.pathname}はまだ実装前です。`}</h2>
         <h2>
           <Link href="/" replace={true}>
             ホームに戻る
@@ -27,6 +27,6 @@ const Content = styled.main`
   height: 100vh;
 
   & > h2 {
-    margin-bottom: 16px;
+    margin: 0 16px 16px;
   }
 `;

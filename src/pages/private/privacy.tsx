@@ -1,7 +1,7 @@
 import { NotImplementedTemplate } from 'src/presentation/templates/NotImplemented';
 
-function ResetPassword() {
+function PrivacyPage() {
   return <NotImplementedTemplate />;
 }
 
-export default ResetPassword;
+export default PrivacyPage;
