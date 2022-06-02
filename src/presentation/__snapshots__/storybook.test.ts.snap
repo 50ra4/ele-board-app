@@ -1924,7 +1924,7 @@ exports[`Storyshots navigation/Tabs Docs 1`] = `
 
 exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
 <div
-  className="sc-dwLEzm dvRRaE"
+  className="sc-TRNrF cXsFAN"
 >
   <button
     className="sc-dIouRR kjztYd sc-dPyBCJ dtghNV"
@@ -1998,7 +1998,7 @@ exports[`Storyshots parts/auth/LoginAccountSelector Docs 1`] = `
 
 exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
 <form
-  className="sc-ZyCDH cwIiJu"
+  className="sc-jOhDuK jIhiil"
   onSubmit={[Function]}
 >
   <div
@@ -2094,7 +2094,7 @@ exports[`Storyshots parts/auth/MailLoginForm Docs 1`] = `
     className="sc-jgbSNz lxkSC"
   />
   <div
-    className="sc-jOhDuK QVEYC"
+    className="sc-hlnMnd eRTYEM"
   >
     <button
       className="sc-dIouRR iTtnFO sc-hHLeRK"
@@ -2277,6 +2277,48 @@ exports[`Storyshots unique/GoogleButton Docs 1`] = `
     </span>
   </div>
 </button>
+`;
+
+exports[`Storyshots unique/TodoList Docs 1`] = `
+<section
+  className="sc-dwLEzm hGfJot"
+>
+  <h3>
+    your todo list
+  </h3>
+  <ul />
+  <hr />
+  <div>
+    <input
+      onChange={[Function]}
+      value=""
+    />
+    <button
+      disabled={true}
+      onClick={[Function]}
+    >
+      Add Task
+    </button>
+  </div>
+  <hr />
+  <label
+    htmlFor="hide-completed-checkbox"
+  >
+    <input
+      checked={false}
+      id="hide-completed-checkbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    Hide completed
+  </label>
+  <hr />
+  <button
+    onClick={[Function]}
+  >
+    Clear All
+  </button>
+</section>
 `;
 
 exports[`Storyshots utils/Backdrop With Loading 1`] = `
